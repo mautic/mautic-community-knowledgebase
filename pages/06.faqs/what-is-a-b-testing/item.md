@@ -11,7 +11,6 @@ tagtitle: h2
 hero_overlay: true
 hero_showsearch: false
 show_sidebar: true
-show_searchsidebar: true
 content:
     items:
         - '@self.children'
