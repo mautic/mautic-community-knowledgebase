@@ -1,0 +1,304 @@
+html {
+  @include fluid-type($size-xs, $size-xl, $min-responsive-font-size, $html-font-size);
+}
+
+// Header Overrides
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 2rem;
+  font-family: $title-font-family;
+  color: darken($body-font-color, 10%);
+}
+
+h1, .h1 {
+  font-size: 2.1rem;
+  color: $primary-color;
+}
+
+h2, .h2 {
+  font-size: 1.8rem;
+}
+
+h3, .h3 {
+  color: $accent-color;
+}
+
+h6, .h6 {
+  font-weight: 400;
+}
+
+.title-center {
+  h1, h2 {
+    text-align: center;
+  }
+}
+
+.title-h1h2 {
+  h1  {
+    font-weight: 100;
+    margin-bottom: .5rem;
+    line-height: 1.1;
+
+    strong, bold {
+      font-weight: 400;
+    }
+  }
+  h1 + h2 {
+    line-height: 1.1;
+    margin-top: 0;
+  }
+
+}
+
+// Typography Hints
+.title-h1h2, .title-center {
+  h1 + h2 {
+    margin-bottom: 50px;
+    font-weight: 700;
+  }
+}
+
+//override style links
+a {
+  color: $link-color;
+  transition: all .2s linear;
+  &:focus,
+  &:hover,
+  &:active,
+  &.active {
+    color: $link-color-dark;
+    text-decoration: none;
+    transition: all .2s linear;
+  }
+}
+a:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+//Images
+figure {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  &[src$=".png"] {
+    border: none !important;
+  }
+}
+
+
+// Codeblocks
+pre code, pre.xdebug-var-dump{
+  background: #fafafa;
+  display: block;
+  padding: 1rem !important;
+  line-height: 1.5;
+  color: inherit;
+  overflow-x: auto;
+}
+.code-toolbar{
+  pre[class*="language-"]{
+    border-radius: .5rem;
+    padding: 0;
+  }
+}
+
+/*pre {
+  code:not(.hljs) {
+    background: #f8f8f8;
+  }
+}*/
+
+// Icon Tweaks
+i.fa {
+
+
+  &.fa-heart, &.fa-heart-o {
+    &.pulse {
+      color: #920
+    }
+  }
+}
+
+// Font Weights
+b,
+strong {
+  font-weight: 700;
+}
+
+.heavy {
+  font-weight: 700;
+}
+
+.light {
+  font-weight: 200;
+}
+
+// Colors
+.text-light {
+  color: rgba($light-color, 0.8);
+
+  h1, h2, h3, h4, h5, h6 {
+    color: rgba($light-color, 0.9);
+  }
+}
+
+// Error configuration
+#error {
+  text-align: center;
+  position: relative;
+  margin-top: 5rem;
+
+  .icon {
+    font-size: 50px;
+  }
+}
+
+// Messages
+#messages {
+  margin-bottom: 1rem;
+
+  .icon {
+    font-size: 1rem;
+  }
+}
+
+// Lists
+ul,
+ol {
+  margin-left: $unit-8;
+
+  ul,
+  ol {
+    margin-left: $unit-8;
+  }
+}
+
+ul {
+  list-style: disc outside;
+}
+
+ol {
+  list-style: decimal outside;
+}
+
+// Notices
+.notices {
+  margin: 1.5rem 0;
+  padding-right: .8rem;
+  p {
+    margin: 1rem 0;
+  }
+  // Print version
+  @media print {
+    position: relative;
+    &.yellow {
+      &:before {
+        content: '!';
+        font-size: .8rem;
+        font-weight: bold;
+        position: absolute;
+        left: .6rem;
+      }
+    }
+    &.red {
+      &:before {
+        content: 'X';
+        font-size: .8rem;
+        font-weight: bold;
+        position: absolute;
+        left: .6rem;
+      }
+    }
+    &.blue {
+      &:before {
+        content: '?';
+        font-size: .8rem;
+        font-weight: bold;
+        position: absolute;
+        left: .6rem;
+      }
+    }
+    &.green {
+      &:before {
+        content: '1';
+        font-size: .8rem;
+        font-weight: bold;
+        position: absolute;
+        left: .6rem;
+        transform: rotate(140deg);
+      }
+    }
+  }
+}
+
+//table
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  margin: 1rem 0;
+  @if $rtl == true {
+    text-align: right;
+  } @else {
+    text-align: left;
+  }
+  tbody {
+    tr:nth-of-type(odd) {
+      background: $bg-color;
+    }
+    tr {
+      &.active {
+        background: $bg-color-dark;
+      }
+      &:hover {
+        background: $bg-color-dark;
+      }
+    }
+  }
+  td,
+  th {
+    border-bottom: $border-width solid $border-color;
+    padding: $unit-3 $unit-2;
+  }
+  th {
+    border-bottom-width: $border-width-lg;
+  }
+}
+
+//print
+@media print {
+  * {
+      background:transparent !important;
+      color:#000 !important;
+      text-shadow:none !important;
+      filter:none !important;
+      -ms-filter:none !important;
+      box-shadow: none !important;
+    }
+    body {
+      margin:0;
+      padding:0;
+      line-height: 1.4em;
+    }
+    @page {
+      margin: 0.8cm;
+    }
+    nav,
+    footer,
+    video,
+    audio,
+    object,
+    embed,
+    #header,
+    .modular-bottom,
+    #return-to-top { 
+      display: none !important; 
+    }
+    body #body-wrapper {
+      padding-top: 0 !important;
+    }
+    .section {
+      padding: 0 !important;
+    }
+}

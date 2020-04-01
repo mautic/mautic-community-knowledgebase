@@ -1,0 +1,20 @@
+.image-overlay.overlay-dark-gradient {
+    background: linear-gradient(to bottom, rgba(78, 94, 158, 0.8), rgba(102, 126, 234, 0.8));
+}
+
+.bg-dark {
+    background: #4e5e9e !important;
+}
+
+.section.modular-bottom .footer-stuff hr {
+    border-color: #fdb933;
+}
+#footer.bg-dark {
+    background: #fdb933 !important;
+}
+#footer p {
+    color: #fff !important;
+}
+#footer a {
+    color: #4e5e9e;
+}
