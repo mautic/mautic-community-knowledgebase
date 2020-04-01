@@ -9,7 +9,7 @@ taxonomy:
         - testing
         - clone
 anchors:
-    active: false
+    active: true
 tagtitle: h2
 hero_overlay: true
 hero_showsearch: false
@@ -22,6 +22,8 @@ content:
         by: date
         dir: desc
     pagination: true
+feed:
+    limit: 10
 ---
 
 Updating to the latest version of Mautic doesn’t necessarily have to be a risky or time-consuming endeavor. Aside from new features, bug fixes - especially security-related bug fixes - are a good reason to upgrade to the latest Mautic release. The community may not be able to help you with an issue as effectively if you are still running an outdated version of Mautic.
