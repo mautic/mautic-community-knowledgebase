@@ -26,3 +26,9 @@ The easiest way to think about A/B testing is when you go to the opticians to ge
 We use the same concept with emails and landing pages - which is best, A or B?
 
 A/B testing is the terminology used when testing multiple versions of the same page.
+
+## Mautic Minute: A/B Testing
+
+The video below is a very quick one-minute overview of A/B testing.
+
+[plugin:youtube](https://www.youtube.com/watch?v=KjBf5nqY_gY)
