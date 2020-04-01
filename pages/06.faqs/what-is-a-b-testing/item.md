@@ -6,7 +6,7 @@ taxonomy:
         - testing
         - ab-testing
 anchors:
-    active: false
+    active: true
 tagtitle: h2
 hero_overlay: true
 hero_showsearch: false
