@@ -1,5 +1,5 @@
 ---
-title: 'How does Mautic do A/B testing?'
+title: 'How does Mautic do A/B testing for emails?'
 media_order: 'ab-test-option.png,ab-test-settings.png,ab-test-icon.png,ab-test-variants.png,ab-test-trophy.png,ab-test-warning.png,ab-test-current.png,ab-test-stats.png'
 taxonomy:
     tag:
@@ -19,13 +19,9 @@ content:
         by: date
         dir: desc
     pagination: true
+feed:
+    limit: 10
 ---
-
-The easiest way to think about A/B testing is when you go to the opticians to get your eyes tested, and you're asked "which is better, A, or B?".
-
-We use the same concept with emails and landing pages - which is best, A or B?
-
-A/B testing is the terminology used when testing multiple versions of the same page.
 
 ## A/B testing for Emails
 
