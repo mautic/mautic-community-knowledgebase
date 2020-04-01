@@ -6,7 +6,7 @@ taxonomy:
         - installation
         - localhost
 anchors:
-    active: false
+    active: true
 tagtitle: h2
 hero_overlay: true
 hero_showsearch: false
@@ -18,6 +18,8 @@ content:
         by: date
         dir: desc
     pagination: true
+feed:
+    limit: 10
 ---
 
 [DDEV][ddev] is an OS agnostic wrapper for Docker that makes it easy to set up PHP projects on your local machine. DDEV aims to make Docker simple and accessible to everyone. Even better, DDEV is entirely open source.
