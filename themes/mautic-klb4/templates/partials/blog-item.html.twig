@@ -16,7 +16,6 @@
     <div class="e-content">
         {{ page.content|raw }}
         {% include 'partials/blog/taxonomy.html.twig' %}
-
         {% if collection.count > 0 %}
             <div id="list-children-item" class="e-children">
                 <div class="divider text-center" data-content="{{ 'THEME_KLB4.DIVIDERS.TOPICS'|t }}"></div>
