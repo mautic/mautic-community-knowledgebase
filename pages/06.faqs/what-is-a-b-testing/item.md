@@ -17,5 +17,12 @@ content:
         by: date
         dir: desc
     pagination: true
+feed:
+    limit: 10
 ---
 
+The easiest way to think about A/B testing is when you go to the opticians to get your eyes tested, and you're asked "which is better, A, or B?".
+
+We use the same concept with emails and landing pages - which is best, A or B?
+
+A/B testing is the terminology used when testing multiple versions of the same page.
