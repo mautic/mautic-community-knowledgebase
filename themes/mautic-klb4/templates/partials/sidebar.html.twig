@@ -12,13 +12,6 @@
     {% endif %}
 {% endif %}
 
-{% if config.plugins.simplesearch.enabled %}
-    <div class="sidebar-content">
-        <h2>{{ 'SIDEBAR.SIMPLE_SEARCH.HEADLINE'|t }}</h2>
-        {% include 'partials/simplesearch_searchbox.html.twig' %}
-    </div>
-{% endif %}
-
 {% if sidebar_page.header.position == 'top' or sidebar_page.header.position is empty %}
     {% if sidebar_page_content is not empty %}
         <div class="sidebar-content">
@@ -28,28 +21,14 @@
 {% endif %}
 
 {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
-    <h2>{{ 'SIDEBAR.RELATED_POSTS.HEADLINE'|t }}</h2>
+    <h2>{{ 'Related Posts'|t }}</h2>
     {% include 'partials/relatedpages.html.twig' %}
-{% endif %}
-
-{% if config.plugins.random.enabled %}
-    <div class="sidebar-content">
-        <h2>{{ 'SIDEBAR.RANDOM_ARTICLE.HEADLINE'|t }}</h2>
-        <a class="btn" href="{{ base_url_relative }}/random"><i class="fa fa-retweet"></i> I'm Feeling Lucky!</a>
-    </div>
 {% endif %}
 
 {% if config.plugins.taxonomylist.enabled %}
     <div class="sidebar-content">
-        <h2>{{ 'SIDEBAR.POPULAR_TAGS.HEADLINE'|t }}</h2>
+        <h2>{{ 'Popular Tags'|t }}</h2>
         {% include 'partials/taxonomylist.html.twig' with {'base_url':new_base_url, 'taxonomy':'tag'} %}
-    </div>
-{% endif %}
-
-{% if config.plugins.archives.enabled %}
-    <div class="sidebar-content">
-        <h2>{{ 'SIDEBAR.ARCHIVES.HEADLINE'|t }}</h2>
-        {% include 'partials/archives.html.twig' with {'base_url':new_base_url} %}
     </div>
 {% endif %}
 

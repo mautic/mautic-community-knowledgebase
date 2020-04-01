@@ -1,6 +1,10 @@
 ---
 title: 'How does Mautic do A/B testing?'
 media_order: 'ab-test-option.png,ab-test-settings.png,ab-test-icon.png,ab-test-variants.png,ab-test-trophy.png,ab-test-warning.png,ab-test-current.png,ab-test-stats.png'
+taxonomy:
+    tag:
+        - ab-testing
+        - testing
 anchors:
     active: false
 tagtitle: h2
