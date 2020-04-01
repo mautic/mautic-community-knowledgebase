@@ -15,7 +15,7 @@ content:
     pagination: true
 ---
 
-https://www.youtube.com/watch?v=KjBf5nqY_gY
+[plugin:youtube](https://www.youtube.com/watch?v=KjBf5nqY_gY)
 
 The easiest way to think about A/B testing is when you go to the opticians to get your eyes tested, and you're asked "which is better, A, or B?".
 
