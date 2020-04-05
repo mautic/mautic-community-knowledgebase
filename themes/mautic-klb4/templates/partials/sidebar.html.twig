@@ -20,7 +20,7 @@
     {% endif %}
 {% endif %}
 
-{% if config.get('plugins.page-toc.active') or attribute(page.header, 'page-toc').active %}
+{% if ((page_type == 'item.md' or page_type == 'item.'~html_lang~'.md') or (page_type == 'default.md' or page_type == 'default.'~html_lang~'.md')) and ((config.get('plugins.page-toc.active') or attribute(page.header, 'page-toc').active)) %}
     <div class="page-toc">
         {% set table_of_contents = toc(page.content) %}
         {% if table_of_contents is not empty %}
@@ -28,7 +28,7 @@
             {{ table_of_contents }}
         {% endif %}
     </div>
-{% endif %}
+{%  endif %}
 {% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
     <h2>{{ 'Related Posts'|t }}</h2>
     {% include 'partials/relatedpages.html.twig' %}
