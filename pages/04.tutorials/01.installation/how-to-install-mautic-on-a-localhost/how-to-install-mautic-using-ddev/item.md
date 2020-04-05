@@ -20,6 +20,10 @@ content:
     pagination: true
 feed:
     limit: 10
+twitterenable: true
+twittercardoptions: summary
+articleenabled: true
+facebookenable: true
 ---
 
 [DDEV][ddev] is an OS agnostic wrapper for Docker that makes it easy to set up PHP projects on your local machine. DDEV aims to make Docker simple and accessible to everyone. Even better, DDEV is entirely open source.
