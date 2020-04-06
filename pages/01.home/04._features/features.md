@@ -8,15 +8,15 @@ class: small
 features:
     -
         icon: 'fa fa-text-height'
-        header: 'Markdown Syntax'
+        header: 'Friendly interface'
         target: false
     -
         icon: 'fa fa-code'
-        header: 'Twig Templating'
+        header: 'Modern code framework'
         target: false
     -
         icon: 'fa fa-rocket'
-        header: 'Smart Caching'
+        header: 'Powerful Campaign Builder'
         target: false
     -
         icon: 'fa fa-tags'
@@ -28,15 +28,15 @@ features:
         target: false
     -
         icon: 'fa fa-cogs'
-        header: 'Powerful Plugins'
+        header: 'Powerful Integrations'
         target: false
     -
         icon: 'fa fa-dashboard'
-        header: 'Intuitive UI'
+        header: 'Configurable Dashboards'
         target: false
     -
         icon: 'fa fa-file-text'
-        header: File-Based
+        header: 'Asset Management'
         target: false
     -
         icon: 'fa fa-language'
@@ -48,7 +48,7 @@ features:
         target: false
     -
         icon: 'fa fa-image'
-        header: 'Image Processing'
+        header: 'Image and File Manager'
         target: false
     -
         icon: 'fa fa-bookmark'
@@ -56,7 +56,7 @@ features:
         target: false
     -
         icon: 'fa fa-github'
-        header: 'On Github'
+        header: 'Free On Github'
         target: false
     -
         icon: 'fa fa-html5'
@@ -68,7 +68,7 @@ features:
         target: false
     -
         icon: 'fa fa-heart-o'
-        header: Awesomazing
+        header: 'Simply Awesomazing'
         target: false
 ---
 
