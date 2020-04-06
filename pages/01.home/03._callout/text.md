@@ -8,8 +8,11 @@ tagtitle: h2
 menu: 'Easy Content'
 ---
 
-## **Big Homepage** CTA!
+## **YOU** are the Mautic Community!
 
-Put here a call to action or something useful. [Download Mautic](https://mautic.org/download) and also visit the [Forums](https://forum.mautic.org)
+All of the resources you find in this Knowledgebase were written by people like you. People who use Mautic, who want to help others to use it more effectively, and who give their time to make that happen. [Learn more about contributing to the Mautic Community][contribute-to-mautic]
 
-[+ Learn more about the Mautic Community...](https://mautic.org/community?classes=btn,btn-primary,btn-lg)
+[+ Discover articles that need writing...][education-team-trello]
+
+[contribute-to-mautic]: <https://contribute.mautic.org/about/how-can-i-contribute-to-mautic>
+[education-team-trello]: <https://trello.com/b/A4eDxtD5/mautic-education-team>
