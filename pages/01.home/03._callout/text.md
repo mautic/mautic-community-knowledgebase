@@ -12,7 +12,9 @@ menu: 'Easy Content'
 
 All of the resources you find in this Knowledgebase were written by people like you. 
 
-People who use Mautic, who want to help others to use it more effectively, and who give their time to make that happen. [Learn more about contributing to the Mautic Community][contribute-to-mautic]
+People who use Mautic, who want to help others to use it more effectively, and who give their time to make that happen.
+
+[Learn more about contributing to the Mautic Community][contribute-to-mautic]
 
 [+ Discover articles that need writing...][education-team-trello]
 
