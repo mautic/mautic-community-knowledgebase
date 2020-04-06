@@ -15,4 +15,4 @@ All of the resources you find in this Knowledgebase were written by people like 
 [+ Discover articles that need writing...][education-team-trello]
 
 [contribute-to-mautic]: <https://contribute.mautic.org/about/how-can-i-contribute-to-mautic>
-[education-team-trello]: <https://trello.com/b/A4eDxtD5/mautic-education-team>
+[education-team-trello]: <https://trello.com/b/A4eDxtD5/mautic-education-team?classes=btn,btn-primary,btn-lg>
