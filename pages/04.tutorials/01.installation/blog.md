@@ -1,6 +1,5 @@
 ---
 title: Installation
-media_order: bg_hero_klb4.jpg
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -19,6 +18,12 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: true
+feed:
+    limit: 10
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 ---
 
 # Installation Tutorials
