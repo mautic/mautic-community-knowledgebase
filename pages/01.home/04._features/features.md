@@ -1,41 +1,76 @@
 ---
-title: Homepage Features
+title: 'Homepage Features'
+anchors:
+    active: false
+tagtitle: h2
 menu: Features
 class: small
 features:
-    - header: Markdown Syntax
-      icon: fa fa-text-height
-    - header: Twig Templating
-      icon: fa fa-code
-    - header: Smart Caching
-      icon: fa fa-rocket
-    - header: Flexible Taxonomies
-      icon: fa fa-tags
-    - header: Simple Install
-      icon: fa fa-cloud-download
-    - header: Powerful Plugins
-      icon: fa fa-cogs
-    - header: Intuitive UI
-      icon: fa fa-dashboard
-    - header: File-Based
-      icon: fa fa-file-text
-    - header: Multi-Language
-      icon: fa fa-language
-    - header: Users & Roles
-      icon: fa fa-users  
-    - header: Image Processing
-      icon: fa fa-image   
-    - header: Documentation
-      icon: fa fa-bookmark
-    - header: On Github
-      icon: fa fa-github
-    - header: Responsive Design
-      icon: fa fa-html5
-    - header: CLI Power
-      icon: fa fa-terminal  
-    - header: Awesomazing
-      icon: fa fa-heart-o
+    -
+        icon: 'fa fa-text-height'
+        header: 'Markdown Syntax'
+        target: false
+    -
+        icon: 'fa fa-code'
+        header: 'Twig Templating'
+        target: false
+    -
+        icon: 'fa fa-rocket'
+        header: 'Smart Caching'
+        target: false
+    -
+        icon: 'fa fa-tags'
+        header: 'Flexible Taxonomies'
+        target: false
+    -
+        icon: 'fa fa-cloud-download'
+        header: 'Simple Install'
+        target: false
+    -
+        icon: 'fa fa-cogs'
+        header: 'Powerful Plugins'
+        target: false
+    -
+        icon: 'fa fa-dashboard'
+        header: 'Intuitive UI'
+        target: false
+    -
+        icon: 'fa fa-file-text'
+        header: File-Based
+        target: false
+    -
+        icon: 'fa fa-language'
+        header: Multi-Language
+        target: false
+    -
+        icon: 'fa fa-users'
+        header: 'Users & Roles'
+        target: false
+    -
+        icon: 'fa fa-image'
+        header: 'Image Processing'
+        target: false
+    -
+        icon: 'fa fa-bookmark'
+        header: Documentation
+        target: false
+    -
+        icon: 'fa fa-github'
+        header: 'On Github'
+        target: false
+    -
+        icon: 'fa fa-html5'
+        header: 'Responsive Design'
+        target: false
+    -
+        icon: 'fa fa-terminal'
+        header: 'CLI Power'
+        target: false
+    -
+        icon: 'fa fa-heart-o'
+        header: Awesomazing
+        target: false
 ---
 
-# Stuffed Full of Features
-## **Check out small smattering...**
+# Mautic is stuffed full of features
+## **Check out a small smattering...**
