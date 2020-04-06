@@ -1,6 +1,6 @@
 ---
 title: Development
-media_order: Hexagon-1.jpg
+media_order: laptop-work-1148958_1920.jpg
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -17,6 +17,12 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: true
+feed:
+    limit: 10
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 show_sectionanchors: true
 ---
 
