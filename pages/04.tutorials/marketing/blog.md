@@ -1,6 +1,5 @@
 ---
 title: Marketing
-media_order: Hexagon-1.jpg
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -16,6 +15,13 @@ content:
         by: date
         dir: desc
     pagination: true
+    url_taxonomy_filters: true
+feed:
+    limit: 10
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 show_sectionanchors: true
 ---
 
