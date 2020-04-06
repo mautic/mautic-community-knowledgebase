@@ -906,7 +906,7 @@ body::-webkit-scrollbar-thumb {
     box-shadow: 0 0 75px 0 rgba(119, 119, 119, 0.1); }
   .modular-features.small .columns {
     margin-top: -1rem; }
-  .modular-features.small .column:hover .feature-icon i {
+  .modular-features.small .column .feature-icon i {
     color: #4e5e9e; }
   .modular-features.small .feature-icon {
     display: block;

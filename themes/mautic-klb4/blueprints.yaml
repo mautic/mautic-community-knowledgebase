@@ -6,3 +6,26 @@ author:
   name: The Mautic Community Education Team
   email: education-team@mautic.org
   url: https://www.mautic.org
+
+form:
+  validation: loose
+  fields:
+    github.position:
+      type: select
+      size: medium
+      classes: fancy
+      label: GitHub Position
+      options:
+        top: Top
+        bottom: Bottom
+        off: Off
+
+    github.tree:
+      type: text
+      label: GitHub Tree
+      default: https://github.com/getgrav/grav-skeleton-rtfm-site/blob/develop/
+
+    github.commits:
+      type: text
+      label: GitHub Commits
+      default: https://github.com/getgrav/grav-skeleton-rtfm-site/commits/develop/

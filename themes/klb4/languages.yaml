@@ -6,6 +6,9 @@ en:
         NEXT_POST: Next Post
         PREV_POST: Previous Post
         PUBLISHED_DATE: Updated
+    GITHUB:
+      EDIT_THIS_PAGE: Click to edit on Github
+      NOTE: Think you can improve this page?
     SIDEBAR:
       SIMPLE_SEARCH:
         HEADLINE: Search
@@ -30,7 +33,8 @@ en:
     TAG_TITLE: of reading
   THUMBRATINGS_PLUGIN:
     PHRASE: Did this article help you?
-
+  STARRATINGS_PLUGIN:
+    PHRASE: Did this article help you?
 pt-BR:
   GRAV:
     NICETIME:

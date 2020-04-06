@@ -18,3 +18,30 @@
 #footer a {
     color: #4e5e9e;
 }
+
+.modular-features .feature-icon {
+color: #4e5e9e }
+}
+
+/* Github link */
+
+#github-contrib i {
+    vertical-align: middle;
+}
+blockquote {
+    border-left: 5px solid #fff;
+}
+
+blockquote>blockquote>blockquote>blockquote>blockquote>p {
+    margin-left: -118px;
+    border-top: 30px solid #6AB0DE;
+    background: #E7F2FA;
+}
+
+blockquote>blockquote>blockquote p {
+    padding: 15px;
+    display: block;
+    font-size: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: #666;

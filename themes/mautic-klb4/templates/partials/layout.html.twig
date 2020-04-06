@@ -11,9 +11,9 @@
 <div class="columns frame-box {{ ((page_type == 'item.md' or page_type == 'item.'~html_lang~'.md') or (page_type == 'default.md' or page_type == 'default.'~html_lang~'.md')) ? 'content-shadow' : '' }}">
     <div id="item" class="column {{ item_col }} extra-spacing">
         {% block item %}{% endblock %}
-        {% if config.plugins['thumb-ratings'].enabled and ((page_type == 'item.md' or page_type == 'item.'~html_lang~'.md') or (page_type == 'default.md' or page_type == 'default.'~html_lang~'.md')) %}
+        {% if config.plugins['star-ratings'].enabled and ((page_type == 'item.md' or page_type == 'item.'~html_lang~'.md') or (page_type == 'default.md' or page_type == 'default.'~html_lang~'.md')) %}
             <div class="thumb-ratings text-right">
-                <span class="title-thumb">{{ 'THUMBRATINGS_PLUGIN.PHRASE'|t }}</span> {{ thumbs(page.slug) }}
+                <span class="title-thumb">{{ 'STARRATINGS_PLUGIN.PHRASE'|t }}</span> {{ stars(page.route) }}
             </div>
         {% endif %}
     </div>
