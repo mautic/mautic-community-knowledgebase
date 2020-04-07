@@ -1,3 +1,4 @@
+/* Homepage Customisations and Accessibility Fixes*/
 #header a {
     color: #4e4d4d;
 }
@@ -68,7 +69,29 @@ background: #4e4d4d;
 .treemenu li a {
 color: #bec6e6;}
 
-/* Github link */
+/* Content Accessibility Fixes*/
+code {
+color: #942a31;
+}
+.label.label-secondary {
+color: #2c365d;
+}
+
+a:visited {
+color: #4b5682;
+}
+
+h3 {
+    color:#fba702;
+}
+
+.thumb-ratings .title-thumb {
+color: #4e4d4d;
+}
+.divider[data-content]::after {
+    color: #4e4d4d;
+}
+    /* Github link */
 
 #github-contrib i {
     vertical-align: middle;
