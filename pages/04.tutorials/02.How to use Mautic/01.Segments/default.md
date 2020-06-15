@@ -1,5 +1,5 @@
 ---
-title: 'How use Segments'
+title: 'How to work with Segments '
 anchors:
     active: false
 tagtitle: h2
