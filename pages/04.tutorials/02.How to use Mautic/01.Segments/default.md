@@ -16,6 +16,7 @@ To start it off nice and simple let’s cover the basic function of Segments. In
 
 As they also are one of the contact-sources used in Campaigns, so you can think of them as the backbones of an organized and manageable Mautic instance.
 
+
 ## How to set up Segments
 
 Segments are to be found in the main menu under the category of “Segments”. Simply click it and there you’ll find a list of all of your segments. You can also see how many contacts are in each segment. To create a new one, click “+ New”.
