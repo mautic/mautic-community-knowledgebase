@@ -20,10 +20,10 @@ There are 5 filters you can use for matching part of a string
 
 The first three filters (starts with, ends with, contains) match strings as you enter it. The ‘like’ filter is for advanced users - you can specify which type you want to use with % character:
 
-*** My string%** is the same as **starts with** filter with **My string** value.
-* %My string is the same as ends with filter with My string value.
-* %My string% is the same as contains filter with My string value.
-* My string is the same as contains filter with My string value.
+* ** My string%** is the same as **starts with** filter with **My string** value.
+* **%My string** is the same as **ends with** filter with **My string** value.
+* **%My string%** is the same as **contains** filter with **My string** value.
+* **My string** is the same as **contains** filter with **My string** value.
 
 A few notes for text filters:
 
