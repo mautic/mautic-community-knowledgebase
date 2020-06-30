@@ -23,6 +23,7 @@ However, you can specify much more here. Mautic recognizes relative date formats
 * +5 months / -6 months / 7months ago
 * +1 year / -2 years / 3 years ago
 
+
 Example (Consider that today is 2018-03-02):
 
 * Date identified equals -1 week returns all contacts identified on 2018-02-23.
@@ -30,6 +31,7 @@ Example (Consider that today is 2018-03-02):
 * Date identified equals -1 months returns all contacts identified on 2018-02-02.
 * Date identified greater or equal -1 year returns all contacts identified on 2017-03-02 and after.
 * Date identified greater than -1 year returns all contacts identified after 2017-03-02.
+
 
 Beside this, you can also specify your date with text. These formulae are translatable, so make sure you use them in the correct format corresponding to the language your Mautic instance is configured to use.
 
