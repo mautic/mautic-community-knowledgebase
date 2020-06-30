@@ -109,4 +109,5 @@ Mautic will dynamically move your contacts to/from segments based on filters. Yo
 12. An “Or” operator creates a new group of filters that can include “And” operators
 13. Save and close
 
-And example on how to do this is given here: “Link How to work with Segments”
+
+### And example on how to do this is given here: “[Link How to work with Segments](https://kb.mautic.org/tutorials/how%20to%20use%20mautic/segments)”
