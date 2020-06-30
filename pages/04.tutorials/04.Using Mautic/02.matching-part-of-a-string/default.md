@@ -34,4 +34,4 @@ A few notes for text filters:
 You can use regular expressions in a regexp filter. Mautic recognises all common operators like | for OR (first string|second string), character sets ([0-9], [a-z0-9] etc.), repetitions (+, *, ?) and more. 
 You have to escape special characters with \ if you want to use them as matching characters. 
 
-### Learn more about regex at https://dev.mysql.com/doc/refman/5.7/en/regexp.html.
+**[Learn more about regex here!](https://dev.mysql.com/doc/refman/5.7/en/regexp.html)**
