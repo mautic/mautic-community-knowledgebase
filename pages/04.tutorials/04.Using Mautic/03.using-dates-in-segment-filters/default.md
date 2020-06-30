@@ -42,6 +42,7 @@ Beside this, you can also specify your date with text. These formulae are transl
 * this month / last month / next month
 * this year / last year / next year
 
+
 Example (Consider that today is 2018-03-02):
 
 * Date identified equals last week returns all contacts identified between 2018-02-26 and 2018-03-04 (Monday to Sunday).
