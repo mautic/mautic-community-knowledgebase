@@ -21,7 +21,7 @@ As they also are one of the contact-sources used in Campaigns, so you can think 
 
 Segments are to be found in the main menu under the category of “Segments”. Simply click it and there you’ll find a list of all of your segments. You can also see how many contacts are in each segment. To create a new one, click “+ New”.
 
-![](image6.png?cropResize=300,300)
+![](image6.png?resize=300,300)
 
 ![](https://kb.mautic.org/user/pages/04.tutorials/02.How%20to%20use%20Mautic/01.Segments/image6.png?cropResize=300,300)
 
@@ -33,7 +33,7 @@ In the ‘Details’ menu of the segment builder, you can name your segment, ent
 
 **Published:** If set to no, the segment will not be available for use in filters for other segments, as a contact source in campaigns, in modify segment actions, and so forth. While you will still see the segment in your segment list, it essentially won’t exist anywhere else in Mautic.
 
-![](image4.png)
+![](image4.png?cropResize=300,300)
 
 
 Now, as your Segment is given a name, you need to click on “Filters” next to Details. The ‘Filters’ menu is where you select the characteristics that define your segment using the drop-down menu. Mautic offers a huge repertoire of available filters to use. To customize your segment, first choose the filter that applies to your desired segment. 
