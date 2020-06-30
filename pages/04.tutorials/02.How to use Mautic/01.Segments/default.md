@@ -23,6 +23,7 @@ Segments are to be found in the main menu under the category of “Segments”. 
 
 ![](image6.png?cropResize=300,300)
 
+![](https://kb.mautic.org/user/pages/04.tutorials/02.How%20to%20use%20Mautic/01.Segments/image6.png?cropResize=300,300)
 
 In the ‘Details’ menu of the segment builder, you can name your segment, enter an alias and add a more specific description of the Segment. You can also choose the following option:
 
