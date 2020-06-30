@@ -21,7 +21,7 @@ As they also are one of the contact-sources used in Campaigns, so you can think 
 
 Segments are to be found in the main menu under the category of “Segments”. Simply click it and there you’ll find a list of all of your segments. You can also see how many contacts are in each segment. To create a new one, click “+ New”.
 
-![500px](image6.png)
+![](image6.png =100%)
 
 
 In the ‘Details’ menu of the segment builder, you can name your segment, enter an alias and add a more specific description of the Segment. You can also choose the following option:
