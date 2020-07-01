@@ -27,7 +27,7 @@ body {
 .hero.text-light h2 {
     color: rgba(255, 255, 255, 1.0);
 }
-.section.section {
+.mautic-article {
     max-width: 1200px;
     margin: auto;
 }
