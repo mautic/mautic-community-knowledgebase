@@ -24,7 +24,7 @@ First of all, you need to think about what kind of campaign your drip campaign s
 As these emails are the backbone of your campaign, they should be well thought out and precisely written. The campaigns just define the order and timeframes in which the emails will be sent, but the content itself is what defines the other half of the quality a drip campaign has.
 
 
-### How to create a drip campaign in Mautic
+## How to create a drip campaign in Mautic
 
 ### Timebased-Campaign
 
@@ -46,4 +46,5 @@ This campaign starts on the left branch by sending out the email called “Email
 After seven days the next campaign branch will start with sending out email 2.1 and the next drip campaign branch will be sending out emails based on decisions and conditions made by the contact.
 
 You can see that this drip campaign is built around decisions made by the contact and conditions met preemptively. Here is an example use-case:
+
 A user signed up for a service, but didn't complete the first action (upload their first video, make a profile, etc). The user action campaign will account for this and send an appropriate email prompting them for the action
