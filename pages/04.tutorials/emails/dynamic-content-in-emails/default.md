@@ -28,6 +28,10 @@ You can now add Dynamic Content to your email. In the next step, you need to spe
 
 ![](image3.png?cropResize=300,300)
 
+
+
+<img src="https://kb.mautic.org/user/pages/04.tutorials/emails/dynamic-content-in-emails/image3.png" width="300" />
+
 ### 1.  Adding default content
 
 The default content is shown when the recipient of your email doesn’t match any of the variant criteria you set up in the next step. Thus the default content should be presentable to a broader audience. To make things more clear, here is an example case:
