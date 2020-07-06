@@ -1,5 +1,5 @@
 ---
-title: 'How to use Mautic'
+title: Segments
 media_order: install_mautic.png
 anchors:
     active: false
