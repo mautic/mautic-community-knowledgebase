@@ -36,7 +36,7 @@ Imagine you are writing an email to photographers and illustrators. The photogra
  
 ### 2. Setting up variants
 
-![](image1.png?resize=400,200)
+![](image1.png?resize=200,200)
 
 If you click on “Add Variant “ you can add different variations of your default content. To determine when which variation of the email should be sent to your contact, you add filters for each and every variant. You can have an infinite number of variants of the default content. For example, you could send out different variations of the mail for every country, giving the contact a more personalized experience. 
 
