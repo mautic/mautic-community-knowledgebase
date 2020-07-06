@@ -36,7 +36,7 @@ Imagine you are writing an email to photographers and illustrators. The photogra
  
 ### 2. Setting up variants
 
-<img src="https://kb.mautic.org/user/pages/04.tutorials/emails/dynamic-content-in-emails/image1.png" width="450" style="display: block;margin-left: auto;margin-right: auto;"/>
+<img src="https://kb.mautic.org/user/pages/04.tutorials/emails/dynamic-content-in-emails/image1.png" width="450" height="400" style="display: block;margin-left: auto;margin-right: auto;"/>
 
 If you click on “Add Variant “ you can add different variations of your default content. To determine when which variation of the email should be sent to your contact, you add filters for each and every variant. You can have an infinite number of variants of the default content. For example, you could send out different variations of the mail for every country, giving the contact a more personalized experience. 
 
