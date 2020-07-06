@@ -44,7 +44,6 @@ User condition based campaigns are a bit more complex but don’t worry, they ar
 This campaign starts on the left branch by sending out the email called “Email 1.1”. The next step is a condition that determines whether the contact did open the email or didn`t. If The contact opened email 1.1, then email 1.2 will be sent. But if the contact did not open email 1.1 within one day, email 1.3 will be sent instead. 
 
 After seven days the next campaign branch will start with sending out email 2.1 and the next drip campaign branch will be sending out emails based on decisions and conditions made by the contact.
-
 You can see that this drip campaign is built around decisions made by the contact and conditions met preemptively. Here is an example use-case:
 
 A user signed up for a service, but didn't complete the first action (upload their first video, make a profile, etc). The user action campaign will account for this and send an appropriate email prompting them for the action
