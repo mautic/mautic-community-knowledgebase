@@ -1,5 +1,6 @@
 ---
 title: 'Drip Campaigns'
+media_order: 'image1.png,image2.png'
 anchors:
     active: false
 tagtitle: h2
@@ -27,15 +28,16 @@ As these emails are the backbone of your campaign, they should be well thought o
 
 ### Timebased-Campaign
 
-
+![](image1.png)
 
 Here is an example of basic time based drip campaign. This form of a drip campaign is the “easiest” to build campaign wise. The emails will be sent to everybody in our “Drip Campaign Segment”. We have no user-based conditions here, just a timeframe, so the 1st email will be sent immediately, the 2nd after 7 days and the 3rd email after 14 days. For better understanding here is an example:
 
 Consider a user onboarding campaign. Someone signs up for a service, they get a welcome email. 2 days later, they get the first email explaining benefit A. 2 days later, another, and so on.
 
+
 ### User condition based Campaign
 
-
+![](image2.png)
 
 User condition based campaigns are a bit more complex but don’t worry, they are super easy to understand and recreate as well. 
 
