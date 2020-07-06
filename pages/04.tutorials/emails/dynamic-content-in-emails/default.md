@@ -26,7 +26,7 @@ Then go and open up the email builder. On the slot type menu locate “Dynamic C
 
 You can now add Dynamic Content to your email. In the next step, you need to specify the default content which should be shown and the variants of that default content. 
 
-![](image3.png)
+![](image3.png?cropResize=300,300)
 
 ### 1.  Adding default content
 
