@@ -1,6 +1,7 @@
 ---
 title: 'Dynamic content in emails'
 media_order: 'image1.png,image2.png,image3.png'
+published: true
 anchors:
     active: false
 tagtitle: h2
