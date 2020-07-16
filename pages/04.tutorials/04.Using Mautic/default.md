@@ -9,7 +9,8 @@ twittercardoptions: summary
 articleenabled: false
 facebookenable: true
 content:
-    items: '@root.children'
+    items:
+        '@taxonomy.tag': Segment
     order:
         by: date
         dir: desc
