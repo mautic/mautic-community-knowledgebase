@@ -10,4 +10,4 @@ articleenabled: false
 facebookenable: true
 ---
 
-'@taxonomy': {tag: segment, segments}
+@taxonomy: {tag: segment, segments}
