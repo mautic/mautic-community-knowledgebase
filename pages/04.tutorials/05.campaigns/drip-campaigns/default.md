@@ -4,6 +4,7 @@ media_order: 'image1.png,image2.png'
 anchors:
     active: false
 tagtitle: h2
+visible: true
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
