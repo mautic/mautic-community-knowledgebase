@@ -8,6 +8,10 @@ twitterenable: true
 twittercardoptions: summary
 articleenabled: false
 facebookenable: true
+taxonomy:
+    tag:
+        - Segment
+        - Segments
 ---
 
 ## What are Segments?
