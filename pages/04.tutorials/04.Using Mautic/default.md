@@ -9,7 +9,7 @@ twittercardoptions: summary
 articleenabled: false
 facebookenable: true
 content:
-    items: '@root'
+    items: '@root.children'
     order:
         by: date
         dir: desc
