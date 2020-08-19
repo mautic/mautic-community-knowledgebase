@@ -10,7 +10,7 @@ articleenabled: false
 facebookenable: true
 taxonomy:
     tag:
-        - Segment
+        - Beginner
         - Segments
 ---
 
