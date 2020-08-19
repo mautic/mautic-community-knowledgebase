@@ -5,7 +5,7 @@ body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
-menu: Tutorials
+menu: Knowledgebase
 visible: true
 hero_overlay: true
 hero_showsearch: true
@@ -20,6 +20,12 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: true
+feed:
+    limit: 10
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 ---
 
 # Tutorials
