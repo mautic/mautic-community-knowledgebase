@@ -1,10 +1,11 @@
 ---
-title: Segments
+title: Installation
+published: true
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
-menu: Segments
+menu: Installation
 visible: true
 hero_overlay: true
 hero_showsearch: true
