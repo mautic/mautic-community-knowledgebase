@@ -28,3 +28,5 @@ feed:
     limit: 10
 ---
 
+# Emails
+## Learn handling, tipps and tricks about Emails
