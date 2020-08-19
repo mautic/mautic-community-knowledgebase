@@ -16,7 +16,7 @@ content:
         - '@self.children'
     limit: 12
     order:
-        by: date
+        by: title
         dir: desc
     pagination: true
     url_taxonomy_filters: true
