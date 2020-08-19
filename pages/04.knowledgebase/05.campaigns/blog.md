@@ -1,11 +1,11 @@
 ---
-title: Knowledgebase
-media_order: bg_hero_klb4.jpg
+title: Campaigns
+media_order: Webp.net-resizeimage.jpg
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
-menu: Knowledgebase
+menu: Campaigns
 visible: true
 hero_overlay: true
 hero_showsearch: true
