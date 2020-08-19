@@ -7,6 +7,10 @@ anchors:
 tagtitle: h2
 menu: Installation
 visible: true
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 hero_overlay: true
 hero_showsearch: true
 show_breadcrumbs: true
@@ -22,9 +26,5 @@ content:
     url_taxonomy_filters: true
 feed:
     limit: 10
-twitterenable: true
-twittercardoptions: summary
-articleenabled: false
-facebookenable: true
 ---
 
