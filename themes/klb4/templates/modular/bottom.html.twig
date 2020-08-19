@@ -11,7 +11,11 @@
         <div class="columns">
             <div class="column col-6 col-md-12">
                 <div class="logo-img">
-                    {% include 'partials/logo-darkbg.html.twig' %}
+                    {% if image %}
+                        {% include 'partials/logo.html.twig' with {logo: image.url} %}
+                    {% else %}
+                        {% include 'partials/logo.html.twig' with {logo: theme_var('custom_logo')} %}
+                    {% endif %}
                 </div>
             </div>
             <div class="column col-6 col-md-12 text-right">

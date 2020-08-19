@@ -1,16 +1,17 @@
 /** Extra columns spacing **/
-.extra-spacing:not(.col-12), :not(.col12) > .e-content {
+.extra-spacing:not(.col-12),
+:not(.col12) > .e-content {
   padding-right: 1rem;
 
   img {
     padding: 2px;
     border: $border-width solid $gray-color-light;
     background: $light-color;
-    transition: all .2s linear;
+    transition: all 0.2s linear;
     text-align: center;
     &:hover {
-      opacity: .8;
-      transition: all .2s linear;
+      opacity: 0.8;
+      transition: all 0.2s linear;
     }
   }
 
@@ -23,7 +24,7 @@
   &.content-shadow {
     padding: 1rem;
     background: #fff;
-    box-shadow: 0 0 75px 0 rgba(69,77,93,.1);
+    box-shadow: 0 0 75px 0 rgba(69, 77, 93, 0.1);
     border-radius: 1rem;
   }
 }
@@ -33,13 +34,13 @@
     margin: 0 !important;
     padding: 0.8rem 0;
     text-transform: uppercase;
-    a:hover{
+    a:hover {
       text-decoration: none;
       color: $accent-color;
       transition: all 0.3s linear;
     }
   }
-  .divider{
+  .divider {
     border-color: $gray-color-light;
     &:last-child {
       display: none;
@@ -62,14 +63,15 @@
   display: flex;
   align-items: center;
   margin-top: -1rem;
-  font-size: .6rem;
+  font-size: 0.6rem;
   text-transform: uppercase;
 
   i {
     display: none;
   }
 
-  span, a {
+  span,
+  a {
     padding: 0;
     &:not(:first-child)::before {
       color: #e7e9ed;
@@ -89,28 +91,94 @@
     &:last-child {
       padding-right: 0;
     }
-  }
-  .card {
-    margin-bottom: 25px;
-    border: 0;
-    box-shadow: 0 10px 45px -9px rgba(0,0,0,0.1);
-    .card-image img {
-      &:hover {
-        opacity: .8;
-        transition: all .2s linear;
+    .card {
+      margin-bottom: 25px;
+      border: 0;
+      box-shadow: 0 10px 45px -9px rgba(0, 0, 0, 0.1);
+      .card-image img {
+        &:hover {
+          opacity: 0.8;
+          transition: all 0.2s linear;
+        }
+      }
+      .card-title {
+        text-transform: uppercase;
+      }
+      .card-body {
+        display: none;
       }
     }
-    .card-title {
-      text-transform: uppercase;
+
+    .card-footer {
+      text-align: right;
+    }
+
+    .blog-date {
+      font-size: 13px;
     }
   }
-
-  .card-footer {
-    text-align: right;
+  .bricklayer.row-force {
+    display: block;
+    .bricklayer-column {
+      &:last-child {
+        padding-right: 25px;
+      }
+      .card {
+        flex-direction: row;
+        @include breakpoint(xs) {
+          flex-direction: column;
+        }
+        .card-image {
+          max-width: 20%;
+          @include breakpoint(xs) {
+            max-width: 100%;
+          }
+        }
+        .card-body {
+          display: block;
+          padding: 0;
+          p {
+            margin: 0;
+          }
+        }
+      }
+    }
   }
-
-  .blog-date {
-    font-size: 13px;
+  .btn-toggle-list-format {
+    padding: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -23px;
+    position: relative;
+    z-index: 2;
+    @include breakpoint(xs) {
+      display: none;
+    }
+    span {
+      background-color: white;
+      padding: 0 0.2rem;
+      border-radius: 4px;
+      border: 1px solid $gray-color-light;
+      box-shadow: 0 0 3px $gray-color;
+      button {
+        color: $primary-color;
+        background: transparent;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+        cursor: pointer;
+        &:hover {
+          opacity: 0.6;
+        }
+        &:focus {
+          outline: none;
+          outline-offset: -4px;
+        }
+        &:disabled {
+          opacity: 0.5;
+        }
+      }
+    }
   }
 }
 
@@ -144,7 +212,7 @@ ul.pagination {
     padding-top: 0;
     box-shadow: none;
     border-left: 1px solid $gray-color-light;
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   //sticker option anchor plugin override
@@ -170,7 +238,6 @@ ul.pagination {
         border-bottom: 0;
       }
     }
-
   }
 
   ul.archives {
