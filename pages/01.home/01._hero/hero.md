@@ -10,7 +10,7 @@ hero_showsearch: true
 hero_image: header.jpg
 ---
 
-# Hello how can we help you?
+# Welcome to the Mautic Knowledgebase
 ## search for tutorials, faqs, how-to guides...
 
 
