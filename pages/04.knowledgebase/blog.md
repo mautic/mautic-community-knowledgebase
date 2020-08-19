@@ -22,6 +22,7 @@ content:
     url_taxonomy_filters: true
 feed:
     limit: 10
+googletitle: Knowledgebase
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
