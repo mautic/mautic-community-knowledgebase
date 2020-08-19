@@ -7,12 +7,6 @@ menu: Highlights
 class: standard
 features:
     -
-        icon: 'fa fa-desktop'
-        header: Installation
-        text: 'Find how to install and configure Mautic'
-        url: /tutorials/installation
-        target: false
-    -
         icon: 'fa fa-question-circle'
         header: FAQs
         text: 'Find answers to the most frequently asked questions'
@@ -20,27 +14,21 @@ features:
         target: false
     -
         icon: 'fa fa-graduation-cap'
-        header: Tutorials
-        text: 'Explore tutorials covering many of the common tasks in Mautic'
-        url: /tutorials
+        header: Knowledgebase
+        text: 'Explore different tutorials, helpful ressources and more'
+        url: /knowledgebase
         target: false
     -
         icon: 'fa fa-bullhorn'
-        header: Marketing
-        text: 'General resources to help you improve your marketing with Mautic'
-        url: /tutorials/marketing
+        header: Forums
+        text: 'Still got questions or need help?'
+        url: /knowledgebase
         target: false
     -
         icon: 'fa fa-book'
-        header: 'Best practice manuals'
+        header: 'Manuals'
         text: 'Browse our best practice manuals and learn how to use Mautic like the professionals'
         url: /best-practice
-        target: false
-    -
-        icon: 'fa fa-code'
-        header: 'Developing with Mautic'
-        text: 'How to get started developing with Mautic'
-        url: /tutorials/development
         target: false
 ---
 
