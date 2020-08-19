@@ -10,7 +10,7 @@ anchors:
 tagtitle: h2
 hero_overlay: true
 hero_showsearch: false
-show_sidebar: true
+show_sidebar: false
 content:
     items:
         - '@self.children'
