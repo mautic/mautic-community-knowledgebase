@@ -28,3 +28,5 @@ feed:
     limit: 10
 ---
 
+# Segments
+## Learn how build effective Segments
