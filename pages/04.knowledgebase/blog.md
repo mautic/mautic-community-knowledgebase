@@ -29,5 +29,5 @@ articleenabled: false
 facebookenable: true
 ---
 
-# Tutorials
+# Knowledgebase
 ## Learn how to install, configure and use Mautic
