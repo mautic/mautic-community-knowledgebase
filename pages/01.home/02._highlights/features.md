@@ -19,16 +19,28 @@ features:
         url: /knowledgebase
         target: false
     -
-        icon: 'fa fa-bullhorn'
-        header: Forums
-        text: 'Still got questions or need help?'
-        url: /knowledgebase
-        target: false
-    -
         icon: 'fa fa-book'
         header: 'Manuals'
         text: 'Browse our best practice manuals and learn how to use Mautic like the professionals'
         url: /best-practice
+        target: false
+    -
+        icon: 'fa fa-code'
+        header: 'Developer Documentation'
+        text: 'Find everything code related in the Dev-Documentation'
+        url: https://developer.mautic.org/
+        target: false
+    -
+        icon: 'fa fa-desktop'
+        header: Slack
+        text: 'To get in touch with the Community'
+        url: https://www.mautic.org/slack
+        target: false
+    -
+        icon: 'fa fa-bullhorn'
+        header: Forums
+        text: 'Still got questions or need help - Ask the Community!'
+        url: https://forum.mautic.org/
         target: false
 ---
 
