@@ -1,7 +1,7 @@
 ---
 title: 'Homepage Text Callout'
 media_order: adult-app-developer-coding-1181244.jpg
-image_align: left
+image_align: right
 anchors:
     active: true
 tagtitle: h2
