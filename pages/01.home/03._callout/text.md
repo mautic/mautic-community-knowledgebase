@@ -9,8 +9,7 @@ menu: 'Easy Content'
 ---
 
 ## **YOU** are the Mautic Community!
-
-&nbsp;
+sd
 All of the resources you find in this Knowledgebase were written by people like you. 
 
 People who use Mautic, who want to help others to use it more effectively, and who give their time to make that happen.
