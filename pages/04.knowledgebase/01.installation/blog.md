@@ -5,7 +5,8 @@ body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
-visible: false
+menu: Installation
+visible: true
 hero_overlay: true
 hero_showsearch: true
 show_breadcrumbs: true
@@ -15,8 +16,8 @@ content:
         - '@self.children'
     limit: 12
     order:
-        by: date
-        dir: desc
+        by: title
+        dir: asc
     pagination: true
     url_taxonomy_filters: true
 feed:
