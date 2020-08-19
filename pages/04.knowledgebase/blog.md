@@ -1,5 +1,5 @@
 ---
-title: Tutorials
+title: Knowledgebase
 media_order: bg_hero_klb4.jpg
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
