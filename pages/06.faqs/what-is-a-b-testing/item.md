@@ -9,6 +9,7 @@ anchors:
 tagtitle: h2
 hero_overlay: true
 hero_showsearch: false
+show_sidebar: false
 content:
     items:
         - '@self.children'
@@ -17,6 +18,8 @@ content:
         by: date
         dir: desc
     pagination: true
+feed:
+    limit: 10
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
