@@ -18,7 +18,7 @@ content:
         dir: desc
     pagination: true
 summary:
-    enabled: '0'
+    enabled: '1'
 feed:
     limit: 10
 twitterenable: true
