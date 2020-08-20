@@ -49,7 +49,7 @@ Next it will ask for the docroot of the project.
 
 Since the index.php of Mautic is located in the root folder of the project, we can just go with the default value. Simply press enter.
 
-After this it will ask for the project type. Php, which we want to use, is the default choice. Simply press enter.
+After this it will ask for the project type. PHP, which we want to use, is the default choice. Simply press enter.
 
 Everything should now be configured. We do need to make a few changes to the `.ddev/config.yaml`, though: 
 
