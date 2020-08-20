@@ -12,6 +12,10 @@ body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 hero_classes: ''
 hero_image: ''
 hero_overlay: '1'
@@ -27,10 +31,6 @@ content:
 feed:
     limit: '10'
     description: ''
-twitterenable: true
-twittercardoptions: summary
-articleenabled: false
-facebookenable: true
 ---
 
 Updating to the latest version of Mautic doesn’t necessarily have to be a risky or time-consuming endeavor. Aside from new features, bug fixes - especially security-related bug fixes - are a good reason to upgrade to the latest Mautic release. The community may not be able to help you with an issue as effectively if you are still running an outdated version of Mautic.
