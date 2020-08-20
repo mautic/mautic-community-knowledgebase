@@ -19,4 +19,4 @@ People who use Mautic, who want to help others to use it more effectively, and w
 [+ Discover articles that need writing...][education-team-jira]
 
 [contribute-to-mautic]: <https://contribute.mautic.org/contributing-to-mautic>
-[education-team-jira]: <https://mautic.atlassian.net/secure/RapidBoard.jspa?rapidView=17&projectKey=TEDU?classes=btn,btn-primary,btn-lg>
+[education-team-jira]: <https://mautic.atlassian.net/browse/TEDU-15?classes=btn,btn-primary,btn-lg>
