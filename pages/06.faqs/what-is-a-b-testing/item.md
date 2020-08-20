@@ -1,5 +1,6 @@
 ---
 title: 'What is A/B Testing?'
+body_classes: 'title-h1h2 header-fixed header-animated'
 taxonomy:
     tag:
         - testing
