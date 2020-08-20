@@ -17,10 +17,6 @@ content:
         by: date
         dir: desc
     pagination: true
-summary:
-    enabled: '1'
-feed:
-    limit: 10
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
