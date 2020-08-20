@@ -8,6 +8,10 @@ body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 hero_classes: ''
 hero_image: ''
 hero_overlay: '1'
@@ -23,10 +27,6 @@ content:
 feed:
     limit: '10'
     description: ''
-twitterenable: true
-twittercardoptions: summary
-articleenabled: false
-facebookenable: true
 ---
 
 The easiest way to think about A/B testing is when you go to the opticians to get your eyes tested, and you're asked "which is better, A, or B?".
