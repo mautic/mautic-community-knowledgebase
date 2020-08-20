@@ -1,5 +1,6 @@
 ---
 title: 'Matching part of a string'
+body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: false
 tagtitle: h2
