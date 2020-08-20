@@ -1,7 +1,6 @@
 ---
 title: 'How to set up a development environment to test new Mautic releases'
 media_order: vincent-van-zalinge-4Mu2bXIsn5Y-unsplash.jpg
-body_classes: 'title-h1h2 header-fixed header-animated'
 taxonomy:
     category:
         - category
@@ -9,22 +8,29 @@ taxonomy:
         - devops
         - testing
         - clone
+body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
-hero_overlay: true
-hero_showsearch: false
-show_breadcrumbs: true
+hero_classes: ''
+hero_image: ''
+hero_overlay: '1'
+hero_showsearch: '0'
+show_breadcrumbs: '1'
 content:
-    items:
-        - '@self.children'
-    limit: 12
+    items: '- ''@self.children'''
+    limit: '12'
     order:
         by: date
         dir: desc
-    pagination: true
+    pagination: '1'
 feed:
-    limit: 10
+    limit: '10'
+    description: ''
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 ---
 
 Updating to the latest version of Mautic doesn’t necessarily have to be a risky or time-consuming endeavor. Aside from new features, bug fixes - especially security-related bug fixes - are a good reason to upgrade to the latest Mautic release. The community may not be able to help you with an issue as effectively if you are still running an outdated version of Mautic.
