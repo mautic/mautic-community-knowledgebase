@@ -55,7 +55,7 @@ Everything should now be configured. We do need to make a few changes to the `.d
 
 Firstly, we change the default DDEV webserver to be Apache2 by changing the value of `webserver_type` to be `apache-fpm`.
 
-Secondly, we add a required PHP module by finding the line beginning with `webimage_extra_packages`, uncommenting it and settings its value to `[php7.3-imap]`. If you need any additional modules you can set them here as well (**make sure to replace 7.3 with whatever version of PHP is set as `php_version`**).
+Secondly, we add a required PHP module by finding the line beginning with `webimage_extra_packages`, uncommenting it and setting its value to `[php7.3-imap]`. If you need any additional modules you can set them here as well (**make sure to replace 7.3 with whatever version of PHP is set as `php_version`**).
 
 Finally, we set the timezone to be whatever timezone we are in. Find the line that starts with `timezone`, uncomment it and set its value to the tzdata format *`"Region/City"`* corresponding to whatever timezone you are in. Wikipedia hosts a [list of valid tz values][tz-values].
 
