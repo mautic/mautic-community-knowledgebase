@@ -145,7 +145,7 @@ Once done, simply type `exit` and press enter to return to your local machine.
 
 The second option is executing the commands from **outside** of the DDEV container. 
 
-If you wish to directly execute a command in the container without first using SSH to connect to yet, you can use 
+If you wish to directly execute a command in the container without first using SSH to connect, you can use 
 
 `ddev exec yourcommandhere`
 
