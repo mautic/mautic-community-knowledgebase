@@ -1,5 +1,6 @@
 ---
 title: 'What is Mautic?'
+body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
