@@ -18,5 +18,5 @@ People who use Mautic, who want to help others to use it more effectively, and w
 
 [+ Discover articles that need writing...][education-team-trello]
 
-[contribute-to-mautic]: <https://contribute.mautic.org/about/how-can-i-contribute-to-mautic>
-[education-team-trello]: <https://trello.com/b/A4eDxtD5/mautic-education-team?classes=btn,btn-primary,btn-lg>
+[contribute-to-mautic]: <https://contribute.mautic.org/contributing-to-mautic>
+[education-team-trello]: <https://mautic.atlassian.net/secure/RapidBoard.jspa?rapidView=17&projectKey=TEDU&selectedIssue=TEDU-15?classes=btn,btn-primary,btn-lg>
