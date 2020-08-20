@@ -17,6 +17,8 @@ content:
         by: date
         dir: desc
     pagination: true
+summary:
+    enabled: '0'
 feed:
     limit: 10
 twitterenable: true
