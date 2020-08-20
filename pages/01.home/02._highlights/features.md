@@ -5,7 +5,13 @@ anchors:
 tagtitle: h2
 menu: Highlights
 class: standard
-features:
+features:    
+    -
+        icon: 'fa fa-graduation-cap'
+        header: Knowledgebase
+        text: 'Explore different tutorials, helpful ressources and more'
+        url: /knowledgebase
+        target: false
     -
         icon: 'fa fa-question-circle'
         header: FAQs
@@ -33,7 +39,7 @@ features:
     -
         icon: 'fa fa-desktop'
         header: Slack
-        text: 'To get in touch with the Community'
+        text: 'We use Slack for our communication - get in touch!'
         url: https://www.mautic.org/slack
         target: false
     -
