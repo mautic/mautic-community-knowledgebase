@@ -1,6 +1,7 @@
 ---
 title: 'A/B testing for emails?'
 media_order: 'ab-test-option.png,ab-test-settings.png,ab-test-icon.png,ab-test-variants.png,ab-test-trophy.png,ab-test-warning.png,ab-test-current.png,ab-test-stats.png'
+body_classes: 'title-h1h2 header-fixed header-animated'
 taxonomy:
     tag:
         - testing
