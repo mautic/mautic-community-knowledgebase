@@ -1,6 +1,7 @@
 ---
 title: 'How to set up a development environment to test new Mautic releases'
 media_order: vincent-van-zalinge-4Mu2bXIsn5Y-unsplash.jpg
+body_classes: 'title-h1h2 header-fixed header-animated'
 taxonomy:
     category:
         - category
