@@ -1,5 +1,6 @@
 ---
 title: 'Using dates in segment filters'
+body_classes: 'title-h1h2 header-fixed header-animated'
 media_order: image1.png
 anchors:
     active: false
