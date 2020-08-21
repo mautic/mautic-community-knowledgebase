@@ -1,6 +1,11 @@
 ---
 title: 'How to work with Segments '
 media_order: 'image1.png,image2.png,image3.png,image4.png,image5.png,image6.png'
+taxonomy:
+    tag:
+        - Beginner
+        - Segments
+        - Basics
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: false
@@ -9,10 +14,6 @@ twitterenable: true
 twittercardoptions: summary
 articleenabled: false
 facebookenable: true
-taxonomy:
-    tag:
-        - Beginner
-        - Segments
 ---
 
 ## What are Segments?
