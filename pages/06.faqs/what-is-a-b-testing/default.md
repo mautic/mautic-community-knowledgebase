@@ -1,9 +1,14 @@
 ---
 title: 'What is A/B Testing?'
 taxonomy:
+    category:
+        - FAQ
     tag:
-        - testing
-        - ab-testing
+        - FAQ
+        - 'A/B Testing'
+        - Emails
+        - 'Tipps & Tricks'
+        - Intermediate
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
