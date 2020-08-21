@@ -2,13 +2,21 @@
 title: 'A/B testing for emails?'
 media_order: 'ab-test-option.png,ab-test-settings.png,ab-test-icon.png,ab-test-variants.png,ab-test-trophy.png,ab-test-warning.png,ab-test-current.png,ab-test-stats.png'
 taxonomy:
+    category:
+        - FAQ
     tag:
-        - testing
-        - ab-testing
+        - FAQ
+        - 'A/B Testing'
+        - 'Tipps & Tricks'
+        - Intermediate
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 hero_classes: ''
 hero_image: ''
 hero_overlay: '1'
@@ -24,10 +32,6 @@ content:
 feed:
     limit: '10'
     description: ''
-twitterenable: true
-twittercardoptions: summary
-articleenabled: false
-facebookenable: true
 ---
 
 ## A/B testing for Emails
