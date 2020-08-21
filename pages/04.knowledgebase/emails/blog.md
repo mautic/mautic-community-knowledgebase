@@ -1,5 +1,6 @@
 ---
 title: Emails
+media_order: pexels-edoardo-tommasini-1467217.jpg
 published: true
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
@@ -7,10 +8,6 @@ anchors:
 tagtitle: h2
 menu: Emails
 visible: true
-twitterenable: true
-twittercardoptions: summary
-articleenabled: false
-facebookenable: true
 hero_overlay: true
 hero_showsearch: true
 show_breadcrumbs: true
@@ -26,6 +23,10 @@ content:
     url_taxonomy_filters: true
 feed:
     limit: 10
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 ---
 
 # Emails
