@@ -1,6 +1,6 @@
 ---
 title: Campaigns
-media_order: Webp.net-resizeimage.jpg
+media_order: pexels-daria-obymaha-1684149.jpeg
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
