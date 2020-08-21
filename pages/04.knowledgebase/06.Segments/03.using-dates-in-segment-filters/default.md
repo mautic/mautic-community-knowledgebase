@@ -1,7 +1,15 @@
 ---
 title: 'Using dates in segment filters'
-body_classes: 'title-h1h2 header-fixed header-animated'
 media_order: image1.png
+taxonomy:
+    category:
+        - Segments
+    tag:
+        - Segments
+        - Intermediate
+        - 'Tipps & Tricks'
+        - Article
+body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: false
 tagtitle: h2
