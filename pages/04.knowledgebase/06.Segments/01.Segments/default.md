@@ -5,8 +5,8 @@ taxonomy:
     category:
         - Segments
     tag:
-        - Beginner
         - Segments
+        - Beginner
         - Basics
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
