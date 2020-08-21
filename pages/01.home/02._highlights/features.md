@@ -13,16 +13,16 @@ features:
         url: /knowledgebase
         target: false
     -
+        icon: 'fa fa-book'
+        header: 'Best Practices'
+        text: 'Browse our best practice manuals and learn how to use Mautic like the professionals'
+        url: /best-practice
+        target: false
+    -
         icon: 'fa fa-question-circle'
         header: FAQs
         text: 'Find answers to the most frequently asked questions'
         url: /faqs
-        target: false
-    -
-        icon: 'fa fa-book'
-        header: 'Manuals'
-        text: 'Browse our best practice manuals and learn how to use Mautic like the professionals'
-        url: /best-practice
         target: false
     -
         icon: 'fa fa-code'
