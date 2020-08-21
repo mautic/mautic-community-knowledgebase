@@ -1,7 +1,7 @@
 ---
 title: Development
 media_order: laptop-work-1148958_1920.jpg
-published: true
+published: false
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
