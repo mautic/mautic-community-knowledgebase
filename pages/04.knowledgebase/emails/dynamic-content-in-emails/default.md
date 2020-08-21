@@ -1,6 +1,6 @@
 ---
 title: 'Dynamic content in emails'
-media_order: 'My Post.jpg,image1.png,image2.png,image3.png'
+media_order: 'My Post (1).jpg,image1.png,image2.png,image3.png'
 published: true
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
