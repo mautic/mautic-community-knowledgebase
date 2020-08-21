@@ -3,11 +3,12 @@ title: 'How to set up a development environment to test new Mautic releases'
 media_order: vincent-van-zalinge-4Mu2bXIsn5Y-unsplash.jpg
 taxonomy:
     category:
-        - category
+        - 'Best Practices'
     tag:
-        - devops
+        - dev
+        - Pro
         - testing
-        - clone
+        - Article
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
