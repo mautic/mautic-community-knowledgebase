@@ -2,6 +2,14 @@
 title: 'Dynamic content in emails'
 media_order: 'My Post (1).jpg,image1.png,image2.png,image3.png'
 published: true
+taxonomy:
+    category:
+        - Emails
+    tag:
+        - Emails
+        - Intermediate
+        - 'Tipps & Tricks'
+        - Article
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: false
@@ -29,7 +37,7 @@ Then go and open up the email builder. On the slot type menu locate “Dynamic C
 
 You can now add Dynamic Content to your email. In the next step, you need to specify the default content which should be shown and the variants of that default content. 
 
-<img src="https://kb.mautic.org/user/pages/04.tutorials/emails/dynamic-content-in-emails/image3.png" width="450" style="display: block;margin-left: auto;margin-right: auto;"/>
+![](image3.png)
 
 ### 1.  Adding default content
 
@@ -39,7 +47,7 @@ Imagine you are writing an email to photographers and illustrators. The photogra
  
 ### 2. Setting up variants
 
-<img src="https://kb.mautic.org/user/pages/04.tutorials/emails/dynamic-content-in-emails/image1.png" width="450" style="display: block;margin-left: auto;margin-right: auto;"/>
+![](image1.png)
 
 <p>&nbsp;</p>
 If you click on “Add Variant “ you can add different variations of your default content. To determine when which variation of the email should be sent to your contact, you add filters for each and every variant. You can have an infinite number of variants of the default content. For example, you could send out different variations of the mail for every country, giving the contact a more personalized experience. 
