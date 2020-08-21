@@ -1,6 +1,6 @@
 ---
 title: 'Dynamic content in emails'
-media_order: 'My Post (1).jpg,image2.png,image3.png,image1.png'
+media_order: 'My Post (1).jpg,image2.png,image1.png'
 published: true
 taxonomy:
     category:
