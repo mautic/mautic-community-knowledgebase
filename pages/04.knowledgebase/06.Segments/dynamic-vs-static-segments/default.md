@@ -1,5 +1,6 @@
 ---
 title: 'Dynamic vs. Static Segments'
+media_order: 'My Post (2).jpg'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: false
