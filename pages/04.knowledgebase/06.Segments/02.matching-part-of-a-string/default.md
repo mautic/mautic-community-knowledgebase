@@ -1,6 +1,13 @@
 ---
 title: 'Matching part of a string'
 media_order: 'My Post (3).jpg'
+taxonomy:
+    category:
+        - Segments
+    tag:
+        - Segments
+        - Article
+        - Pro
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: false
