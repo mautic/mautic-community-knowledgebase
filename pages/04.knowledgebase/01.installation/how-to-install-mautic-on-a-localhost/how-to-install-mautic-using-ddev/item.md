@@ -36,14 +36,14 @@ Before we can get started you will need to install Docker and Docker Compose. Yo
 Once those are installed we can continue with installing DDEV. You can find installation instructions for Linux, MacOS and Windows [here][install-ddev].
 
 ## Installing Mautic
-Clone the Mautic repository into a folder of your choice. Once that is done make sure to install the Composer dependencies with composer install.
+Clone the Mautic repository into a folder of your choice.
 
 ## Starting DDEV and configuring Mautic
 Use the command line and navigate to the root of your Mautic installation. Once there, run 
 
 `ddev config`
 
-It will ask you for a project name - you can leave it at the default, or give it a custom name. This is really up to you. For the purposes of this example, we will name this project mautic.
+It will ask you for a project name - you can leave it at the default, or give it a custom name. This is really up to you. For the purposes of this guide, we will name this project mautic.
 
 Next it will ask for the docroot of the project.
 
@@ -151,6 +151,15 @@ If you wish to directly execute a command in the container without first using S
 
 Thus, from your local machine, you can type `ddev exec bin/console cache:clear --env=dev` or `ddev exec bin/console mautic:campaigns:update` to get the same results as if you first connected to the container with SSH and then ran them directly.
 
+### Using DDEV with HTTPS
+You can run your local Mautic installation over HTTPS by generating a locally-trusted development certificate for your local machine and then pushing it to ddev-global-cache. This is done by the mkcert package.
+
+First install mkcert - it is available for Linux, MacOS and Windows as described [on the GitHub page][mkcert].
+
+After installing mkcert, simply run `mkcert -install` to create and save a certificate for your local machine. If your browser is open, you may need to restart it for the changes to take effect.
+
+That's it! Next time you start your DDEV with `ddev start`, the certificate should automatically get pushed to ddev-global-cache, and you should be able to access your local Mautic installation by visiting https://mautic.ddev.site
+
 ### Using Xdebug
 You can use 
 
@@ -182,3 +191,4 @@ This will give you a lot of information about your containers, including the URL
 [tz-values]: (https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 [composer]: (https://getcomposer.org)
 [cli-commands]: (https://docs.mautic.org/en/troubleshooting/command-line-tools-cli)
+[mkcert]: (https://github.com/FiloSottile/mkcert)
