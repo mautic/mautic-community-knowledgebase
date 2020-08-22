@@ -71,9 +71,9 @@ If this is your first DDEV instance this can take a bit of time to initialise, a
 
 **If you cloned Mautic from GitHub, there is one final step:** You need to connect to the running DDEV container and then have [Composer][composer] install all of the Mautic dependencies. This is done by first running `ddev ssh` to connect to the container, and then from the project root (which DDEV by default connects you to), run `composer install` to install all dependencies.
 
-Once started you will find your project at mautic.ddev.site (in case you used a different project name it will be yourprojectname.ddev.site).
+Once started you will find your project at mautic.ddev.site (in case you used a different project name it will be yourprojectname.ddev.site). If you want to enable HTTPS, you can do so by following the steps in [Using DDEV with HTTPS](#using-ddev-with-https) below.
 
-Navigating there in the browser should bring up the Mautic installation. Make sure that during the installation you use the following settings:
+Navigating to mautic.ddev.site in your browser should bring up the Mautic installation steps. Make sure that during the installation you use the following settings:
 ```
 Database port: 3306
 Database host: db
