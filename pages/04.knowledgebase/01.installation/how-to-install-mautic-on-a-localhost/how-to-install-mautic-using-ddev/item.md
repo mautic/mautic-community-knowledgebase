@@ -187,7 +187,7 @@ This will give you a lot of information about your containers, including the URL
 
 [ddev]: <https://github.com/drud/ddev>
 [install-docker]: <https://ddev.readthedocs.io/en/stable/users/docker_installation/>
-[install-ddev]: (https://ddev.readthedocs.io/en/stable/#installation)
+[install-ddev]: <https://ddev.readthedocs.io/en/stable/#installation>
 [tz-values]: (https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
 [composer]: (https://getcomposer.org)
 [cli-commands]: (https://docs.mautic.org/en/troubleshooting/command-line-tools-cli)
