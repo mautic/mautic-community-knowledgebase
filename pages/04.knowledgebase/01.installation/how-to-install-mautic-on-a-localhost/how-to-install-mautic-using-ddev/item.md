@@ -185,7 +185,7 @@ A DDEV instance comes with PHPMyAdmin by default. To find out the location of th
 
 This will give you a lot of information about your containers, including the URL to the PHPMyAdmin instance.
 
-[ddev]: (https://github.com/drud/ddev)
+[ddev]: <https://github.com/drud/ddev>
 [install-docker]: (https://ddev.readthedocs.io/en/stable/users/docker_installation/)
 [install-ddev]: (https://ddev.readthedocs.io/en/stable/#installation)
 [tz-values]: (https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
