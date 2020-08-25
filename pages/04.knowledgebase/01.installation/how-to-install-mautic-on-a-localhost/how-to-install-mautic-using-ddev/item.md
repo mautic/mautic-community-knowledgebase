@@ -59,7 +59,7 @@ Secondly, we add a required PHP module by finding the line beginning with `webim
 
 Finally, we set the timezone to be whatever timezone we are in. Find the line that starts with `timezone`, uncomment it and set its value to the tzdata format *`"Region/City"`* corresponding to whatever timezone you are in. Wikipedia hosts a [list of valid tz values][tz-values].
 
-> Note: if you have Apache2 or nginx running locally on your machine, and they are currently using port 80, ensure that you shut them down or change their ports before starting the DDEV instance. If you do not follow this step, starting DDEV will fail with an error message telling you that port 80 is already in use.
+>>>>> Note: if you have Apache2 or nginx running locally on your machine, and they are currently using port 80, ensure that you shut them down or change their ports before starting the DDEV instance. If you do not follow this step, starting DDEV will fail with an error message telling you that port 80 is already in use.
 
 You can start DDEV by running 
 
