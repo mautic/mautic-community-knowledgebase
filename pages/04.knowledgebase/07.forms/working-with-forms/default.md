@@ -1,9 +1,14 @@
 ---
 title: 'Working with Forms'
+media_order: 'image1.png,image2.png,image4.png,image3.png,image5.png,image6.png'
 anchors:
     active: false
 tagtitle: h2
 visible: true
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 hero_classes: ''
 hero_image: ''
 hero_overlay: '1'
@@ -19,50 +24,8 @@ content:
 feed:
     limit: '10'
     description: ''
-twitterenable: true
-twittercardoptions: summary
-articleenabled: false
-facebookenable: true
 ---
 
-KB article: Working with forms
-
-Writers Brief:
-
-An article (or several related articles) which explains best practices of working with Mautic forms.
-
-This could be a few articles linked together - for example progressive profiling might be an article in its own right.
-
-Things to include:
-How to use them on landing pages and embedded within your site/focus items.
-Explore both types of forms
-Link out where relevant to other resources (e.g. using a form to start a campaign)
-How to customise the look and feel of your forms
-
-Resources:
-https://mautic.com/help/forms/ 
-https://medium.com/@jan_linhart/the-simplest-way-how-to-submit-a-form-data-to-mautic-1454d3afd005
-https://cactusautomation.com/blog/using-mautic-forms-to-manage-email-subscribers-and-pack-the-top-of-your-sales-funnel/
-May need to mention: https://www.drupal.org/project/webform_mautic 
-https://www.youtube.com/watch?v=05SLcDJ7WVY
-https://www.youtube.com/watch?v=I308Gy1Ua58 
-https://www.youtube.com/watch?v=xA3CE6_Pihg
-
-Mautic docs resources:
-
-Forms: https://docs.mautic.org/en/components/forms 
-Managing forms: https://docs.mautic.org/en/components/forms/managing-forms 
-Progressive profiling: https://docs.mautic.org/en/components/forms/progressive-profiling 
-
-Editor’s Note:
-
-Great work on this - it’s very detailed and covers all the common aspects and questions.  I think it might perhaps make a few articles which we can split out and link from one central article.
-
-Please take a look at the suggestions and feel free to add any comments you would like, or ask for clarification if anything is unclear!
-
-Please write your article/s below, including a list of all links underneath the article.
-
-Please use the markdown syntax that can be found in the Documentation Contributors Guide here: https://docs.mautic.org/en/home/contributing#style-guide as this makes it much easier for us to import the article into Grav! If you need a very simple cheat-sheet for Markdown: https://learn.getgrav.org/16/content/markdown
 # Working with forms
 
 Forms are one of Mautic's most important features, as they are used to collect user information and to identify them throughout the use of a cookie that is set on form submit.
@@ -88,6 +51,7 @@ It is good practice to use progressive profiling (https://docs.mautic.org/en/com
 
 Mautic has two different kinds of forms: Campaign forms and Standalone forms.
 
+![](image2.png)
 
 They are very similar and which one you should use depends on whether you need to associate it to a Mautic Campaign(link) or not. 
 
@@ -103,9 +67,11 @@ Once you decide the type of form you want to create, navigate to forms (which ca
 
 Let’s add a screenshot here.
 
+![](image3.png)
+
 The following dialog will be displayed:
 
-
+![](image4.png)
 
 As you can see there are three tabs you have to configure in order to get your form up and running. Let’s get into Details first.
 ### Form Details
@@ -115,7 +81,7 @@ The same applies to the Description field. Use it to describe in detail where th
 
 “it’ is a good practice to set up some kind of internal taxonomy to identify each form, especially if you think you are going to create a large number of them or if different people are going to work collaboratively on the same Mautic instance”
 
-
+![](image4.png)
 
 Once you identified your form you are asked to define what it will do after a “Successful Submit Action” meaning what will happen after the lead clicks on the submit button.
 
@@ -127,7 +93,7 @@ Display message: Shows the message you write into the field. This gives positive
 ### Form Fields
 The fields section is where you have to define what data will be collected by the form, which we begin by specifying the type of field. 
 
-
+![](image6.png)
 
 “It is important to note that you may associate the form fields to database fields (given that its dataset is compatible). Moreover, it is possible to associate data from forms with contact, customer  or with custom fields”
 
@@ -223,11 +189,10 @@ As we have seen above, we can save form data into the contact/company fields, bu
 
 To access the results table, you have to click on the results tab in the form list view.
 
-
-
+![](image5.png)
 
 In this view you’ll find some useful pieces of information that aren’t available in any other part of Mautic. 
 
-
+![](image1.png)
 
 You’ll find among all the form field data the timestamp and IP address where the form submission originated from. Also, you may export this data in CSV, Excel or HTML formats for the purpose of analysis or backup. 
