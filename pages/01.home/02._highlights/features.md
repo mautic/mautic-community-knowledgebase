@@ -8,7 +8,7 @@ class: standard
 features:    
     -
         icon: 'fa fa-graduation-cap'
-        header: Knowledgebase
+        header: Knowledgebaseeeee
         text: 'Explore different tutorials, helpful ressources and more'
         url: /knowledgebase
         target: false
