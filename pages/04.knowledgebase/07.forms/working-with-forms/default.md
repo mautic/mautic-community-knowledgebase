@@ -120,58 +120,58 @@ The following is the complete list of all the available field types when creatin
 
 And these are the auxiliary fields
 
-
-Page break - allows you to split forms into sections (eg. personal information, address and so forth) using pagination
-Description area and HTML area: used to add information or instructions to the form to help the lead understand the form
+* Page break - allows you to split forms into sections (eg. personal information, address and so forth) using pagination
+* Description area and HTML area: used to add information or instructions to the form to help the lead understand the form
 
 Once you have selected a form field you need to configure it using the edit dialogue that has five tabs:
 
-General. 
+**General**
 Here you have to assign a label to the field which is the only mandatory field. Then you may decide if you want to show the label, or if you prefer there is an option to have an input placeholder for the field. You can also configure the default value of the field (if any), and a help message which would appear below the label. Finally, you have to decide if you want to save the value of the field into the database or not. 
 
 In case you choose yes then the value will be saved into the form result table only.  If you choose no, the value will not be saved. In the next step, we will see how you can associate the field with existing fields in Mautic - for example filling a contact’s address information on their lead profile from the form submission
 
-Contact field
+**Contact field**
 In this tab you can choose the database field where you want to save the value. This could be a contact field or a company field, but you must have created the field before you can select it in your form. You may choose from the default fields or create new custom fields.
 
 “The email field, as it is the database key field, will always be associated by default with the email field in the database.“
 
-Validation
+**Validation**
 This tab value indicates if you want the field to be mandatory or not, and allows you to determine any validation that might need to be carried out to ensure that the information submitted on the form is in the format you expect to receive. You can provide a validation message which explains what the problem is if the validation fails. Mandatory fields will be represented by a red asterisk by default in the front end unless your styling overrides this.
 
-Attributes
+**Attributes**
 In this section you can provide attributes for the field, which can be used to style the field when it is displayed in the front-end. In case you are using a form template you may declare individual field attributes using Id, classes or inline CSS style in order to modify the look & feel of each field separately.
 
 Attributes that you can define include: 
-Field HTML name
-Label attributes
-Input attributes
-Field container attributes
+* Field HTML name
+* Label attributes
+* Input attributes
+* Field container attributes
 
-Behaviour
+**Behaviour**
 In this section you can determine what should happen to the field if the data is already existing for a known lead, and whether to show the field after a specified number of submissions. 
 
 The options Show when value and Auto fill data exists refers to Mautic’s ability to hide a certain field or to show it pre filled if the value is already known. 
+
 ## Form actions
 Actions are events that are triggered immediately after the form is submitted. These actions do not need to wait for the cronjob to be executed, thus sometimes are preferred to campaign actions - especially when the timing is important. 
 
 There are actions available which modify  contact or company values:
-Adjust company score
-Adjust contact points
-Modify contact segments
-Modify contact tags
-Record UTM Tags
-Remove contact from do not contact list
+* Adjust company score
+* Adjust contact points
+* Modify contact segments
+* Modify contact tags
+* Record UTM Tags
+* Remove contact from do not contact list
 
 While most of these actions are quite self explanatory, we should draw attention to the final action.  This is an important action because we are effectively removing an existing directive to not contact the lead through this channel.  
 
 On the other hand, there are actions that trigger other actions:
-Download an asset
-Post results to another form
-Push contact to integration
-Send email to contact
-Send email to user
-Send form results
+* Download an asset
+* Post results to another form
+* Push contact to integration
+* Send email to contact
+* Send email to user
+* Send form results
 
 Most of them are quite understandable. 
 
