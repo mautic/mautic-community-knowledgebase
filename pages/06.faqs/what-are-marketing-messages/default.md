@@ -1,6 +1,13 @@
 ---
 title: 'What are Marketing Messages?'
 media_order: image1.png
+taxonomy:
+    category:
+        - FAQ
+    tag:
+        - FAQ
+        - Intermediate
+        - 'Marketing Messages'
 anchors:
     active: false
 tagtitle: h2
