@@ -1,6 +1,7 @@
 ---
 title: 'Working with Forms'
 media_order: 'image1.png,image2.png,image4.png,image3.png,image5.png,image6.png'
+body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: false
 tagtitle: h2
