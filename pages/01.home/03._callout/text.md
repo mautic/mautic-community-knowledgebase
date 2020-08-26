@@ -14,8 +14,8 @@ All of the resources you find in this Knowledgebase were written by people like 
 People who use Mautic, who want to help others to use it more effectively, and who 
 give their time to make that happen.
 
-If you are interested in helping out and writing an article, we will give full c
-redit to the author and offer you to link your own agency etc. at the bottom of the article!
+If you are interested in helping out and writing an article, we will give full credit
+to the author and offer you to link your own agency etc. at the bottom of the article!
 
 [Learn more about contributing to the Mautic Community][contribute-to-mautic]
 
