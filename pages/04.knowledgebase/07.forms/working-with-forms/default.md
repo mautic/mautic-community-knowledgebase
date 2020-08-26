@@ -101,22 +101,22 @@ There are different types of fields: fields to collect data and fields used to i
 
 The following is the complete list of all the available field types when creating a form in Mautic.
 
-Checkbox group 
-Date
-Date/Time
-Email
-File
-Hidden
-List - Country
-Number
-Password
-Phone
-Radio group
-Select
-Social login
-Text
-Textarea
-URL
+* Checkbox group 
+* Date
+* Date/Time
+* Email
+* File
+* Hidden
+* List - Country
+* Number
+* Password
+* Phone
+* Radio group
+* Select
+* Social login
+* Text
+* Textarea
+* URL
 
 And these are the auxiliary fields
 
