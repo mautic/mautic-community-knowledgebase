@@ -7,29 +7,31 @@ anchors:
 tagtitle: h2
 menu: FAQs
 visible: true
-hero_overlay: true
-hero_showsearch: true
-show_searchsidebar: false
-show_breadcrumbs: true
-show_pagination: true
+hero_classes: ''
+hero_image: ''
+hero_overlay: '1'
+hero_showsearch: '1'
+show_searchsidebar: '0'
+show_breadcrumbs: '1'
+show_pagination: '1'
 content:
-    items:
-        - '@self.children'
-    limit: 12
+    items: '- ''@self.children'''
+    limit: '12'
     order:
         by: date
         dir: desc
-    pagination: true
-    url_taxonomy_filters: true
+    pagination: '1'
+    url_taxonomy_filters: '1'
 feed:
-    limit: 10
+    limit: '10'
+    description: ''
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
 facebookenable: true
 ---
 
-#  Mautic API
+##  Mautic API
 
 Mautic has a great API to interact with other systems. The REST API serves as a powerful gateway to the Mautic system. It supports an ample amount of calls allowing users to programmatically create, read, delete, and modify different components within Mautic.
 The Mautic API requires OAuth (1a or 2) authentication. The API can be used to:
@@ -40,7 +42,7 @@ The Mautic API requires OAuth (1a or 2) authentication. The API can be used to:
 
 This guide allows you to quickly communicate with the Mautic API. For full API documentation, please refer to [https://developer.mautic.org/#rest-api.](https://developer.mautic.org/#rest-api)
 
-# How to Use the Mautic Rest API  
+##  How to Use the Mautic Rest API  
 
 Here are the basic steps to getting started with the Mautic API.
 
