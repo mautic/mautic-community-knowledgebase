@@ -7,6 +7,10 @@ anchors:
 tagtitle: h2
 menu: FAQs
 visible: true
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 hero_classes: ''
 hero_image: ''
 hero_overlay: '1'
@@ -25,10 +29,6 @@ content:
 feed:
     limit: '10'
     description: ''
-twitterenable: true
-twittercardoptions: summary
-articleenabled: false
-facebookenable: true
 ---
 
 ##  Mautic API
@@ -74,14 +74,14 @@ Note: You can test authorization and API requests in build-in API Tester. You ca
 
 4. Endpoints
 
-The base format for the http request URL is: [https://your-mautic.com/api/[[request-extension]]]().
+The base format for the http request URL is: [https://your-mautic.com/api/[[request-extension]]]([https://your-mautic.com/api/[[request-extension]]).
 
 Mautic generally supports GET, POST, DELETE, PATCH, and PUT requests which can be examined in more detail in the API documentation. Successful responses are returned in JSON format.
 
 5. Making API Calls
 Now that we have authentication and the API request URL, let’s talk to the Mautic API!.
 
-This query returns the profile data of an individual Mautic contact: GET https://your-mautic.com/api/contacts/[[contact-id]]
+This query returns the profile data of an individual Mautic contact: GET[ https://your-mautic.com/api/contacts/[[contact-id]]](https://your-mautic.com/api/contacts/[[contact-id]])
 Choose your preferred environment below and use the code snippets as guides for sending your first Mautic query. Change the [[contact-id]] to the ID of the Mautic contact you want to view also update your [[username]] and [[password]]
 
 
