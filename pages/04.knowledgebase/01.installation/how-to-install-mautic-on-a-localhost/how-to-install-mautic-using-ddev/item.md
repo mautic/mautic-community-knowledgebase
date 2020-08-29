@@ -191,4 +191,4 @@ This will give you a lot of information about your containers, including the URL
 [tz-values]: <https://en.wikipedia.org/wiki/List_of_tz_database_time_zones>
 [composer]: <https://getcomposer.org>
 [cli-commands]: <https://docs.mautic.org/en/troubleshooting/command-line-tools-cli>
-[mkcert]: (https://github.com/FiloSottile/mkcert)
+[mkcert]: <https://github.com/FiloSottile/mkcert>
