@@ -1,11 +1,17 @@
 ---
 title: 'What is Mautic''s API?'
 media_order: 'bg_hero_klb4.jpg,Screenshot 2020-08-01 at 1.06.20 AM.png,basic.png,Screenshot 2020-08-01 at 1.32.29 AM.png,Screenshot 2020-08-01 at 1.34.38 AM.png'
+taxonomy:
+    category:
+        - FAQ
+    tag:
+        - FAQ
+        - 'Mautic API'
+        - Intermediate
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
-menu: FAQs
 visible: true
 twitterenable: true
 twittercardoptions: summary
