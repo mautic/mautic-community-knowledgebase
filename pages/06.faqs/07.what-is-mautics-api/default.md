@@ -66,9 +66,9 @@ To enable the API in Mautic, follow these steps:
 
 3. Authorization
 Mautic supports OAuth 1.0a and OAuth 2 however it is up to the administrator to decide which is enabled. Thus it is best to have a configuration option within your project for the administrator to choose what method should be used by your code. For full documentation on authorization, please refer to[https://developer.mautic.org/#rest-api.](https://developer.mautic.org/#rest-api).
-If you don't want to hard-code authorization details then you can create a form with the following text inputs: Mautic Base URL, Consumer Key and Consumer Secret with Save & Authorize button. This form should not be accessible to the public.
 
-Note: You can test authorization and API requests in build-in API Tester. You can find it in the /apitester directory of the Mautic API Library.
+If you don't want to hard-code authorization details then you can create a form with the following text inputs: Mautic Base URL, Consumer Key and Consumer Secret with Save & Authorize button. This form should not be accessible to the public.
+**Note**:You can test authorization and API requests in build-in API Tester. You can find it in the /apitester directory of the Mautic API Library.
 
 4. Endpoints
 The base format for the http request URL is: [https://your-mautic.com/api/[[request-extension]]]([https://your-mautic.com/api/[[request-extension]]).
@@ -79,4 +79,30 @@ Now that we have authentication and the API request URL, let’s talk to the Mau
 This query returns the profile data of an individual Mautic contact: GET[ https://your-mautic.com/api/contacts/[[contact-id]]](https://your-mautic.com/api/contacts/[[contact-id]]). Choose your preferred environment below and use the code snippets as guides for sending your first Mautic query. Change the [[contact-id]] to the ID of the Mautic contact you want to view also update your [[username]] and [[password]]
 
 
+<slide>
+  <hgroup>
+    <h1>Title</h1>
+  </hgroup>
+  <article class="none">
+    <p>Content</p>
+    <aside class="note">
+      Note
+    </aside>
+  </article>
+</slide>
+
+<slide>
+  <hgroup>
+    <p>Next content</p>
+  </hgroup>
+</slide>
+
+<slide>
+  <hgroup>
+    <h2>String of small content</h2>
+  </hgroup>
+  <article class="smaller">
+    <p>Content</p>
+  </article>
+</slide>
 
