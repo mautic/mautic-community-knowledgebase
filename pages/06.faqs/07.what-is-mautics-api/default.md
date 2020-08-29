@@ -55,9 +55,9 @@ Here are the basic steps to getting started with the Mautic API.
 2. Mautic Setup
 To enable the API in Mautic, follow these steps:
 * Go to the Configuration page (located in the Settings menu), and under API Settings enable Mautic's API. 
-![](Screenshot%202020-08-01%20at%201.06.20%20AM.png)![](Screenshot%202020-08-01%20at%201.06.20%20AM.png)
+![](Screenshot%202020-08-01%20at%201.06.20%20AM.png)
 * If you intend on using Basic Authentication, ensure you enable it. You can also choose which OAuth protocol to use here.
-*![](basic.png)
+![](basic.png)
 * After saving the configuration, go to the API Credentials page (located in the Settings menu).
 ![](Screenshot%202020-08-01%20at%201.32.29%20AM.png)
 * Create a new client. Enter the callback/redirect URI that the request will be sent from.
@@ -79,106 +79,77 @@ Now that we have authentication and the API request URL, let’s talk to the Mau
 This query returns the profile data of an individual Mautic contact: GET[ https://your-mautic.com/api/contacts/[[contact-id]]](https://your-mautic.com/api/contacts/[[contact-id]]). Choose your preferred environment below and use the code snippets as guides for sending your first Mautic query. Change the [[contact-id]] to the ID of the Mautic contact you want to view also update your [[username]] and [[password]]
 
 
-|  | |
-| ------ | ----------- |
-| Curl   | curl -X GET [https://your-mautic.com/api/contacts/[[contact-id]]](https://your-mautic.com/api/contacts/[[contact-id]]) -u [[username]]:[[password]] |
-| PHP | <?php
 
+
+Curl
+```
+curl -X GET https://your-mautic.com/api/contacts/[[contact-id]] -u [[username]]:[[password]
+
+```
+
+PHP
+```
+<?php
 use Mautic\MauticApi;
-
 use Mautic\Auth\ApiAuth;
 
-
 // ...
-
 $initAuth   = new ApiAuth();
-
 $auth       = $initAuth->newAuth($settings);
-
 $apiUrl     = "https://your-mautic.com";
-
 $api        = new MauticApi();
-
 $contactApi = $api->newApi("contacts", $auth, $apiUrl);
+$contact = $contactApi->get($[[contact-id]]);
+```
 
-$contact = $contactApi->get($[[contact-id]]); |
-| Python   | extension to be used for dest files. |
-| PHP | import requests
-
+Python
+```
+import requests
  
-
 url = 'https://[[your-mautic.com]]/api/contacts/[[contact-id]]'
-
 payload = ""
-
 headers = {'Accept': "application/json"}
-
  
-
 r = requests.request("GET", url, data=payload, auth=('[[username]]','[[password]'))
-
  
-
 print(r.text)
+```
 
- |
-| Node.js |var request = require('request');
-
+Node.js
+```
+var request = require('request');
 var username = "[[username]]";
-
 var password = "[[password]]";
-
 var auth = "Basic " + new Buffer.from(username + ":" + password).toString("base64");
 
-
 var options = {
-
 url: 'https://[[your-mautic.com]]/api/contacts/[[contact-id]]',
-
 headers: {
-
 "Authorization": auth
-
 }
-
 };
-
 request(options, function (error, response, body) {
-
 if (error) throw new Error(error);
-
 console.log(body);
+});
+```
 
-}); |
-| Ruby | require 'uri'
-
+Ruby
+```
+require 'uri'
 require 'net/http'
-
 require 'openssl'
-
 uri = URI.parse("https://[[your-mautic.com]/api/contacts/[[contact-id]]")
 
-
 request = Net::HTTP::Get.new(uri)
-
 request.basic_auth '[[username]]','[[password]]'
-
 request.content_type = "application/json"
-
 req_options = {
-
 use_ssl: uri.scheme == "https",
-
 }
-
 response = Net::HTTP.start(uri.hostname, uri.port, req_options) do |http|
-
 http.request(request)
-
 end
-
 puts response.body
+```
 
- |
-| PHP | |
-| PHP | |
