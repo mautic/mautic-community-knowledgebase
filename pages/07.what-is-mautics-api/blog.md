@@ -47,8 +47,8 @@ Here are the basic steps to getting started with the Mautic API.
 1.  Install the Mautic API 
 * **With Composer**: API library is at Packagist. composer require mautic/api-library command will install the library to your project for you. Composer will also automatically include the library to your project.
 * **Install by git clone**: Go to your project folder where you want to place the Mautic API library.  For example:
-* cd /var/www/html/myproject.  Run git clone to this folder: git clone https://github.com/mautic/api-library.git
-* **Copy from ZIP package**: Download the library from https://github.com/mautic/api-library/archive/master.zip. Extract the package to some temporary location. Copy the /lib folder to your project.
+ cd /var/www/html/myproject.  Run git clone to this folder: git clone [https://github.com/mautic/api-library.git](https://github.com/mautic/api-library.git)
+* **Copy from ZIP package**: Download the library from [https://github.com/mautic/api-library/archive/master.zip](https://github.com/mautic/api-library/archive/master.zip). Extract the package to some temporary location. Copy the /lib folder to your project.
 
 2. Mautic Setup
 To enable the API in Mautic, follow these steps:
