@@ -1,6 +1,6 @@
 ---
 title: 'What is Mautic''s API?'
-media_order: bg_hero_klb4.jpg
+media_order: 'bg_hero_klb4.jpg,Screenshot 2020-08-01 at 1.06.20 AM.png'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -53,10 +53,12 @@ Here are the basic steps to getting started with the Mautic API.
 2. Mautic Setup
 To enable the API in Mautic, follow these steps:
 * Go to the Configuration page (located in the Settings menu), and under API Settings enable Mautic's API. 
+![](Screenshot%202020-08-01%20at%201.06.20%20AM.png)![](Screenshot%202020-08-01%20at%201.06.20%20AM.png)
 * If you intend on using Basic Authentication, ensure you enable it. You can also choose which OAuth protocol to use here.
+*![](basic.png)
 * After saving the configuration, go to the API Credentials page (located in the Settings menu).
+
 * Create a new client. Enter the callback/redirect URI that the request will be sent from. 
 * Click Apply then copy the Client ID and Client Secret to the application that will be using the API.
-
 
 
