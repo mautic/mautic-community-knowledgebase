@@ -1,6 +1,14 @@
 ---
 title: 'SES send rate'
 media_order: 'queue_settings.png,segments_timer.png,batch_cron.png'
+taxonomy:
+    category:
+        - Emails
+    tag:
+        - SES
+        - Emails
+        - Intermediate
+        - Article
 anchors:
     active: false
 tagtitle: h2
