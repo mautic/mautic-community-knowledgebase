@@ -6,8 +6,8 @@ taxonomy:
         - FAQ
     tag:
         - FAQ
-        - 'Mautic API'
         - Intermediate
+        - 'Mautic API'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
