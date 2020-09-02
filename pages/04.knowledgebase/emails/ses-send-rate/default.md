@@ -17,7 +17,8 @@ If you send too fast, your campaign will fall into a cliff. That means you start
 
 I address this the following way:
 
-**1. Queue is your friend**
+###1. Queue is your friend
+
 As I’m sending thousands of emails, I’m using the queue. You need to turn it on in the Mautic settings.
 Configuration > Email Settings > Queue processing
 
