@@ -32,7 +32,7 @@ If you don’t set the queue processing, than your emails will be sent out right
 
 If you have queue processing allowed, the progress bar will represent the emails pushed into your queue. If you were an internet user already in the 1990s, and you enjoy staring at progress bars, do it by all means, but you can also time your broadcast in the future and let the cronjob take care of it.
 
-**2. Set up the proper cronjobs**
+###2. Set up the proper cronjobs
 
 *Let the cron handle the progress bar: **bin/console mautic:broadcasts:send**
 This cronjob will place the emails into the queue. (You can find these files in app/spool/defualt) If you send 500 emails at once, you won’t need to limit this process. But if you send 50.000, you will need to add some 			settings. (More later.)
@@ -42,7 +42,7 @@ This cron will check the queue folder and push the emails to Amazon SES. You don
 
 *There is a third aspect as well. You don’t want to create a jam in your system. What I mean is, you want to make sure, that filling up the queue and sending out the emails is happening in a controlled way, without one script blocking the other one. You have other cronjobs running too: segments, campaign triggers, etc, you have to let them run as well.
 
-**3. Time your scripts**
+###3. Time your scripts
 
 First you need to see how often you run your cronjobs. Let’s say you run 5 different cronjobs every minute. If you want things to happen smooth, you need to make sure, that each cronjob is finishing before the 60 seconds are up.
 
@@ -53,7 +53,7 @@ Figure out how many you are queueing up within 50 seconds. Write it down.
 If your limit is 14/sec, you don’t want to send faster than 850/min. So our limit will be around 800 / min. Just to make sure you reaching this amount make a test, and see how fast you send out 800 emails. Go back to your queue, count the files (find . -type f | wc -l) and send out 800 emails: app/console mautic:emails:send --message-limit=800
 Did it finish under 1 minute? If yes, than you’ll need to limit this. If not, than we have some work to do.
 
-**4. Optimize**
+###4. Optimize
 
 You want to push into the queue just a bit faster than you are sending out to reach optimal delivery speed. If you can build the queue and send with 800/min, than do the settings accordingly:
 
@@ -68,7 +68,7 @@ So in this particular example you’ll have 5 cronjobs running. The first 3 (Seg
 
 As you can see, you are not being efficient here, you are doing almost nothing for 3 minutes, and sweating your below part off for 2 minutes. Can this be more efficient? Glad you asked.
 
-**5. Run your cronjobs sequentially**
+###5. Run your cronjobs sequentially
 
 You can chain up your cronjobs into one bash file. This way once a command is finished, the next one runs.
 
