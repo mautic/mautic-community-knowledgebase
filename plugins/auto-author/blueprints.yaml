@@ -1,0 +1,39 @@
+name: Auto Author
+version: 0.1.0
+description: Automatically adds an author to frontmatter when creating a new page via Grav Admin plugin
+icon: user-circle
+author:
+  name: Sven Sanzenbacher
+homepage: https://github.com/naucon/grav-plugin-auto-author
+keywords: grav, plugin, auto-author, author, autor, frontmatter
+bugs: https://github.com/naucon/grav-plugin-auto-author/issues
+docs: https://github.com/naucon/grav-plugin-auto-author/blob/develop/README.md
+license: MIT
+
+dependencies:
+    - { name: admin, version: '>=1.2.3' }
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+    user:
+      type: toggle
+      label: Current user
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+      help: use current admin user (fullname) or site author
