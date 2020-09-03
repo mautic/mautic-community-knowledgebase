@@ -26,3 +26,15 @@ We have collection of articles that would be very usefull in this knowledgebase 
 ###### [Our Jira-Board](https://mautic.atlassian.net/jira/software/c/projects/TEDU/issues/?filter=allissues)
 
 ### 2. GitHub
+The knowledgebase uses Git for a couple of reasons: 
+* versions - anyone can go back and look at what the text looked like.
+* authorship - not only every file but every line has its author.
+* community contributions - no need to worry about deleting someone else's work while working on the same document
+
+To Contribute using Github:
+1. Fork [this ](https://github.com/mautic/mautic-community-knowledgebase) repository at GitHub
+2. Select a file to edit on your fork
+3. Make your commits
+4. Open a **pull request** to base fork: mautic/documentation with base: master
+5. Include and reference any Issues your Pull Request addresses
+
