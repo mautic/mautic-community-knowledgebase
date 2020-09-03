@@ -31,6 +31,7 @@ The knowledgebase uses Git for a couple of reasons:
 * authorship - not only every file but every line has its author.
 * community contributions - no need to worry about deleting someone else's work while working on the same document
 
+
 To Contribute using Github:
 1. Fork [this ](https://github.com/mautic/mautic-community-knowledgebase) repository at GitHub
 2. Select a file to edit on your fork
