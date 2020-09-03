@@ -28,7 +28,7 @@ We have collection of articles that would be very usefull in this knowledgebase 
 ###### [Our Jira-Board](https://mautic.atlassian.net/jira/software/c/projects/TEDU/issues/?filter=allissues)
 
 ### 2. GitHub
-The knowledgebase uses Git for a couple of reasons: 
+If you find mistakes in an article or something which is just outdated, you can propose changes by yourself. To handle editing, we are using our GitHub repository. The knowledgebase uses Git for a couple of reasons: 
 * versions - anyone can go back and look at what the text looked like.
 * authorship - not only every file but every line has its author.
 * community contributions - no need to worry about deleting someone else's work while working on the same document
@@ -42,6 +42,8 @@ To Contribute using Github:
 5. Include and reference any Issues your Pull Request addresses
 
 Need a visual explanation? Here is a video on how to contribute!
+
+3. Write one yourself
 
 ### Need help? - Write a message:
 
