@@ -41,6 +41,6 @@ To Contribute using Github:
 
 ### Need help? - Write a message:
 
-Team Education Slack Channel: https://mautic.slack.com/archives/CQGQ0D4KU
+Team Education Slack Channel: [Click here](https://mautic.slack.com/archives/CQGQ0D4KU)
 
 Email: leon.oltmanns@mautic.org
