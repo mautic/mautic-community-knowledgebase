@@ -18,6 +18,8 @@ content:
 
 The articles in this Mautic knowledgebase were written by people from the community. Thanks to their contribution, the knowledgebase grows prosperous. If you want to participate in the knowledgebase, you came to the right place! There are different ways to contribute, we listed them so you can choose which one is best for you!
 
+To give you the recognition you deserve for writing an article, we will give full credit to the author aswell as a backlink to your website at the end of each article! :)
+
 
 
 ### 1. Jira board
@@ -38,6 +40,8 @@ To Contribute using Github:
 3. Make your commits
 4. Open a **pull request** to base fork: mautic/documentation with base: master
 5. Include and reference any Issues your Pull Request addresses
+
+Need a visual explanation? Here is a video on how to contribute!
 
 ### Need help? - Write a message:
 
