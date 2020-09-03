@@ -39,3 +39,8 @@ To Contribute using Github:
 4. Open a **pull request** to base fork: mautic/documentation with base: master
 5. Include and reference any Issues your Pull Request addresses
 
+#### Need help? - Write a message:
+
+Team Education Slack Channel: https://mautic.slack.com/archives/CQGQ0D4KU
+
+Email: leon.oltmanns@mautic.org
