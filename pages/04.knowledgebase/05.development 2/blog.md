@@ -6,16 +6,16 @@ body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
-hero_overlay: false
-hero_showsearch: false
+hero_overlay: true
+hero_showsearch: true
 show_searchsidebar: false
 content:
     items:
         - '@self.children'
     limit: 5
     order:
-        by: date
-        dir: desc
+        by: title
+        dir: asc
     pagination: true
     url_taxonomy_filters: true
 twitterenable: true
