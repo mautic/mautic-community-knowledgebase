@@ -42,25 +42,25 @@ _(* Note that the migration files themselves also contain checks to see if they 
 
 That accounts for three of the numbers output by _doctrine:migrations:status - Executed Migrations, Available Migrations and New Migrations_. The command also outputs a fourth number: _Executed Unavailable Migrations_ (with a scary red color). What’s that? Simply put, it is the reverse logic of _New Migrations_:
 
-* New Migrations include all migrations that have a migration file in app/migrations, but no corresponding row in the table migrations in the MySQL DB.
-* Executed Unavailable Migrations include all migrations that have a row in migration in the MySQL DB but no corresponding migration file in app/migrations.
+* **New Migrations** include all migrations that have a migration file in **app/migrations**, but no corresponding row in the table **migrations** in the MySQL DB.
+* **Executed Unavailable Migrations** include all migrations that have a row in **migration** in the MySQL DB but no corresponding migration file in **app/migrations**.
 
-Despite the red color, it is rarely something to be concerned about. It is just the MigrationsBundle saying “Apparently we have applied a migration called Versionxxxxxx, but I have no idea what that migration was because I cannot find the corresponding migration file”. It is fixed by making sure the number of rows in the migrations table and the number of files in app/migrations line up (and are named the same, obviously).
+Despite the red color, it is rarely something to be concerned about. It is just the MigrationsBundle saying “Apparently we have applied a migration called Versionxxxxxx, but I have no idea what that migration was because I cannot find the corresponding migration file”. It is fixed by making sure the number of rows in the _migrations_ table and the number of files in _app/migration_s line up (and are named the same, obviously).
 
 ### Forcibly restoring the Schema (as a last resort)
 Keep in mind that except when DoctrineMigrationsBundle applies migrations, it actually has no idea what the database itself actually looks like. Thus, it is STRONGLY discouraged to manually alter stuff in the MySQL database on your own as you might end up in trouble down the road. As the Update Failed troubleshooting page describes, if your update ever fails and you are in trouble (and have taken a backup already) in descending order of importance you could try to:
 
 1. Try the update script again - and let Mautic handle everything
-2. Apply any outstanding migrations with doctrine:migrations:migrate
-3. Let the ORM update the Schema with doctrine:schema:update --force
+2. Apply any outstanding migrations with **doctrine:migrations:migrate**
+3. Let the ORM update the Schema with **doctrine:schema:update --force**
 
 
-If you ever managed to make some bad, custom changes to the database and just want to have it return to the ‘vanilla’ Mautic structure, you can try running doctrine:schema:update --force --complete, which tells the Doctrine ORM to throw out anything in the database which doesn’t match the mapping information provided by Mautic. This will cause any custom fields, tables, indexes etc. that you added directly in the database (as opposed to in the Mautic interface) to be dropped, as well as altering everything else to match the mapping information provided, while preserving your data. Keep in mind that this will (ironically) cause the migrations table to be dropped (as it is not part of the Mautic mapping information), and thus, the next time you run doctrine:migrations:status, all migration files in app/migrations will be considered New Migrations - even if applying them won’t actually do anything.
+If you ever managed to make some bad, custom changes to the database and just want to have it return to the ‘vanilla’ Mautic structure, you can try running _doctrine:schema:update --force --complete_, which tells the Doctrine ORM to throw out anything in the database which doesn’t match the mapping information provided by Mautic. This will cause any custom fields, tables, indexes etc. that you added directly in the database (as opposed to in the Mautic interface) to be dropped, as well as altering everything else to match the mapping information provided, while preserving your data. Keep in mind that this will (ironically) cause the migrations table to be dropped (as it is not part of the Mautic mapping information), and thus, the next time you run _doctrine:migrations:status_, all migration files in _app/migrations_ will be considered _New Migrations_ - even if applying them won’t actually do anything.
 
-Thus, running doctrine:schema:update --force --complete followed by doctrine:migrations:migrate should theoretically bring you back to a vanilla Mautic database schema with your data intact (except for data in whatever custom columns that potentially got dropped). Obviously, you should take plenty of backups before attempting this as this is very much a ‘last resort’.
+Thus, running _doctrine:schema:update --force --complete_ followed by _doctrine:migrations:migrate_ should theoretically bring you back to a vanilla Mautic database schema with your data intact (except for data in whatever custom columns that potentially got dropped). Obviously, you should take plenty of backups before attempting this as this is very much a ‘last resort’.
 
 ### In conclusion
-As mentioned, most users will never have to deal with any of this, as all the related transactions are handled by the automated Mautic upgrade script, but if you ever find yourself trying to troubleshoot a failed Mautic upgrade, hopefully you now have a pretty good idea of what the commands doctrine:migrations:migrate and doctrine:schema:update actually do.
+As mentioned, most users will never have to deal with any of this, as all the related transactions are handled by the automated Mautic upgrade script, but if you ever find yourself trying to troubleshoot a failed Mautic upgrade, hopefully you now have a pretty good idea of what the commands **doctrine:migrations:migrate** and **doctrine:schema:update** actually do.
 
 #### Additional reading
 The Doctrine Project: https://www.doctrine-project.org
