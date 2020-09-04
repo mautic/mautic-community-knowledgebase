@@ -1,5 +1,13 @@
 ---
 title: 'Understanding doctrine:migrations:migrate and doctrine:schema:update'
+taxonomy:
+    category:
+        - Developer
+    tag:
+        - Developer
+        - Updating
+        - 'Community Contribution'
+        - Pro
 anchors:
     active: false
 tagtitle: h2
