@@ -63,8 +63,8 @@ Thus, running _doctrine:schema:update --force --complete_ followed by _doctrine:
 As mentioned, most users will never have to deal with any of this, as all the related transactions are handled by the automated Mautic upgrade script, but if you ever find yourself trying to troubleshoot a failed Mautic upgrade, hopefully you now have a pretty good idea of what the commands **doctrine:migrations:migrate** and **doctrine:schema:update** actually do.
 
 #### Additional reading
-The Doctrine Project: https://www.doctrine-project.org
-The Doctrine Project - Migrations: https://www.doctrine-project.org/projects/migrations.html
-Symfony - Databases and the Doctrine ORM: https://symfony.com/doc/current/doctrine.html
-Symfony - DoctrineBundle: https://symfony.com/doc/current/bundles/DoctrineBundle/index.html
-Symfony - DoctrineMigrationsBundle: https://symfony.com/doc/master/bundles/DoctrineMigrationsBundle/index.html
+* [The Doctrine Project](https://www.doctrine-project.org)
+* [The Doctrine Project - Migrations](https://www.doctrine-project.org/projects/migrations.html)
+* [Symfony - Databases and the Doctrine ORM](https://symfony.com/doc/current/doctrine.html)
+* [Symfony - DoctrineBundle](https://symfony.com/doc/current/bundles/DoctrineBundle/index.html)
+* [Symfony - DoctrineMigrationsBundle](https://symfony.com/doc/master/bundles/DoctrineMigrationsBundle/index.html)
