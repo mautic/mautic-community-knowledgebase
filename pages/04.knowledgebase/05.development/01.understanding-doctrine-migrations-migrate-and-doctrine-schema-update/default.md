@@ -10,13 +10,13 @@ facebookenable: true
 ---
 
 # Understanding Migrations and Schema Update Doctrines
-If you have ever had to troubleshoot a failed Mautic upgrade, you might have come across [this page](https://docs.mautic.org/en/troubleshooting/update-failed), which, among other things, describes the commands _doctrine:migrations:migrate_ and _doctrine:schema:update. _
+If you have ever had to troubleshoot a failed Mautic upgrade, you might have come across [this page](https://docs.mautic.org/en/troubleshooting/update-failed), which, among other things, describes the commands **doctrine:migrations:migrate**and **doctrine:schema:update**.
 
 If you have ever wondered what those two commands actually do, this is a short explanation. Hopefully, you will never have to use either of them, as the automated Mautic upgrade script takes care of everything, but on the off-chance that something goes wrong it can’t hurt to know a bit about them.
 
 Neither of the two commands are directly related to Mautic - rather, they are related to the PHP framework that Mautic is built on, Symfony.
 
-The _doctrine:migrations_ commands are handled by the [DoctrineMigrationsBundle](https://symfony.com/doc/master/bundles/DoctrineMigrationsBundle/index.html) and are essentially a safer way of updating the database compared to the _doctrine:schema:update_. As for what _doctrine:schema:update_ is, we need to go back a bit and look at how Mautic (powered by Symfony) handles the MySQL database:
+The**doctrine:migrations** commands are handled by the [DoctrineMigrationsBundle](https://symfony.com/doc/master/bundles/DoctrineMigrationsBundle/index.html) and are essentially a safer way of updating the database compared to the **doctrine:schema:update**. As for what **doctrine:schema:update** is, we need to go back a bit and look at how Mautic (powered by Symfony) handles the MySQL database:
 
 ### Object Relational Mapping and Schema updates
 Mautic is using ORM (Object Relational Mapping) as a way for the PHP code to relate to the MySQL database structure - as described [here](https://www.tutorialspoint.com/symfony/symfony_doctrine_orm.htm) this is offered by the Symfony DoctrineBundle which integrates with a PHP tool called Doctrine.
