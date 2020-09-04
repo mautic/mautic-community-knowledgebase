@@ -16,7 +16,7 @@ If you have ever wondered what those two commands actually do, this is a short e
 
 Neither of the two commands are directly related to Mautic - rather, they are related to the PHP framework that Mautic is built on, Symfony.
 
-The doctrine:migrations commands are handled by the DoctrineMigrationsBundle and are essentially a safer way of updating the database compared to the doctrine:schema:update. As for what doctrine:schema:update is, we need to go back a bit and look at how Mautic (powered by Symfony) handles the MySQL database:
+The _doctrine:migrations_ commands are handled by the [DoctrineMigrationsBundle](https://symfony.com/doc/master/bundles/DoctrineMigrationsBundle/index.html) and are essentially a safer way of updating the database compared to the _doctrine:schema:update_. As for what _doctrine:schema:update_ is, we need to go back a bit and look at how Mautic (powered by Symfony) handles the MySQL database:
 
 ### Object Relational Mapping and Schema updates
 Mautic is using ORM (Object Relational Mapping) as a way for the PHP code to relate to the MySQL database structure - as described here this is offered by the Symfony DoctrineBundle which integrates with a PHP tool called Doctrine.
