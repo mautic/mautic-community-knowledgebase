@@ -51,4 +51,4 @@ You have an idea for an article, which is not listed on Jira-Board and want to c
 
 Team Education Slack Channel: [Click here](https://mautic.slack.com/archives/CQGQ0D4KU)
 
-Email: leon.oltmanns@mautic.org
+Email: [leon.oltmanns@mautic.org](mailto:leon.oltmanns@mautic.org)
