@@ -10,7 +10,7 @@ facebookenable: true
 ---
 
 # Understanding Migrations and Schema Update Doctrines
-If you have ever had to troubleshoot a failed Mautic upgrade, you might have come across this page, which, among other things, describes the commands doctrine:migrations:migrate and doctrine:schema:update. 
+If you have ever had to troubleshoot a failed Mautic upgrade, you might have come across [this page](https://docs.mautic.org/en/troubleshooting/update-failed), which, among other things, describes the commands _doctrine:migrations:migrate_ and _doctrine:schema:update. _
 
 If you have ever wondered what those two commands actually do, this is a short explanation. Hopefully, you will never have to use either of them, as the automated Mautic upgrade script takes care of everything, but on the off-chance that something goes wrong it can’t hurt to know a bit about them.
 
