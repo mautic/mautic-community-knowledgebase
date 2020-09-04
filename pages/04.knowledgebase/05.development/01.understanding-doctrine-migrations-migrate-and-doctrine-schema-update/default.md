@@ -4,10 +4,11 @@ taxonomy:
     category:
         - Developer
     tag:
+        - Pro
         - Developer
         - Updating
         - 'Community Contribution'
-        - Pro
+        - 'Author: Mads Peter Rommedahl'
 anchors:
     active: false
 tagtitle: h2
