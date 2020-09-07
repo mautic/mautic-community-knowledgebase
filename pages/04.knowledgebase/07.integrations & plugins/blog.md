@@ -1,4 +1,5 @@
 ---
+title: ' Integrations & Plugins'
 published: true
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
@@ -16,6 +17,7 @@ content:
         by: date
         dir: desc
     pagination: true
+    url_taxonomy_filters: true
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
