@@ -45,7 +45,7 @@ The Mautic API requires OAuth (1a or 2) authentication. The API can be used to:
 * Create advanced triggers and alerts.
 * Achieve the valuable use case that you envision.
 
-This guide allows you to quickly communicate with the Mautic API. For full API documentation, please refer to [https://developer.mautic.org/#rest-api.](https://developer.mautic.org/#rest-api)
+This guide allows you to quickly communicate with the Mautic API. For full API documentation, please refer to [developer-docs][https://developer.mautic.org/#rest-api]
 
 ##  How to Use the Mautic Rest API  
 
@@ -54,8 +54,8 @@ Here are the basic steps to getting started with the Mautic API.
 1.  Install the Mautic API 
 * **With Composer**: API library is at Packagist. composer require mautic/api-library command will install the library to your project for you. Composer will also automatically include the library to your project.
 * **Install by git clone**: Go to your project folder where you want to place the Mautic API library.  For example:
- cd /var/www/html/myproject.  Run git clone to this folder: git clone [https://github.com/mautic/api-library.git](https://github.com/mautic/api-library.git)
-* **Copy from ZIP package**: Download the library from [https://github.com/mautic/api-library/archive/master.zip](https://github.com/mautic/api-library/archive/master.zip). Extract the package to some temporary location. Copy the /lib folder to your project.
+ cd /var/www/html/myproject.  Run git clone to this folder: git clone [mautic-api-library][https://github.com/mautic/api-library.git]
+* **Copy from ZIP package**: Download the library from [mautic-api-library-zip][https://github.com/mautic/api-library/archive/master.zip]. Extract the package to some temporary location. Copy the /lib folder to your project.
 
 2. Mautic Setup
 To enable the API in Mautic, follow these steps:
@@ -70,18 +70,18 @@ To enable the API in Mautic, follow these steps:
 * Click Apply then copy the Client ID and Client Secret to the application that will be using the API.
 
 3. Authorization
-Mautic supports OAuth 1.0a and OAuth 2 however it is up to the administrator to decide which is enabled. Thus it is best to have a configuration option within your project for the administrator to choose what method should be used by your code. For full documentation on authorization, please refer to[https://developer.mautic.org/#rest-api.](https://developer.mautic.org/#rest-api).
+Mautic supports OAuth 1.0a and OAuth 2 however it is up to the administrator to decide which is enabled. Thus it is best to have a configuration option within your project for the administrator to choose what method should be used by your code. For full documentation on authorization, please refer to [developer-docs][https://developer.mautic.org/#rest-api].
 
 If you don't want to hard-code authorization details then you can create a form with the following text inputs: Mautic Base URL, Consumer Key and Consumer Secret with Save & Authorize button. This form should not be accessible to the public.
 **Note**:You can test authorization and API requests in build-in API Tester. You can find it in the /apitester directory of the Mautic API Library.
 
 4. Endpoints
-The base format for the http request URL is: [https://your-mautic.com/api/[[request-extension]]]([https://your-mautic.com/api/[[request-extension]]).
+The base format for the http request URL is: [request-extension][[https://your-mautic.com/api/[[request-extension]]].
 Mautic generally supports GET, POST, DELETE, PATCH, and PUT requests which can be examined in more detail in the API documentation. Successful responses are returned in JSON format.
 
 5. Making API Calls
 Now that we have authentication and the API request URL, let’s talk to the Mautic API!.
-This query returns the profile data of an individual Mautic contact: GET[ https://your-mautic.com/api/contacts/[[contact-id]]](https://your-mautic.com/api/contacts/[[contact-id]]). Choose your preferred environment below and use the code snippets as guides for sending your first Mautic query. Change the [[contact-id]] to the ID of the Mautic contact you want to view also update your [[username]] and [[password]]
+This query returns the profile data of an individual Mautic contact: GET [contact-id][https://your-mautic.com/api/contacts/[[contact-id]]]. Choose your preferred environment below and use the code snippets as guides for sending your first Mautic query. Change the [[contact-id]] to the ID of the Mautic contact you want to view also update your [[username]] and [[password]]
 
 
 
@@ -158,3 +158,8 @@ end
 puts response.body
 ```
 
+[developer-docs]: <https://developer.mautic.org/#rest-api>
+[mautic-api-library]: <https://github.com/mautic/api-library.git>
+[mautic-api-library-zip]: <https://github.com/mautic/api-library/archive/master.zip>
+[contact-id]: <https://your-mautic.com/api/contacts/[[contact-id]]>
+[request-extension]: <https://your-mautic.com/api/[[request-extension]]>
