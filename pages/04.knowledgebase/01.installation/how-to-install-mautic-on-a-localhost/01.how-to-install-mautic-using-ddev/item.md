@@ -19,12 +19,12 @@ content:
         by: date
         dir: desc
     pagination: true
-feed:
-    limit: 10
 twitterenable: true
 twittercardoptions: summary
 articleenabled: true
 facebookenable: true
+feed:
+    limit: 10
 ---
 
 [DDEV][ddev] is an OS agnostic wrapper for Docker that makes it easy to set up PHP projects on your local machine. DDEV aims to make Docker simple and accessible to everyone. Even better, DDEV is entirely open source.
@@ -135,6 +135,6 @@ A DDEV instance comes with PHPMyAdmin by default. To find out the location of th
 
 This will give you a lot of information about your containers, including the URL to the PHPMyAdmin instance.
 
-[ddev]: (https://github.com/drud/ddev)
-[install-docker]: (https://ddev.readthedocs.io/en/stable/users/docker_installation/)
-[install-ddev]: (https://ddev.readthedocs.io/en/stable/#installation)
+[ddev]: <https://github.com/drud/ddev>
+[install-docker]: <https://ddev.readthedocs.io/en/stable/users/docker_installation/>
+[install-ddev]: <https://ddev.readthedocs.io/en/stable/#installation>
