@@ -56,3 +56,5 @@ Make sure the Selected OAuth Scopes are Access and manage your data (API) and Pe
 * Pulling records will be done from Leads and/or Contacts objects in Salesforce.
 
 #### Setting up Mautic’s Activities in Salesforce
+You have two options with the Salesforce integration to push Mautic activities into Salesforce. One option is to pass the activities into a custom object that allows the activities to be reportable. The other way is to set up a custom URL field in Salesforce and then Mautic will insert a contact’s timeline link.
+
