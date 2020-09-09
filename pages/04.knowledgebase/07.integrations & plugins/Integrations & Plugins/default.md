@@ -1,5 +1,6 @@
 ---
 title: ' How to integrate Mautic with Salesforce'
+media_order: 'plugins-salesforce-create-app-1024x873.png,plugins-salesforce-create-app-form.png,plugins-salesforce-create-app-keys.png,plugins-salesforce-authorize.png,Screen-Shot-2018-10-10-at-11.40.25-AM.png,custom-fields-1024x393.png,plugins-salesforce-timeline-ddb2866a.png,plugins-salesforce-object-3f5313d3.png'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: false
@@ -37,16 +38,22 @@ If you have one of the Salesforce Editions listed above, please follow the steps
 (Here is the official documentation about how to get the key and secret.)
 
 * Go to: Setup (top right corner) / Build (bottom left corner) – Create / Apps / Connected Apps / New
+![](plugins-salesforce-create-app-1024x873.png)
+
 *  Create a new app to look like this:
+![](plugins-salesforce-create-app-form.png)
 Make sure the Selected OAuth Scopes are Access and manage your data (API) and Perform requests on your behalf at any time (refresh_token, offline_access).
 * Copy the Consumer Key and Secret.
+![](plugins-salesforce-create-app-keys.png)
 
 2. Configure the Mautic Salesforce plugin
 
 * Insert the keys to the Mautic Salesforce plugin and authorize it.
+![](plugins-salesforce-authorize.png)
 *  Configure the field mapping.  All the required fields in the SalesForce Contact Object and Lead Object should map to Mautic Core Email, Last Name and Company Fields, as shown below:
+![](Screen-Shot-2018-10-10-at-11.40.25-AM.png)
 *  Any custom lead fields in Salesforce must be created in Mautic as custom fields in the contact object.
-
+![](custom-fields-1024x393.png)
 #### Features Tab within the plugin
 * Enabled features: You can pull leads and/or push leads to and from the integration.
 * “Triggered action push to integration” can only be done through a form or a campaign.
@@ -61,7 +68,7 @@ You have two options with the Salesforce integration to push Mautic activities i
 **Option 1:** Make activities reportable – you first need to set up a custom object in your Salesforce instance. Please set up the object as it is described below
 
 **Step 1:** On the initial screen of creating a custom object, make sure the Label field is populated with the value `Timeline` and the Object Name is `mautic_timeline`. This will auto-populate a few fields and then you have the option to populate other fields that haven’t pre-populated with values that relate to your business or this object. These additional fields do not impact the activities.
-
+![](plugins-salesforce-timeline-ddb2866a.png)
 **Step 2:** When you save this initial screen, you will be taken to the custom objects screen where you can set up the custom fields. Create the 7 custom fields that match the below format exactly:
 * ActivityDate: Date/Time
 * contact_id : Lookup(Contact)
@@ -71,6 +78,7 @@ You have two options with the Salesforce integration to push Mautic activities i
 * Mautic_url : URL(255)
 * ReferenceId : Text(255)
   *  This is the only one that needs to be set up as a unique – select `do not allow duplicate values` in Salesforce (API names for these will be auto populated)
+ ![](plugins-salesforce-object-3f5313d3.png)
 
 **Step 3:** When enabling the activity object, you need to tick the Activity checkbox in the Mautic plugin configuration and also specify the namespace prefix if it's available in Salesforce.
 
