@@ -57,8 +57,28 @@ Make sure the Selected OAuth Scopes are Access and manage your data (API) and Pe
 
 #### Setting up Mautic’s Activities in Salesforce
 You have two options with the Salesforce integration to push Mautic activities into Salesforce. One option is to pass the activities into a custom object that allows the activities to be reportable. The other way is to set up a custom URL field in Salesforce and then Mautic will insert a contact’s timeline link.
+
 **Option 1:** Make activities reportable – you first need to set up a custom object in your Salesforce instance. Please set up the object as it is described below
-**Step 1:** On the initial screen of creating a custom object, make sure the Label field is populated with the value “Timeline” and the Object Name is “mautic_timeline”. This will auto-populate a few fields and then you have the option to populate other fields that haven’t pre-populated with values that relate to your business or this object. These additional fields do not impact the activities.
+
+**Step 1:** On the initial screen of creating a custom object, make sure the Label field is populated with the value `Timeline` and the Object Name is `mautic_timeline`. This will auto-populate a few fields and then you have the option to populate other fields that haven’t pre-populated with values that relate to your business or this object. These additional fields do not impact the activities.
+
+**Step 2:** When you save this initial screen, you will be taken to the custom objects screen where you can set up the custom fields. Create the 7 custom fields that match the below format exactly:
+* ActivityDate: Date/Time
+* contact_id : Lookup(Contact)
+* Description : Long Text Area(131072)
+* WhoId : Lookup(Lead)
+* MauticLead : Number(18, 0) (External ID)
+* Mautic_url : URL(255)
+* ReferenceId : Text(255)
+  *  This is the only one that needs to be set up as a unique – select `do not allow duplicate values` in Salesforce (API names for these will be auto populated)
+
+**Step 3:** When enabling the activity object, you need to tick the Activity checkbox in the Mautic plugin configuration and also specify the namespace prefix if it's available in Salesforce.
+
+**Step 4:** On the Mautic side, make sure `Activity` is checked in the Features tab of the Salesforce plugin.
+
+**Step 5 (repeat for both leads and contacts):** Edit the layout, and scroll to the related list for the Mautic timeline. Click the wrench to edit, and select Activity Date from Available Fields and add it to the Selected Fields. Save the layout.
+
+
 
 .
 
