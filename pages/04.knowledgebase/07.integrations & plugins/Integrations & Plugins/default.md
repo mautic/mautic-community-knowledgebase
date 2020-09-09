@@ -94,6 +94,7 @@ Since you’ll need to determine the direction of the update, within the mapping
 In order for your sales reps to click on the link and view the contact’s history, they will need to be set up as users within Mautic.
 
 **Test the plugin**
+
 If you want to test an integration plugin to ensure that it is configured properly, you have 3 options on how to do that. A contact can be pushed to integration via these places:
 
 * The Campaign Builder has the _Push contact to integration action _ which can be used in the Campaign drip flow.
@@ -103,14 +104,14 @@ If you want to test an integration plugin to ensure that it is configured proper
 Use any of those triggers to test the plugin and see if the contact appears in the integration.
 
 #### Recommendations and Best Practices
-* Mautic does not display the Salesforce contact or lead ID in the UI. The best practice is to create a custom field for the Salesforce ID within Mautic and map it to the Salesforce ID under “contact mapping” in the plugin. This will allow you to build reports that include contacts with a Salesforce ID within Mautic.
-* Test the plugin by only turning on the “Triggered action push contacts to integration” because this will safely allow you to test the mapping of your custom field with a select number of contacts.
-* In order to test, create a test segment and a test campaign with an action to “Push contacts to Integration”, so you can make sure the fields mapped appropriately.
+* Mautic does not display the Salesforce contact or lead ID in the UI. The best practice is to create a custom field for the Salesforce ID within Mautic and map it to the Salesforce ID under `contact mapping` in the plugin. This will allow you to build reports that include contacts with a Salesforce ID within Mautic.
+* Test the plugin by only turning on the `Triggered action push contacts to integration` because this will safely allow you to test the mapping of your custom field with a select number of contacts.
+* In order to test, create a test segment and a test campaign with an action to `Push contacts to Integration`, so you can make sure the fields mapped appropriately.
 * If setting up a Select list custom field in Mautic, we recommend matching the values in Mautic that you have in your Salesforce picklist. If you choose to not match the lists then Mautic can push values into Salesforce picklists only when the picklist custom field in Salesforce is set as unrestricted. Mautic’s select fields, by default, are unrestricted.
-* Within the Features tab, in order to pull contacts in from “Activity”, you need to have a namespace prefix entered. This field is right below the Activity field on the Features tab.
-* Salesforce requires values on certain fields being passed in, such as Last Name and Company Name. If Mautic has those fields set as blank then Mautic will push the value, “Unknown” into Salesforce. If you have the “Pull contacts from integration” turned on to pull those fields into Mautic then Mautic will not populate those fields with Unknown. They will be left blank.
+* Within the Features tab, in order to pull contacts in from `Activity`, you need to have a namespace prefix entered. This field is right below the Activity field on the Features tab.
+* Salesforce requires values on certain fields being passed in, such as Last Name and Company Name. If Mautic has those fields set as blank then Mautic will push the value, `Unknown` into Salesforce. If you have the `Pull contacts from integration` turned on to pull those fields into Mautic then Mautic will not populate those fields with Unknown. They will be left blank.
 * If you use Salesforce campaigns, you can set up a segment to pull in members of a specific Salesforce campaign
- * Create a new segment then use a filter for “Integration Campaign Members” then select the campaign you’d like to use
+ * Create a new segment then use a filter for `Integration Campaign Members` then select the campaign you’d like to use
 
 
 
