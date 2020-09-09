@@ -36,7 +36,7 @@ If you have one of the Salesforce Editions listed above, please follow the steps
 ## Steps on how to enable the Mautic Salesforce plugin
 1. Get the Salesforce credentials
 
-(Here is the [official documentation] [official documentation] about how to get the key and secret.)
+Here is the [official documentation] [official documentation] about how to get the key and secret.
 
 * Go to: Setup (top right corner) / Build (bottom left corner) – Create / Apps / Connected Apps / New
 ![](plugins-salesforce-create-app-1024x873.png)
