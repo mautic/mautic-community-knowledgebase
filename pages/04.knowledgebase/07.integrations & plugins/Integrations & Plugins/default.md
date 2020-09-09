@@ -78,6 +78,44 @@ You have two options with the Salesforce integration to push Mautic activities i
 
 **Step 5 (repeat for both leads and contacts):** Edit the layout, and scroll to the related list for the Mautic timeline. Click the wrench to edit, and select Activity Date from Available Fields and add it to the Selected Fields. Save the layout.
 
+_For more help with editing related lists in Salesforce, visit the Salesforce help center._
+
+**Step 6:** Unpublish your plugin then re-publish. Save and close
+
+
+Once you re-publish the plugin, Mautic will look at all of your contacts from the** last 7 days** then update those corresponding contacts or leads in Salesforce with the correct activities. The activity sync API takes about 8-10 minutes to push activities over from Mautic to Salesforce.
+
+**Option 2:** Contact’s timeline link – you need to create a custom URL field within Salesforce. On the Mautic plugin page, go to the `Contact Mapping` tab and search for the newly created URL field in the list of Salesforce fields. Map this field to the Mautic, `Contact’s timeline link` field. This will display a link in Salesforce that, when clicked on, will open a new window, displaying all activities related to the contact. This is the same view that you have within Mautic’s timeline history on individual contact records. 
+
+**Note** – these items will not be reportable within Salesforce.
+
+Since you’ll need to determine the direction of the update, within the mapping, choose the arrow that points from Mautic to Salesforce.
+
+In order for your sales reps to click on the link and view the contact’s history, they will need to be set up as users within Mautic.
+
+**Test the plugin**
+If you want to test an integration plugin to ensure that it is configured properly, you have 3 options on how to do that. A contact can be pushed to integration via these places:
+
+* The Campaign Builder has the _Push contact to integration action _ which can be used in the Campaign drip flow.
+* The Standalone Form has the_ Push contact to integration action _ which can be used after a standalone form is submitted.
+* The Point Trigger has the _Push contact to integration action_ which can be triggered when a contact achieves some point limit.
+
+Use any of those triggers to test the plugin and see if the contact appears in the integration.
+
+#### Recommendations and Best Practices
+* Mautic does not display the Salesforce contact or lead ID in the UI. The best practice is to create a custom field for the Salesforce ID within Mautic and map it to the Salesforce ID under “contact mapping” in the plugin. This will allow you to build reports that include contacts with a Salesforce ID within Mautic.
+* Test the plugin by only turning on the “Triggered action push contacts to integration” because this will safely allow you to test the mapping of your custom field with a select number of contacts.
+* In order to test, create a test segment and a test campaign with an action to “Push contacts to Integration”, so you can make sure the fields mapped appropriately.
+* If setting up a Select list custom field in Mautic, we recommend matching the values in Mautic that you have in your Salesforce picklist. If you choose to not match the lists then Mautic can push values into Salesforce picklists only when the picklist custom field in Salesforce is set as unrestricted. Mautic’s select fields, by default, are unrestricted.
+* Within the Features tab, in order to pull contacts in from “Activity”, you need to have a namespace prefix entered. This field is right below the Activity field on the Features tab.
+* Salesforce requires values on certain fields being passed in, such as Last Name and Company Name. If Mautic has those fields set as blank then Mautic will push the value, “Unknown” into Salesforce. If you have the “Pull contacts from integration” turned on to pull those fields into Mautic then Mautic will not populate those fields with Unknown. They will be left blank.
+* If you use Salesforce campaigns, you can set up a segment to pull in members of a specific Salesforce campaign
+ * Create a new segment then use a filter for “Integration Campaign Members” then select the campaign you’d like to use
+
+
+
+
+
 
 
 .
