@@ -30,6 +30,7 @@ This article describes how to set up the integration between Salesforce and Maut
 * Unlimited Edition
 * Developer Edition
 * Performance Edition
+
 If your Salesforce account is not one of the above, please contact Mautic support or your Salesforce rep to learn about upgrade options.
 If you have one of the Salesforce Editions listed above, please follow the steps below to enable the plugin
 
