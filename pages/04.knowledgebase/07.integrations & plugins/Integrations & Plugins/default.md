@@ -57,4 +57,8 @@ Make sure the Selected OAuth Scopes are Access and manage your data (API) and Pe
 
 #### Setting up Mautic’s Activities in Salesforce
 You have two options with the Salesforce integration to push Mautic activities into Salesforce. One option is to pass the activities into a custom object that allows the activities to be reportable. The other way is to set up a custom URL field in Salesforce and then Mautic will insert a contact’s timeline link.
+**Option 1:** Make activities reportable – you first need to set up a custom object in your Salesforce instance. Please set up the object as it is described below
+**Step 1:** On the initial screen of creating a custom object, make sure the Label field is populated with the value “Timeline” and the Object Name is “mautic_timeline”. This will auto-populate a few fields and then you have the option to populate other fields that haven’t pre-populated with values that relate to your business or this object. These additional fields do not impact the activities.
+
+.
 
