@@ -103,7 +103,7 @@ Since you’ll need to determine the direction of the update, within the mapping
 
 In order for your sales reps to click on the link and view the contact’s history, they will need to be set up as users within Mautic.
 
-**Test the plugin**
+#### Test the plugin
 
 If you want to test an integration plugin to ensure that it is configured properly, you have 3 options on how to do that. A contact can be pushed to integration via these places:
 
