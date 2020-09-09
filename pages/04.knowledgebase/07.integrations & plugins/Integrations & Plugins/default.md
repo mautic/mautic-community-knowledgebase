@@ -88,7 +88,7 @@ You have two options with the Salesforce integration to push Mautic activities i
 
 **Step 5 (repeat for both leads and contacts):** Edit the layout, and scroll to the related list for the Mautic timeline. Click the wrench to edit, and select Activity Date from Available Fields and add it to the Selected Fields. Save the layout.
 
-_For more help with editing related lists in Salesforce, visit the Salesforce help center._
+_For more help with editing related lists in Salesforce, visit the [Salesforce help center][Salesforce help center]_
 
 **Step 6:** Unpublish your plugin then re-publish. Save and close
 
@@ -126,7 +126,7 @@ Use any of those triggers to test the plugin and see if the contact appears in t
 
 
  [official documentation]: <https://feedback.uservoice.com/>
-
+ [Salesforce help center]: <https://help.salesforce.com/articleView?id=customizing_related_lists.htm&type=5>
 
 
 .
