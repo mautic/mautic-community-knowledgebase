@@ -57,11 +57,11 @@ Make sure the Selected OAuth Scopes are Access and manage your data (API) and Pe
 ![](custom-fields-1024x393.png)
 #### Features Tab within the plugin
 * Enabled features: You can pull leads and/or push leads to and from the integration.
-* “Triggered action push to integration” can only be done through a form or a campaign.
-* “Pull leads” is done via API.
-* “Push contacts to this integration” is done through API sync that takes place every 8-10 minutes.
+* Triggered action push to integration: This can only be done through a form or a campaign.
+* Pull leads: This can is done via API.
+* Push contacts to this integration: This is done through API sync that takes place every 8-10 minutes.
 * Feature specific settings: Select the objects you wish to pull or push records from. You can push contacts to the Leads object in salesforce. You can also push activities (contact’s timeline records) to a custom object in salesforce
-* Pulling records will be done from Leads and/or Contacts objects in Salesforce.
+* Pulling records: Will be done from Leads and/or Contacts objects in Salesforce.
 
 #### Setting up Mautic’s Activities in Salesforce
 You have two options with the Salesforce integration to push Mautic activities into Salesforce. One option is to pass the activities into a custom object that allows the activities to be reportable. The other way is to set up a custom URL field in Salesforce and then Mautic will insert a contact’s timeline link.
