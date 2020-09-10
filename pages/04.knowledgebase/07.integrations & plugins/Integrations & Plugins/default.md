@@ -56,6 +56,7 @@ Make sure the Selected OAuth Scopes are Access and manage your data (API) and Pe
 ![](Screen-Shot-2018-10-10-at-11.40.25-AM.png)
 *  Any custom lead fields in Salesforce must be created in Mautic as custom fields in the contact object.
 ![](custom-fields-1024x393.png)
+
 #### Features Tab within the plugin
 * Enabled features: You can pull leads and/or push leads to and from the integration.
 * Triggered action push to integration: This can only be done through a form or a campaign.
