@@ -80,9 +80,8 @@ You have two options with the Salesforce integration to push Mautic activities i
 * MauticLead : Number(18, 0) (External ID)
 * Mautic_url : URL(255)
 * ReferenceId : Text(255)
- This is the only one that needs to be set up as a unique – select `do not allow duplicate values` in Salesforce (API names for these will be auto populated)
+This is the only one that needs to be set up as a unique – select `do not allow duplicate values` in Salesforce (API names for these will be auto populated)
 ![](plugins-salesforce-object-3f5313d3.png)
-
 **Step 3:** When enabling the activity object, you need to tick the Activity checkbox in the Mautic plugin configuration and also specify the namespace prefix if it's available in Salesforce.
 
 **Step 4:** On the Mautic side, make sure `Activity` is checked in the Features tab of the Salesforce plugin.
