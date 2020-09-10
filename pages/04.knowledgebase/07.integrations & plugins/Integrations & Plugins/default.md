@@ -101,7 +101,6 @@ Once you re-publish the plugin, Mautic will look at all of your contacts from th
 **Note** – these items will not be reportable within Salesforce.
 
 Since you’ll need to determine the direction of the update, within the mapping, choose the arrow that points from Mautic to Salesforce.
-
 In order for your sales reps to click on the link and view the contact’s history, they will need to be set up as users within Mautic.
 
 #### Test the plugin
