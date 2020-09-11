@@ -21,14 +21,14 @@ hero_classes: ''
 hero_image: ''
 hero_overlay: '1'
 hero_showsearch: '0'
-show_sidebar: '0'
+show_sidebar: '1'
 content:
     items: '- ''@self.children'''
     limit: '12'
     order:
         by: date
         dir: desc
-    pagination: '1'
+    pagination: 'true'
 feed:
     limit: '10'
     description: ''
