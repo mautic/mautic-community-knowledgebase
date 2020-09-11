@@ -14,7 +14,8 @@ show_breadcrumbs: true
 show_pagination: true
 content:
     items:
-        - '@self.children'
+        -
+            '@taxonomy.tag': testing
     limit: 12
     order:
         by: date
