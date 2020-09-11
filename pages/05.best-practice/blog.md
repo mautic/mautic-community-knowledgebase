@@ -15,7 +15,7 @@ show_pagination: true
 content:
     items:
         -
-            '@taxonomy.tag': testing
+            '@taxonomy.tag': FAQ
     limit: 12
     order:
         by: date
