@@ -4,11 +4,12 @@ taxonomy:
     category:
         - 'Welcome to Mautic'
     tag:
-        - Starter
         - Basics
+        - Starter
 anchors:
     active: false
 tagtitle: h2
+visible: true
 hero_overlay: true
 hero_showsearch: true
 content:
@@ -26,3 +27,5 @@ articleenabled: false
 facebookenable: true
 ---
 
+# Welcome to Mautic
+## Learn what Mautic is
