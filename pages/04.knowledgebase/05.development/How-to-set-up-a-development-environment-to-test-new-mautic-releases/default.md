@@ -9,6 +9,7 @@ taxonomy:
         - Pro
         - testing
         - Article
+        - 'Best Practice'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
