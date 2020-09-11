@@ -7,7 +7,7 @@ anchors:
     active: true
 tagtitle: h2
 menu: Installation
-visible: true
+visible: false
 hero_overlay: true
 hero_showsearch: true
 show_breadcrumbs: true
@@ -21,12 +21,12 @@ content:
         dir: asc
     pagination: true
     url_taxonomy_filters: true
-feed:
-    limit: 10
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
 facebookenable: true
+feed:
+    limit: 10
 ---
 
 # Installation Tutorials
