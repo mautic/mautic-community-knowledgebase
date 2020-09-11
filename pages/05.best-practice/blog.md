@@ -15,7 +15,7 @@ show_pagination: true
 content:
     items:
         -
-            '@taxonomy.tag': FAQ
+            '@taxonomy.tag': 'Best Practice'
     limit: 12
     order:
         by: date
