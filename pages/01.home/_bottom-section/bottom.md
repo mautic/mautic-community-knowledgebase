@@ -19,8 +19,8 @@ anchors:
 tagtitle: h2
 ---
 
-## About Mautic
-> Supporting the World's Largest Open-Source Marketing Automation Project
+## Mautic
+> **The World's Largest Open-Source Marketing Automation Project**
 
 ---
 
