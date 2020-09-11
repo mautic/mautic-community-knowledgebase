@@ -1,5 +1,6 @@
 ---
 title: 'Welcome to Mautic'
+media_order: 'ivan-aleksic-pdrfeednick-unspl (1).jpg'
 taxonomy:
     category:
         - 'Welcome to Mautic'
