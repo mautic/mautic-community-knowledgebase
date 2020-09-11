@@ -20,7 +20,7 @@ content:
         by: date
         dir: desc
     pagination: true
-    url_taxonomy_filters: true
+    url_taxonomy_filters: false
 ---
 
 # Best Practice
