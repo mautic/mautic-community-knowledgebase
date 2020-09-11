@@ -20,7 +20,7 @@ tagtitle: h2
 ---
 
 ## About Mautic
-> “Cutting edge marketing automation empowered by open source technology. This is the future; Mautic is leading the way.” - **DB Hurley, Founder, Mautic**
+> Supporting the World's Largest Open-Source Marketing Automation Project
 
 ---
 
