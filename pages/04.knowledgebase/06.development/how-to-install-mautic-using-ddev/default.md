@@ -9,6 +9,10 @@ body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
+twitterenable: true
+twittercardoptions: summary
+articleenabled: true
+facebookenable: true
 hero_classes: ''
 hero_image: ''
 hero_overlay: '1'
@@ -20,10 +24,6 @@ content:
         by: date
         dir: desc
     pagination: '1'
-twitterenable: true
-twittercardoptions: summary
-articleenabled: true
-facebookenable: true
 feed:
     limit: 10
 ---
