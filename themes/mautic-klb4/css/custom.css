@@ -31,6 +31,9 @@ body {
     max-width: 1200px;
     margin: auto;
 }
+.page-toc {
+    margin-top: -20px
+}
 .section.modular-bottom .footer-stuff h2{
     color: #d5ddef;
 }
