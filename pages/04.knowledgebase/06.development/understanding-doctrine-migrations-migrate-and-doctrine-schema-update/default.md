@@ -1,5 +1,5 @@
 ---
-title: 'Understanding doctrine:migrations:migrate and doctrine:schema:update'
+title: 'Doctrine:migrations:migrate & Doctrine:schema:update'
 taxonomy:
     category:
         - Developer
