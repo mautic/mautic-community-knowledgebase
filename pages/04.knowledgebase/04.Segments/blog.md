@@ -9,7 +9,7 @@ tagtitle: h2
 menu: Segments
 visible: true
 hero_overlay: true
-hero_showsearch: true
+hero_showsearch: false
 show_breadcrumbs: true
 show_pagination: true
 content:
@@ -21,12 +21,12 @@ content:
         dir: asc
     pagination: true
     url_taxonomy_filters: true
-feed:
-    limit: 10
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
 facebookenable: true
+feed:
+    limit: 10
 ---
 
 # Segments
