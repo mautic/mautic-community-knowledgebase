@@ -6,7 +6,7 @@ anchors:
     active: false
 tagtitle: h2
 hero_overlay: true
-hero_showsearch: true
+hero_showsearch: false
 content:
     items:
         - '@self.children'
