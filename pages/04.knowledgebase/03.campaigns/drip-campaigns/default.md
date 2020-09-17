@@ -5,12 +5,12 @@ taxonomy:
     category:
         - Campaigns
     tag:
-        - Campaigns
         - Beginner
         - Article
+        - Campaigns
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
-    active: false
+    active: true
 tagtitle: h2
 visible: true
 twitterenable: true
