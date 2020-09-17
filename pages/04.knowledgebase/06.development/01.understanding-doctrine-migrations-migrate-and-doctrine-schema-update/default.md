@@ -10,7 +10,7 @@ taxonomy:
         - 'Community Contribution'
         - 'Author: Mads Peter Rommedahl'
 anchors:
-    active: false
+    active: true
 tagtitle: h2
 twitterenable: true
 twittercardoptions: summary
