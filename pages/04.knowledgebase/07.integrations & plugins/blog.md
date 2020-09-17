@@ -8,7 +8,7 @@ tagtitle: h2
 menu: 'Integrations & Plugins'
 visible: true
 hero_overlay: true
-hero_showsearch: true
+hero_showsearch: false
 content:
     items:
         - '@self.children'
