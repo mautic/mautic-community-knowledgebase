@@ -5,9 +5,9 @@ taxonomy:
     category:
         - 'Best Practices'
     tag:
+        - dev
         - Article
         - Pro
-        - dev
         - testing
         - 'Best Practice'
 body_classes: 'title-h1h2 header-fixed header-animated'
