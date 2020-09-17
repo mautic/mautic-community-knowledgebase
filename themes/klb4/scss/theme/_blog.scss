@@ -206,13 +206,12 @@ ul.pagination {
 
 /** Sidebar specific tweaks **/
 #sidebar {
-    //text-transform: uppercase;
-  //sidebar style
+  
   .menu {
     padding-top: 0;
     box-shadow: none;
     border-left: 1px solid $gray-color-light;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   //sticker option anchor plugin override
