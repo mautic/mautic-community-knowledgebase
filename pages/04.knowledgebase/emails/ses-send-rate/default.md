@@ -5,13 +5,13 @@ taxonomy:
     category:
         - Emails
     tag:
-        - Article
         - Emails
         - Intermediate
+        - Article
         - SES
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
-    active: false
+    active: true
 tagtitle: h2
 visible: true
 twitterenable: true
