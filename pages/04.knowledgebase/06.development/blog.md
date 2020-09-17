@@ -6,6 +6,7 @@ body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
+visible: true
 hero_overlay: true
 hero_showsearch: false
 show_searchsidebar: false
