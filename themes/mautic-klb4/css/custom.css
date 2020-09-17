@@ -32,7 +32,8 @@ body {
     margin: auto;
 }
 .page-toc {
-    margin-top: -20px
+    margin-top: -20px;
+    text-transform: none;
 }
 .section.modular-bottom .footer-stuff h2{
     color: #d5ddef;
