@@ -3,12 +3,12 @@ title: 'Dynamic vs. Static Segments'
 media_order: 'My Post (2).jpg'
 taxonomy:
     tag:
-        - Segments
         - Intermediate
         - Article
+        - Segments
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
-    active: false
+    active: true
 tagtitle: h2
 visible: true
 twitterenable: true
