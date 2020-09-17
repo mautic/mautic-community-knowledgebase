@@ -9,6 +9,7 @@ taxonomy:
         - Updating
         - 'Community Contribution'
         - 'Author: Mads Peter Rommedahl'
+body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
