@@ -8,7 +8,7 @@ tagtitle: h2
 menu: 'Best Practices'
 visible: true
 hero_overlay: true
-hero_showsearch: true
+hero_showsearch: false
 show_searchsidebar: false
 show_breadcrumbs: true
 show_pagination: true
@@ -22,6 +22,10 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: false
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 ---
 
 # Best Practice
