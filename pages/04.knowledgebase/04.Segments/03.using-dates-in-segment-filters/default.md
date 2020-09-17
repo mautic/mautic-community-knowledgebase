@@ -5,13 +5,13 @@ taxonomy:
     category:
         - Segments
     tag:
-        - Segments
-        - Intermediate
         - 'Tipps & Tricks'
+        - Intermediate
         - Article
+        - Segments
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
-    active: false
+    active: true
 tagtitle: h2
 twitterenable: true
 twittercardoptions: summary
