@@ -9,11 +9,12 @@ tagtitle: h2
 visible: true
 hero_overlay: true
 hero_showsearch: false
-show_searchsidebar: false
+show_breadcrumbs: true
+show_pagination: true
 content:
     items:
         - '@self.children'
-    limit: 5
+    limit: 12
     order:
         by: title
         dir: asc
