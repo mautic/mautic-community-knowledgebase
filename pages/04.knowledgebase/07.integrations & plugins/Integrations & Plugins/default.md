@@ -3,7 +3,7 @@ title: ' How to integrate Mautic with Salesforce'
 media_order: 'plugins-salesforce-create-app-1024x873.png,plugins-salesforce-create-app-form.png,plugins-salesforce-create-app-keys.png,plugins-salesforce-authorize.png,Screen-Shot-2018-10-10-at-11.40.25-AM.png,custom-fields-1024x393.png,plugins-salesforce-timeline-ddb2866a.png,plugins-salesforce-object-3f5313d3.png'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
-    active: false
+    active: true
 tagtitle: h2
 twitterenable: true
 twittercardoptions: summary
