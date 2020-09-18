@@ -12,8 +12,7 @@ hero_overlay: true
 hero_showsearch: false
 content:
     items:
-        -
-            '@taxonomy.tag': segment
+        - '@self.children'
     limit: 12
     order:
         by: title
