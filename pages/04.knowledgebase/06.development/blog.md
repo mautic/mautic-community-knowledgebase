@@ -15,7 +15,7 @@ content:
     items:
         - '@self.children'
         -
-            '@taxonomy.tag': 'Best Practice'
+            '@taxonomy.tag': FAQ
     limit: 12
     order:
         by: title
