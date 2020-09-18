@@ -26,7 +26,6 @@ articleenabled: false
 facebookenable: true
 feed:
     limit: 10
-show_sectionanchors: true
 ---
 
 # Development Tutorials
