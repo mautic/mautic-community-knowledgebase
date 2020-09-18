@@ -1,5 +1,5 @@
 ---
-title: 'Doctrine:migrations:migrate & Doctrine:schema:update'
+title: 'Doctrine Mautic '
 taxonomy:
     category:
         - Developer
