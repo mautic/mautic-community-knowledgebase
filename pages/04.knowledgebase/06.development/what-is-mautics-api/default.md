@@ -8,6 +8,8 @@ taxonomy:
         - FAQ
         - Intermediate
         - 'Mautic API'
+        - dev
+        - Developer
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
