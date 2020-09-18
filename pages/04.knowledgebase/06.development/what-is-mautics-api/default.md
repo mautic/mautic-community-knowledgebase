@@ -16,24 +16,6 @@ twitterenable: true
 twittercardoptions: summary
 articleenabled: false
 facebookenable: true
-hero_classes: ''
-hero_image: ''
-hero_overlay: '1'
-hero_showsearch: '1'
-show_searchsidebar: '0'
-show_breadcrumbs: '1'
-show_pagination: '1'
-content:
-    items: '- ''@self.children'''
-    limit: '12'
-    order:
-        by: date
-        dir: desc
-    pagination: '1'
-    url_taxonomy_filters: '1'
-feed:
-    limit: '10'
-    description: ''
 ---
 
 ##  Mautic API
