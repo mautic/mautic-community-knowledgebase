@@ -14,8 +14,6 @@ show_pagination: true
 content:
     items:
         - '@self.children'
-        -
-            '@taxonomy.tag': FAQ
     limit: 12
     order:
         by: title
