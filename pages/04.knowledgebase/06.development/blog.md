@@ -14,6 +14,8 @@ show_pagination: true
 content:
     items:
         - '@self.children'
+        -
+            '@taxonomy.tag': 'Best Practice'
     limit: 12
     order:
         by: title
