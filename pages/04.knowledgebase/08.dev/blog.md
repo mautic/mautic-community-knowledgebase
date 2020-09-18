@@ -12,7 +12,8 @@ hero_overlay: true
 hero_showsearch: false
 content:
     items:
-        - '@self.children'
+        -
+            '@taxonomy.tag': dev
     limit: 12
     order:
         by: title
