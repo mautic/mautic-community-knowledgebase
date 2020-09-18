@@ -13,7 +13,7 @@ hero_showsearch: false
 content:
     items:
         -
-            '@taxonomy.tag': segments
+            '@taxonomy.tag': segment
     limit: 12
     order:
         by: title
