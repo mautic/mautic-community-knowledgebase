@@ -13,6 +13,8 @@ hero_showsearch: false
 content:
     items:
         - '@self.children'
+        -
+            '@taxonomy.tag': Segments
     limit: 12
     order:
         by: title
