@@ -44,6 +44,8 @@ If you find mistakes in an article or something which is just outdated, you can 
 4. Open a **pull request** to base fork: mautic/documentation with base: master
 5. Include and reference any Issues your Pull Request addresses
 
+[GitHub Mautic Knowledgebase](https://github.com/mautic/mautic-community-knowledgebase)
+
 **Need a visual explanation? Here is a video on how to contribute!**
 
 ### 3. Write one yourself
