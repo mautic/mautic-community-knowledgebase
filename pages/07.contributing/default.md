@@ -46,7 +46,6 @@ If you find mistakes in an article or something which is just outdated, you can 
 
 [GitHub Mautic Knowledgebase](https://github.com/mautic/mautic-community-knowledgebase)
 
-**Need a visual explanation? Here is a video on how to contribute!**
 
 ### 3. Write one yourself
 You have an idea for an article, which is not listed on Jira-Board and want to contribute? Then please write an [Issue](https://github.com/mautic/mautic-community-knowledgebase/issues) in the GitHub repository and write your article. It would be best to write the article in a Google Doc to make it easy to share it with the Team Education. Once you are finished and need proofreading, drop a message in the [Team Education Slack](https://mautic.slack.com/archives/CQGQ0D4KU).
