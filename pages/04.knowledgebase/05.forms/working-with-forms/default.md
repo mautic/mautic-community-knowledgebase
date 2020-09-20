@@ -56,7 +56,7 @@ As a general guideline, try to avoid asking for information, which is not direct
 It is good practice to use progressive profiling (https://docs.mautic.org/en/components/forms/progressive-profiling#progressive-profiling) in order to collect all the information you need from your leads over time, when appropriate to ask for the information, instead of asking for everything in one large form.
 ## Types of forms in Mautic
 
-Mautic has two different kinds of forms: Campaign forms and Standalone forms.
+Mautic has three different kinds of forms: Campaign forms and Standalone forms.
 
 ![](image2.png)
 
