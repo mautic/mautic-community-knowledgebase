@@ -48,9 +48,10 @@ You can manually install Mautic by [downloading the latest version] [mautic down
 
 If you install Mautic manually, you will need to upload the Mautic package (a zip file) to your server; unzip the files, and then navigate to that location in your browser. 
 
-You will find Mautic has a very easy to follow the on-screen installation process.
+You will find Mautic has a very easy to follow the on-screen installation process [here][here].
 
  [mautic download]: <https://www.mautic.org/download>
  [softaculous]: <https://www.softaculous.com/apps/others/Mautic>
  [bitnami]: <https://bitnami.com/stack/mautic/installer>
  [digital ocean]: <https://www.digitalocean.com/community/tools/mautic>
+ [here]: <https://mauteam.org/mautic/mautic-admins/mautic-installation-in-3-simple-steps-on-a-vps/>
