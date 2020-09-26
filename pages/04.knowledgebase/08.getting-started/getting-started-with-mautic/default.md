@@ -25,7 +25,7 @@ content:
 ##  What is Marketing Automation? 
 Marketing automation is the use of software to deliver personalized messages to customers and leads. The software allows you to create a dynamic series of messages to send to your contacts. Marketing automation offers an exciting opportunity for greater efficiency, cost reduction, and an enhanced customer experience.
 
-## What is Mautic?
+##  What is Mautic?
 Mautic is the world’s first open-source marketing automation system.
 
 ## What does Mautic offer?
@@ -44,4 +44,9 @@ Mautic is the world’s first open-source marketing automation system.
 No, Mautic is easy to learn and get started with. You can start using one part, and gradually expand what you use over time.  That’s the beauty of Mautic, it can evolve with you on this journey.
 
 ## How do I Install Mautic?
-You can manually install Mautic by
+You can manually install Mautic by downloading the latest version of the marketing automation software, or through a semi-automated process offered by third party tools such as Softaculous, Bitnami, and Digital Ocean.  
+
+If you install Mautic manually, you will need to upload the Mautic package (a zip file) to your server; unzip the files, and then navigate to that location in your browser. 
+
+You will find Mautic has a very easy to follow the on-screen installation process.
+
