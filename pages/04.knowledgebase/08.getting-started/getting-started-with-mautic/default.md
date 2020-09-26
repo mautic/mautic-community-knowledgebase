@@ -28,7 +28,7 @@ Marketing automation is the use of software to deliver personalized messages to 
 ### What is Mautic?
 Mautic is the world’s first open-source marketing automation system.
 
-## What does Mautic offer?
+### What does Mautic offer?
 * Campaign Management
 * Customer Lifecycle Management
 * Contact Management
