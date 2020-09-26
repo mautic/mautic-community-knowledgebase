@@ -43,3 +43,5 @@ Mautic is the world’s first open-source marketing automation system.
 ### Do I need to learn all of that at once?
 No, Mautic is easy to learn and get started with. You can start using one part, and gradually expand what you use over time.  That’s the beauty of Mautic, it can evolve with you on this journey.
 
+## How do I Install Mautic?
+You can manually install Mautic by
