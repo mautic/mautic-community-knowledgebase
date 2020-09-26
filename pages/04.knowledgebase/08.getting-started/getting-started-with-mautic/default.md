@@ -44,9 +44,13 @@ Mautic is the world’s first open-source marketing automation system.
 No, Mautic is easy to learn and get started with. You can start using one part, and gradually expand what you use over time.  That’s the beauty of Mautic, it can evolve with you on this journey.
 
 ## How do I Install Mautic?
-You can manually install Mautic by downloading the latest version of the marketing automation software, or through a semi-automated process offered by third party tools such as Softaculous, Bitnami, and Digital Ocean.  
+You can manually install Mautic by [downloading the latest version] [mautic download] of the marketing automation software, or through a semi-automated process offered by third party tools such as [Softaculous][softaculous], [Bitnami][bitnami], and [Digital Ocean][digital ocean].  
 
 If you install Mautic manually, you will need to upload the Mautic package (a zip file) to your server; unzip the files, and then navigate to that location in your browser. 
 
 You will find Mautic has a very easy to follow the on-screen installation process.
 
+ [mautic download]: <https://www.mautic.org/download>
+ [softaculous]: <https://www.softaculous.com/apps/others/Mautic>
+ [bitnami]: <https://bitnami.com/stack/mautic/installer>
+ [digital ocean]: <https://www.digitalocean.com/community/tools/mautic>
