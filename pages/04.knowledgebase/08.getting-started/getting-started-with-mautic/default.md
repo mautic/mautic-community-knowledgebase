@@ -54,7 +54,7 @@ You will find Mautic has a very easy to follow the on-screen installation proces
 Awesome! You've downloaded your marketing automation tool. That's a great first step, but now you wonder where to go from here. Follow [this][this] guide to configure using your shiny new toy!
 
 ## What are Cron jobs and how do I set up cron jobs on Mautic?
-Mautic requires a few cron jobs to handle some maintenance tasks such as updating contacts or campaigns, executing campaign actions, sending emails, and more.  Without them, nothing will happen in Mautic - so you must set them up! Here is the [documentation][documentation](on how to set up the necessary cron jobs.
+Mautic requires a few cron jobs to handle some maintenance tasks such as updating contacts or campaigns, executing campaign actions, sending emails, and more.  Without them, nothing will happen in Mautic - so you must set them up! Here is the [documentation][documentation] on how to set up the necessary cron jobs.
 
  [mautic download]: <https://www.mautic.org/download>
  [softaculous]: <https://www.softaculous.com/apps/others/Mautic>
