@@ -56,6 +56,17 @@ Awesome! You've downloaded your marketing automation tool. That's a great first 
 ## What are Cron jobs and how do I set up cron jobs on Mautic?
 Mautic requires a few cron jobs to handle some maintenance tasks such as updating contacts or campaigns, executing campaign actions, sending emails, and more.  Without them, nothing will happen in Mautic - so you must set them up! Here is the [documentation][documentation] on how to set up the necessary cron jobs.
 
+## Adding your Tracking Pixel
+If you are using CMS platforms like Wordpress there are lots of [plugins][plugins] which make the implementation of tracking super easy. Mostly you just need to copy and paste your Mautic domain and the plugin will do the rest.
+
+Otherwise, to enable Mautic to track website activity, you need to implement a tracking pixel. To find your tracking pixel, open Mautic and go to Settings → Configuration → Tracking settings. 
+
+
+You can either use the Javascript shown above and copy that into the HTML of your website or you can just use a simple tracking pixel by replacing the domain and the path to your Mautic If you do not allow Javascript on your website. 
+
+
+
+
  [mautic download]: <https://www.mautic.org/download>
  [softaculous]: <https://www.softaculous.com/apps/others/Mautic>
  [bitnami]: <https://bitnami.com/stack/mautic/installer>
@@ -64,3 +75,4 @@ Mautic requires a few cron jobs to handle some maintenance tasks such as updatin
  [here]: <https://mauteam.org/mautic/mautic-admins/mautic-installation-in-3-simple-steps-on-a-vps/>
  [this]: <https://mautic.com/help/getting-started-mautic-cloud/>
  [documentation]: <https://docs.mautic.org/en/setup/cron-jobs>
+ [plugins]: <https://www.mautic.org/marketplace>
