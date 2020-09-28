@@ -68,6 +68,9 @@ You can either use the Javascript shown above and copy that into the HTML of you
 ##### Anonymize IP
 To be compliant with the GDPR you need to anonymize IP addresses. This is turned on by default. 
 
+## How do I use contacts in Mautic?
+Contacts are the central factor of a marketing automation platform. These are all the individuals who have visited your websites or interacted with you in some way.  Here is a walkthrough on how to quickly add, view and interact with your contacts in Mautic
+
 
 
 
