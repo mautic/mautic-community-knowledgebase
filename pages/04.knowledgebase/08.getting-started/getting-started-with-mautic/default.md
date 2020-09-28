@@ -96,8 +96,8 @@ Here is a walkthrough on how to create a segment that is going to be empty until
 * Click on **Segments** in the main menu.
 ![](new-segment.jpg)
 * Click **New** and call it **First Contact.**
-* Click **Save** and **Close**.
 ![](new-segment-close.jpg)
+* Click **Save** and **Close**.
 
 ## How do I create my first Mautic campaign?
 Campaigns are used to create an automated workflow to assist with your marketing efforts. It consists of various external points of contact which will engage your contacts. These engagements can be created to occur on predefined time intervals or in response to specific contact actions.
