@@ -125,6 +125,20 @@ For this, you can just use the `first name and email` fields that Mautic provide
 
 * Click on** Components** and then **Forms**.
 * Click **New**.
+* Select **Campaign Form**.
+* Enter **First Contact** for the name. Leave the rest of this screen as is.
+* Click on **Fields.**
+* To add a new field, **click on Add a field**, and select Text. You’ll notice that certain fields are required ( * ). In the Label field, type **First Name.**
+* Click on **Contact Field** and in the dropdown, select** First Name**.
+* Click **Add**.
+* Click **Add a field** and select** Email**.
+* Enter **Email** for the label.
+* Click **Add** (the contact field is selected for you in this case)
+* Click **Save** and **Close**
+
+
+
+
  
 
 
