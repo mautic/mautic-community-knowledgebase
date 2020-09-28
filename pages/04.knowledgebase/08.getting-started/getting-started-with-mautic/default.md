@@ -81,7 +81,9 @@ Here is a walkthrough on how to quickly add, view and interact with your contact
 Here is a [documentation][contacts] on how to interact with, add, manage, import your contacts - both visitors and standard contacts, and also manage segments, custom fields, and message queues in Mautic. 
 
 ## How do I use channels in Mautic?
-Channels are the delivery pathways (marketing messages, email, web notifications, text messages, and social media) you will use from Mautic to publish your Components. The pathways you choose should be selected based on the ideology of _sending the right content, to the right target persona, at the exact time they are searching for it based on their buying Journey_
+Channels are the delivery pathways (marketing messages, email, web notifications, text messages, and social media) you will use from Mautic to publish your Components. 
+
+The pathways you choose should be selected based on the ideology of _sending the right content, to the right target persona, at the exact time they are searching for it based on their buying Journey_
  ![](Screenshot%202020-07-24%20at%208.53.33%20PM.png)
 Here is the [documentation][channels] on how to use channels (marketing messages, emails, web notifications, text messages, and social monitoring) in Mautic.
 
