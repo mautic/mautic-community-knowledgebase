@@ -1,6 +1,6 @@
 ---
 title: 'Getting Started with Mautic'
-media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png'
+media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png,new-segment.jpg,new-segment-close.jpg'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -72,11 +72,11 @@ To be compliant with the GDPR you need to anonymize IP addresses. This is turned
 Contacts are the central factor of a marketing automation platform. These are all the individuals who have visited your websites or interacted with you in some way.  
 
 Here is a walkthrough on how to quickly add, view and interact with your contacts in Mautic
-* Click Contacts in the Main Menu.
+* Click **Contacts** in the Main Menu.
 ![](Screenshot%202020-07-24.png)
 * On the right side of this page, you can manually add contacts one at a time, import contacts via a CSV file (must be encoded in UTF-8), or export all your contacts to a CSV/spreadsheet.
 ![](Screenshot%202020-07-24%20at%208.10.11%20PM.png)
-* Select a contact and click the green arrow. This is where you can manually update one or more contact’s campaigns, segments, stages, and contact status. You can also export the selected contacts or delete the selected contacts.
+* **Select a contact** and **click the green arrow**. This is where you can manually update one or more contact’s campaigns, segments, stages, and contact status. You can also export the selected contacts or delete the selected contacts.
 ![](Screenshot%202020-07-24%20at%208.12.34%20PM.png)
 Here is a [documentation][contacts] on how to interact with, add, manage, import your contacts - both visitors and standard contacts, and also manage segments, custom fields, and message queues in Mautic. 
 
@@ -90,21 +90,19 @@ Here is the [documentation][channels] on how to use channels (marketing messages
 ## How to make use of Segments in Mautic
 Segments provide ways to easily organize your contacts. Once contacts are `known`, you can begin to create segments or lists of people based on common interests, location, how they came into Mautic, or even how they’ve interacted with you over time. These can be done manually or completely automated through form and campaign actions.
 
-Creating a segment is easy. For the sake of this exercise, we’ll create a segment that is going to be empty until unknown site visitors are identified by filling out a form and submitting their information.
-
-
+Here is a walkthrough on how to create a segment that is going to be empty until unknown site visitors are identified by filling out a form and submitting their information.
+* Click on **Segments** in the main menu.
+![](new-segment.jpg)
+* Click **New** and call it **First Contact.**
+* Click **Save** and **Close**.
+![](new-segment-close.jpg)
 ## How do I create my first Mautic campaign?
 Campaigns are used to create an automated workflow to assist with your marketing efforts. It consists of various external points of contact which will engage your contacts. These engagements can be created to occur on predefined time intervals or in response to specific contact actions.
 
 Components are the deliverables you will create in Mautic to be used in your marketing campaigns (assets, landing pages, forms, thank you pages, calls-to-action, and dynamic content).
 
-Segments provide ways to easily organize your contacts. These segments can be configured from a variety of fields.
-
-
 ## Exploring other features in Mautic and how they work together
-**Add segments**
-
-Creating campaigns is an easy process which involves picking a name, creating a description, and defining the segments to associate with the campaign. These campaigns can then be assigned a category and defined publishing information. All of these are rather standard aspects of a new campaign creation.
+Creating campaigns involves picking a name, creating a description, and defining the segments to associate with the campaign. These campaigns can then be assigned a category and defined publishing information. 
 
 To set up a Campaign based on information coming from a form completed by a visitor, you’ll need to execute the following tasks:
 1. Create a form that will be embedded on your landing page.
@@ -117,7 +115,14 @@ To set up a Campaign based on information coming from a form completed by a visi
 *  Add 10 points to their profile (points are completely at your discretion).
 9. Review the results on your dashboard.
 
+##### 1.  Form Setup
+We’re going to create a simple form for this exercise with just a first name and an email address. Forms in Mautic can ask for virtually any information, you’ll just need to identify the fields for storing the information. 
 
+For this, you can just use the `first name and email` fields that Mautic provides.
+
+* Click on** Components** and then **Forms**.
+* Click **New**.
+ 
 
 
  [mautic download]: <https://www.mautic.org/download>
