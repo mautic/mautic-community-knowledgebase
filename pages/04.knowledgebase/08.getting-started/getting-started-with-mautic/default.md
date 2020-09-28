@@ -78,7 +78,11 @@ Here is a walkthrough on how to quickly add, view and interact with your contact
 ![](Screenshot%202020-07-24%20at%208.10.11%20PM.png)
 * Select a contact and click the green arrow. This is where you can manually update one or more contact’s campaigns, segments, stages, and contact status. You can also export the selected contacts or delete the selected contacts.
 ![](Screenshot%202020-07-24%20at%208.12.34%20PM.png)
-Here is the[documentation][contacts] on how to interact with, add, manage, import your contacts - both visitors and standard contacts, and also manage segments, custom fields, and message queues in Mautic. 
+Here is a [documentation][contacts] on how to interact with, add, manage, import your contacts - both visitors and standard contacts, and also manage segments, custom fields, and message queues in Mautic. 
+
+## How do I use channels in Mautic?
+Channels are the delivery pathways (marketing messages, email, web notifications, text messages, and social media) you will use from Mautic to publish your Components. The pathways you choose should be selected based on the ideology of _‘sending the right content, to the right target persona, at the exact time they are searching for it based on their buying Journey'_
+ 
 
 
 
