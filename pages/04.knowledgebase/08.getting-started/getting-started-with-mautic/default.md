@@ -89,7 +89,7 @@ Here is the [documentation][channels] on how to use channels (marketing messages
 
 **Note:** All of these must be created or configured before you can use them in a campaign.
 
-## How to make use of Segments in Mautic
+## How to make use Segments in Mautic
 Segments provide ways to easily organize your contacts. Once contacts are `known`, you can begin to create segments or lists of people based on common interests, location, how they came into Mautic, or even how they’ve interacted with you over time. These can be done manually or completely automated through form and campaign actions.
 
 Here is a walkthrough on how to create a segment that is going to be empty until unknown site visitors are identified by filling out a form and submitting their information.
