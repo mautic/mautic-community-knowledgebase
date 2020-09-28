@@ -1,6 +1,6 @@
 ---
 title: 'Getting Started with Mautic'
-media_order: tracking-pixel.png
+media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -49,13 +49,13 @@ You can manually install Mautic by [downloading the latest version] [mautic down
 
 If you install Mautic manually, you will need to upload the Mautic package (a zip file) to your server; unzip the files, and then navigate to that location in your browser. 
 
-You will find Mautic has a very easy to follow the on-screen installation process [here][here].
+You will find Mautic has a very easy to follow the on-screen installation process [here][installation].
 
 ## How do I set up basic configurations in Mautic? 
-Awesome! You've downloaded your marketing automation tool. That's a great first step, but now you wonder where to go from here. Follow [this][this] guide to configure using your shiny new toy!
+Awesome! You've downloaded your marketing automation tool. That's a great first step, but now you wonder where to go from here. Follow [this][mautic-cloud] guide to configure using your shiny new toy!
 
 ## What are Cron jobs and how do I set up cron jobs on Mautic?
-Mautic requires a few cron jobs to handle some maintenance tasks such as updating contacts or campaigns, executing campaign actions, sending emails, and more.  Without them, nothing will happen in Mautic - so you must set them up! Here is the [documentation][documentation] on how to set up the necessary cron jobs.
+Mautic requires a few cron jobs to handle some maintenance tasks such as updating contacts or campaigns, executing campaign actions, sending emails, and more.  Without them, nothing will happen in Mautic - so you must set them up! Here is the [documentation][cron-jobs] on how to set up the necessary cron jobs.
 
 ## Adding your Tracking Pixel
 If you are using CMS platforms like Wordpress there are lots of [plugins][plugins] which make the implementation of tracking super easy. Mostly you just need to copy and paste your Mautic domain and the plugin will do the rest.
@@ -72,6 +72,13 @@ To be compliant with the GDPR you need to anonymize IP addresses. This is turned
 Contacts are the central factor of a marketing automation platform. These are all the individuals who have visited your websites or interacted with you in some way.  
 
 Here is a walkthrough on how to quickly add, view and interact with your contacts in Mautic
+* Click Contacts in the Main Menu.
+![](Screenshot%202020-07-24.png)
+* On the right side of this page, you can manually add contacts one at a time, import contacts via a CSV file (must be encoded in UTF-8), or export all your contacts to a CSV/spreadsheet.
+![](Screenshot%202020-07-24%20at%208.10.11%20PM.png)
+* Select a contact and click the green arrow. This is where you can manually update one or more contact’s campaigns, segments, stages, and contact status. You can also export the selected contacts or delete the selected contacts.
+![](Screenshot%202020-07-24%20at%208.12.34%20PM.png)
+Here is the[documentation][contacts] on how to interact with, add, manage, import your contacts - both visitors and standard contacts, and also manage segments, custom fields, and message queues in Mautic. 
 
 
 
@@ -82,7 +89,8 @@ Here is a walkthrough on how to quickly add, view and interact with your contact
  [bitnami]: <https://bitnami.com/stack/mautic/installer>
  [digital ocean]: <https://www.digitalocean.com/community/tools/mautic>
  
- [here]: <https://mauteam.org/mautic/mautic-admins/mautic-installation-in-3-simple-steps-on-a-vps/>
- [this]: <https://mautic.com/help/getting-started-mautic-cloud/>
- [documentation]: <https://docs.mautic.org/en/setup/cron-jobs>
+ [installation]: <https://mauteam.org/mautic/mautic-admins/mautic-installation-in-3-simple-steps-on-a-vps/>
+ [mautic-cloud]: <https://mautic.com/help/getting-started-mautic-cloud/>
+ [cron-jobs]: <https://docs.mautic.org/en/setup/cron-jobs>
  [plugins]: <https://www.mautic.org/marketplace>
+ [contacts]: <https://docs.mautic.org/en/contacts>
