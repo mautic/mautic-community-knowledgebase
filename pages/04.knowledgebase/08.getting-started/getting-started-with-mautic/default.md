@@ -95,6 +95,17 @@ Components are the deliverables you will create in Mautic to be used in your mar
 Channels are the delivery pathways (marketing messages, email, web notifications, text messages, and social media) you will use from Mautic to publish your Components. The pathways you choose should be selected based on the ideology of _sending the right content, to the right target persona, at the exact time they are searching for it based on their buying journey._
 
 ## Exploring other features in Mautic and how they work together
+**Add segments**
+To set up a Campaign based on information coming from a form completed by a visitor, you’ll need to execute the following tasks:
+1. Create a form that will be embedded on your landing page.
+2. Set up a simple landing page with compelling copy and imagery related to your offer.
+3. Create a simple thank you or follow-up email that will be sent once the form has been submitted.
+4. Design a Campaign that will perform the following actions when the form is submitted:
+*  Add the contact to Mautic
+*  Add them to the “First Response” Segment
+*  Send them the follow-up email.
+*  Add 10 points to their profile (points are completely at your discretion).
+9. Review the results on your dashboard.
 
 
 
