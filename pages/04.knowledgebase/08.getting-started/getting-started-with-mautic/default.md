@@ -1,6 +1,6 @@
 ---
 title: 'Getting Started with Mautic'
-media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png'
+media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -82,8 +82,19 @@ Here is a [documentation][contacts] on how to interact with, add, manage, import
 
 ## How do I use channels in Mautic?
 Channels are the delivery pathways (marketing messages, email, web notifications, text messages, and social media) you will use from Mautic to publish your Components. The pathways you choose should be selected based on the ideology of _‘sending the right content, to the right target persona, at the exact time they are searching for it based on their buying Journey'_
- 
+ ![](Screenshot%202020-07-24%20at%208.53.33%20PM.png)
+Here is the [documentation][channels] on how to use channels (marketing messages, emails, web notifications, text messages, and social monitoring) in Mautic.
 
+**Note:** All of these must be created or configured before you can use them in a campaign.
+
+## How do I create my first Mautic campaign?
+Campaigns are used to create an automated workflow to assist with your marketing efforts. It consists of various external points of contact which will engage your contacts. These engagements can be created to occur on predefined time intervals or in response to specific contact actions.
+
+Components are the deliverables you will create in Mautic to be used in your marketing campaigns (assets, landing pages, forms, thank you pages, calls-to-action, and dynamic content).
+
+Channels are the delivery pathways (marketing messages, email, web notifications, text messages, and social media) you will use from Mautic to publish your Components. The pathways you choose should be selected based on the ideology of _‘sending the right content, to the right target persona, at the exact time they are searching for it based on their buying journey.”_
+
+## Exploring other features in Mautic and how they work together
 
 
 
@@ -95,6 +106,8 @@ Channels are the delivery pathways (marketing messages, email, web notifications
  
  [installation]: <https://mauteam.org/mautic/mautic-admins/mautic-installation-in-3-simple-steps-on-a-vps/>
  [mautic-cloud]: <https://mautic.com/help/getting-started-mautic-cloud/>
+ 
  [cron-jobs]: <https://docs.mautic.org/en/setup/cron-jobs>
  [plugins]: <https://www.mautic.org/marketplace>
  [contacts]: <https://docs.mautic.org/en/contacts>
+ [channels]: <https://docs.mautic.org/en/channels>
