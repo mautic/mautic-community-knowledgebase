@@ -87,15 +87,25 @@ Here is the [documentation][channels] on how to use channels (marketing messages
 
 **Note:** All of these must be created or configured before you can use them in a campaign.
 
+## How to make use of Segments in Mautic
+Segments provide ways to easily organize your contacts. Once contacts are `known`, you can begin to create segments or lists of people based on common interests, location, how they came into Mautic, or even how they’ve interacted with you over time. These can be done manually or completely automated through form and campaign actions.
+
+Creating a segment is easy. For the sake of this exercise, we’ll create a segment that is going to be empty until unknown site visitors are identified by filling out a form and submitting their information.
+
+
 ## How do I create my first Mautic campaign?
 Campaigns are used to create an automated workflow to assist with your marketing efforts. It consists of various external points of contact which will engage your contacts. These engagements can be created to occur on predefined time intervals or in response to specific contact actions.
 
 Components are the deliverables you will create in Mautic to be used in your marketing campaigns (assets, landing pages, forms, thank you pages, calls-to-action, and dynamic content).
 
-Channels are the delivery pathways (marketing messages, email, web notifications, text messages, and social media) you will use from Mautic to publish your Components. The pathways you choose should be selected based on the ideology of _sending the right content, to the right target persona, at the exact time they are searching for it based on their buying journey._
+Segments provide ways to easily organize your contacts. These segments can be configured from a variety of fields.
+
 
 ## Exploring other features in Mautic and how they work together
 **Add segments**
+
+Creating campaigns is an easy process which involves picking a name, creating a description, and defining the segments to associate with the campaign. These campaigns can then be assigned a category and defined publishing information. All of these are rather standard aspects of a new campaign creation.
+
 To set up a Campaign based on information coming from a form completed by a visitor, you’ll need to execute the following tasks:
 1. Create a form that will be embedded on your landing page.
 2. Set up a simple landing page with compelling copy and imagery related to your offer.
