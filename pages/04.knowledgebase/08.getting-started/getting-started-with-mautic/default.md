@@ -118,7 +118,7 @@ To set up a Campaign based on information coming from a form completed by a visi
 *  Add 10 points to their profile (points are completely at your discretion).
 9. Review the results on your dashboard.
 
-##### 1.  Form Setup
+##### 1.  Form Setup(Create a form that will be embedded on your landing page)
 We’re going to create a simple form for this exercise with just a first name and an email address. Forms in Mautic can ask for virtually any information, you’ll just need to identify the fields for storing the information. 
 
 For this, you can just use the `first name and email` fields that Mautic provides.
