@@ -65,6 +65,10 @@ Otherwise, to enable Mautic to track website activity, you need to implement a t
 
 You can either use the Javascript shown above and copy that into the HTML of your website or you can just use a simple tracking pixel by replacing the domain and the path to your Mautic If you do not allow Javascript on your website. 
 
+#### Anonymize IP
+To be compliant with the GDPR you need to anonymize IP addresses. This is turned on by default. 
+
+
 
 
 
