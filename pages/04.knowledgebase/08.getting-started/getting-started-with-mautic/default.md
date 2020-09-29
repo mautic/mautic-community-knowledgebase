@@ -254,7 +254,7 @@ Reporting is only as valuable as the actionable intelligence derived from it. A 
 *  In the Reports section, click **New**.
 *  Enter a name – Form Submissions in 2020.
 *  ![](new-report-1.jpg)
-*  Populate the data source from which you want to create the report. Choose Form Submissions from the data source drop-down.
+*  Populate the data source from which you want to create the report. Choose **Form Submissions** from the data source drop-down.
 * Click on the Data tab to specify the columns and filters you want in your report.
 *  ![](new-report-2.jpg)
 *  Click on the **Data tab** to specify the columns and filters you want in your report.
