@@ -175,8 +175,8 @@ One of the most common ways to follow up with the people who fill in your forms 
 ![](add-text.jpg)
 * Let’s personalize this email using tokens. To use these tokens, type  **{**, and a list of tokens you can use will be displayed. Type “**fir**” after the **{** and you’ll see the token for a contact’s first name. Click on that and it will be translated to {contactfield=firstname}. You can insert the value of any field in Mautic this way.
 * Type the following into the email: **_Thank you for downloading the Open Marketing Ebook! Save this email for future reference. View the Open Marketing Ebook. Here are some additional resources related to Open Marketing(Insert blog posts, other content assets, etc)._**
-Click **Close Builder**.
-Click **Save** and **Close**.
+* Click **Close Builder**.
+* Click **Save** and **Close**.
  
 
 
