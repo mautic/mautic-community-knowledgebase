@@ -271,7 +271,7 @@ In addition to reports, the dashboard is a great place to see how your campaigns
 
 Mautic allows each account user the flexibility to fully customize their dashboard view. There are several widgets out-of-the-box in Mautic which will allow users to see performance data that will be relevant to their role.  Dashboards can be exported and imported with ease, so you can create a template and easily apply it across different user accounts or Mautic instances.
 
-## I still have questions?
+## Have  questions?
 
 We are always happy to help. You can send your questions to our [slack channel][slack] or the [Mautic forum][forum].
 
