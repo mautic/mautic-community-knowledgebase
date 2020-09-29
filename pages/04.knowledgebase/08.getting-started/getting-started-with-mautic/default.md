@@ -1,6 +1,6 @@
 ---
 title: 'Getting Started with Mautic'
-media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png,new-segment.jpg,new-segment-close.jpg,new-campaign-form.jpg,contacts-7.jpg,contacts-8.jpg,Screenshot 2020-07-24 at 9.40.54 PM.png,contacts-4 (1).jpg,my-first-landing-page-3.jpg,replace-bob1.jpg,my-first-form.jpg,landing-page-with-form.jpg,Screenshot 2020-07-24 at 11.09.09 PM.png,new-template-email.jpg,my-first-email.jpg,remove-text.jpg,add-text.jpg,campaign-1.jpg,campaign-2.jpg,campaign-3.jpg,campaign-4.jpg,campaign-5.jpg,campaign-6.jpg,campaign-7.jpg,campaign-8.jpg,campaign-9.jpg,publish-campaign.jpg,copy-public-url-1.jpg,first-campaign-response.jpg'
+media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png,new-segment.jpg,new-segment-close.jpg,new-campaign-form.jpg,contacts-7.jpg,contacts-8.jpg,Screenshot 2020-07-24 at 9.40.54 PM.png,contacts-4 (1).jpg,my-first-landing-page-3.jpg,replace-bob1.jpg,my-first-form.jpg,landing-page-with-form.jpg,Screenshot 2020-07-24 at 11.09.09 PM.png,new-template-email.jpg,my-first-email.jpg,remove-text.jpg,add-text.jpg,campaign-1.jpg,campaign-2.jpg,campaign-3.jpg,campaign-4.jpg,campaign-5.jpg,campaign-6.jpg,campaign-7.jpg,campaign-8.jpg,campaign-9.jpg,publish-campaign.jpg,copy-public-url-1.jpg,first-campaign-response.jpg,contact-update.jpg,leads-report.jpg,new-report-1.jpg,new-report-2.jpg,new-report-3.jpg,dashboard-overview.jpg'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -228,7 +228,52 @@ The only thing left to do is test your new campaign!
 
 Paste the URL into the address bar of your browser. You should see your landing page. Go ahead and fill in the form using your real name and email address.
  ![](first-campaign-response.jpg)
-5. 
+5. Head back over to Mautic and click on **Campaigns -> My First Campaign**. You’ll see that one person has been processed in the campaign. Click on the **Actions tab** to see what actions have been performed so far.
+6. Click on **Channels**, then **Emails**. You’ll see that one email has been sent. Check your email. (it may take a few minutes to arrive).
+![](contact-update.jpg)
+
+## How to track the performance of Mautic campaigns?
+There are specific metrics you’ll want to review to understand both granularly and holistically regarding how your Campaign performed.
+
+A few examples of the granular items you’ll want to review are:
+
+* Click on the Form to see who responded.
+* Click on the Email to see sends, bounces, and opens.
+* Click on any Contact to see their entire history.
+* Click on any Campaign to see every action that was triggered.
+For an holistic view of Campaign performance, Mautic has several reports you can use to measure progress. To review your Reports, perform the following:
+* Click on **Reports**.
+* Click on Leads and Points to see an example.
+![](leads-report.jpg)
+
+Reporting is only as valuable as the actionable intelligence derived from it. A few examples of actionable intelligence:
+* Using data to analyze overall marketing efforts to optimize spend, resource allocation, and inform future planning.
+* Using data in real-time to make changes to individual campaign components and delivery channels to ensure the right content gets to the right people at the exact time they need it. Marketing intelligence will improve organizational efficiency and effectiveness allowing your team to go beyond campaign execution. It allows a marketer to focus on improving the end-user experience at each stage of the buyer’s journey.
+
+#### Create A Report
+
+1. In the Reports section, click **New**.
+2. Enter a name – Form Submissions in 2020.
+ ![](new-report-1.jpg)
+3. Populate the data source from which you want to create the report. Choose Form Submissions from the data source drop-down.
+4. Click on the Data tab to specify the columns and filters you want in your report.
+ ![](new-report-2.jpg)
+5. Click on the **Data tab** to specify the columns and filters you want in your report.
+6. Click **Save** and **Clos**e, analyze the data, and optimize as necessary.
+![](new-report-3.jpg)
+
+#### Dashboard Review & Customization
+In addition to reports, the dashboard is a great place to see how your campaigns are performing in real-time.
+![](dashboard-overview.jpg)
+**It’s your information center.** The dashboard is flexible and fully customizable so you can view the metrics that are important to you in real-time.
+
+Mautic allows each account user the flexibility to fully customize their dashboard view. There are several widgets out-of-the-box in Mautic which will allow users to see performance data that will be relevant to their role.  Dashboards can be exported and imported with ease, so you can create a template and easily apply it across different user accounts or Mautic instances.
+
+## I still have questions?
+
+We are always happy to help. You can send your questions to our [slack channel][slack]or the [Mautic forum][forum].
+
+
 
  [mautic download]: <https://www.mautic.org/download>
  [softaculous]: <https://www.softaculous.com/apps/others/Mautic>
@@ -242,3 +287,6 @@ Paste the URL into the address bar of your browser. You should see your landing 
  [plugins]: <https://www.mautic.org/marketplace>
  [contacts]: <https://docs.mautic.org/en/contacts>
  [channels]: <https://docs.mautic.org/en/channels>
+ 
+ [slack]: <https://mautic.org/slack>
+ [forum] :<https://forum.mautic.org>
