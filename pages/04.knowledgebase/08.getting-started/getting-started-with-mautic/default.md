@@ -231,6 +231,7 @@ The only thing left to do is test your new campaign!
 *  Click on **Channels**, then **Emails**. You’ll see that one email has been sent. Check your email. (it may take a few minutes to arrive).
 * ![](contact-update.jpg)
 
+
 #### 6. Track the performance of Mautic campaigns
 There are specific metrics you’ll want to review to understand both granularly and holistically regarding how your Campaign performed.
 
