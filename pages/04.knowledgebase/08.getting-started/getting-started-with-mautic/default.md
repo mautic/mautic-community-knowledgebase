@@ -1,6 +1,6 @@
 ---
 title: 'Getting Started with Mautic'
-media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png,new-segment.jpg,new-segment-close.jpg,new-campaign-form.jpg,contacts-7.jpg,contacts-8.jpg,Screenshot 2020-07-24 at 9.40.54 PM.png,contacts-4 (1).jpg'
+media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png,new-segment.jpg,new-segment-close.jpg,new-campaign-form.jpg,contacts-7.jpg,contacts-8.jpg,Screenshot 2020-07-24 at 9.40.54 PM.png,contacts-4 (1).jpg,my-first-landing-page-3.jpg,replace-bob1.jpg,my-first-form.jpg,landing-page-with-form.jpg'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -118,7 +118,7 @@ To set up a Campaign based on information coming from a form completed by a visi
 *  Add 10 points to their profile (points are completely at your discretion).
 9. Review the results on your dashboard.
 
-#### 1.  Form Setup (Create a form that will be embedded on your landing page)
+#### 1.  Create a form that will be embedded on your landing page
 We’re going to create a simple form for this exercise with just a first name and an email address. Forms in Mautic can ask for virtually any information, you’ll just need to identify the fields for storing the information. 
 
 For this, you can just use the `first name and email` fields that Mautic provides.
@@ -140,6 +140,21 @@ For this, you can just use the `first name and email` fields that Mautic provide
 * Click **Add** (the contact field is selected for you in this case)
 ![](contacts-8.jpg)
 * Click **Save** and **Close**
+
+2. Set up a simple landing page with compelling copy and imagery related to your offer.
+* Click on **Landing Pages.**
+* Click **New**.
+* On the right side, enter “**My First Landing Page**” for the title. 
+* Select the **Oxygen template**. 
+* Click on the **Builder button**.
+![](my-first-landing-page-3.jpg)
+* Click on the text field. A box will appear and the text will be in the editing window on the right.
+![](replace-bob1.jpg)
+* Let’s insert the form token on your landing page, type **{ (shift square bracket – top right side of the keyboard)**, in the editor menu. Click on My **First Form**.
+![](my-first-form.jpg)
+* Click **Save** and **Close**.
+![](contacts-4%20%281%29.jpg)
+* Click on the Public Preview link (on the right side of the page). Confirm that the form is embedded in the page but don’t fill in the form yet.
 
 
 
