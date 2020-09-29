@@ -1,6 +1,6 @@
 ---
 title: 'Getting Started with Mautic'
-media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png,new-segment.jpg,new-segment-close.jpg,new-campaign-form.jpg,contacts-7.jpg,contacts-8.jpg,Screenshot 2020-07-24 at 9.40.54 PM.png,contacts-4 (1).jpg,my-first-landing-page-3.jpg,replace-bob1.jpg,my-first-form.jpg,landing-page-with-form.jpg,Screenshot 2020-07-24 at 11.09.09 PM.png,new-template-email.jpg,my-first-email.jpg,remove-text.jpg,add-text.jpg,campaign-1.jpg,campaign-2.jpg,campaign-3.jpg,campaign-4.jpg,campaign-5.jpg,campaign-6.jpg,campaign-7.jpg,campaign-8.jpg,campaign-9.jpg,publish-campaign.jpg'
+media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png,new-segment.jpg,new-segment-close.jpg,new-campaign-form.jpg,contacts-7.jpg,contacts-8.jpg,Screenshot 2020-07-24 at 9.40.54 PM.png,contacts-4 (1).jpg,my-first-landing-page-3.jpg,replace-bob1.jpg,my-first-form.jpg,landing-page-with-form.jpg,Screenshot 2020-07-24 at 11.09.09 PM.png,new-template-email.jpg,my-first-email.jpg,remove-text.jpg,add-text.jpg,campaign-1.jpg,campaign-2.jpg,campaign-3.jpg,campaign-4.jpg,campaign-5.jpg,campaign-6.jpg,campaign-7.jpg,campaign-8.jpg,campaign-9.jpg,publish-campaign.jpg,copy-public-url-1.jpg,first-campaign-response.jpg'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -216,6 +216,19 @@ Now that you have your form; landing page and email created, we can configure ou
 * Click **Save** and **Close**. You’ll see the statistics for this campaign.
 ![](publish-campaign.jpg)
 * Make sure the campaign is published. If not, click the slider to change it to published.
+
+#### Form Test
+The only thing left to do is test your new campaign!
+
+1. Click on **Components** and then **Landing Pages**.
+2. Click on **My First Landing Page**.
+3. Copy the URL for the Public Preview (right-click on the URL and click “Copy”).
+![](copy-public-url-1.jpg)
+4. Either log out of Mautic or open an incognito browser.
+
+Paste the URL into the address bar of your browser. You should see your landing page. Go ahead and fill in the form using your real name and email address.
+ ![](first-campaign-response.jpg)
+5. 
 
  [mautic download]: <https://www.mautic.org/download>
  [softaculous]: <https://www.softaculous.com/apps/others/Mautic>
