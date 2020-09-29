@@ -141,7 +141,7 @@ For this, you can just use the `first name and email` fields that Mautic provide
 ![](contacts-8.jpg)
 * Click **Save** and **Close**
 
-2. Set up a simple landing page with compelling copy and imagery related to your offer.
+#### 2. Set up a simple landing page with compelling copy and imagery related to your offer.
 * Click on **Landing Pages.**
 * Click **New**.
 * On the right side, enter “**My First Landing Page**” for the title. 
