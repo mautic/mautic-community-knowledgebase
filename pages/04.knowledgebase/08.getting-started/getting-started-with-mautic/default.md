@@ -1,6 +1,6 @@
 ---
 title: 'Getting Started with Mautic'
-media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png,new-segment.jpg,new-segment-close.jpg,new-campaign-form.jpg,contacts-7.jpg,contacts-8.jpg,Screenshot 2020-07-24 at 9.40.54 PM.png,contacts-4 (1).jpg,my-first-landing-page-3.jpg,replace-bob1.jpg,my-first-form.jpg,landing-page-with-form.jpg'
+media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png,new-segment.jpg,new-segment-close.jpg,new-campaign-form.jpg,contacts-7.jpg,contacts-8.jpg,Screenshot 2020-07-24 at 9.40.54 PM.png,contacts-4 (1).jpg,my-first-landing-page-3.jpg,replace-bob1.jpg,my-first-form.jpg,landing-page-with-form.jpg,Screenshot 2020-07-24 at 11.09.09 PM.png,new-template-email.jpg,my-first-email.jpg,remove-text.jpg,add-text.jpg'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -141,7 +141,7 @@ For this, you can just use the `first name and email` fields that Mautic provide
 ![](contacts-8.jpg)
 * Click **Save** and **Close**
 
-#### 2. Set up a simple landing page with compelling copy and imagery related to your offer.
+#### 2. Set up a simple landing page
 * Click on **Landing Pages.**
 * Click **New**.
 * On the right side, enter “**My First Landing Page**” for the title. 
@@ -156,9 +156,27 @@ For this, you can just use the `first name and email` fields that Mautic provide
 ![](contacts-4%20%281%29.jpg)
 * Click on the Public Preview link (on the right side of the page). Confirm that the form is embedded in the page but don’t fill in the form yet.
 
-
-
-
+#### 3. Create a thank you email
+One of the most common ways to follow up with the people who fill in your forms is to send them an email with a white paper or other downloadable asset attached.
+* In the main menu, click on **Channels** and then **Emails**.
+* Click **New**.
+![](Screenshot%202020-07-24%20at%2011.09.09%20PM.png)
+* **Select New Template Email**. You’ll notice that we have the same templates available in Emails as we did in Landing Pages. You can use a template, create your own, or simply create an email with no template.
+![](new-template-email.jpg)
+* **Select the Blank template** for this exercise.
+![](my-first-email.jpg)
+* In the subject field, type “**Thank you for requesting this information!**”
+* For the Internal Name, type “**My First Email**”.
+* Click on the **Builder tab**.
+* **Click anywhere** in the text.
+* On the right side in the editor window, highlight the text in the email but not **{unsubscribe_text} | {webview_text}**, and remove it by pressing delete or backspace.
+![](remove-text.jpg)
+* Type “**Hi**” and then add a space to separate your greeting from the recipient’s name.
+![](add-text.jpg)
+* Let’s personalize this email using tokens. To use these tokens, type  **{**, and a list of tokens you can use will be displayed. Type “**fir**” after the **{** and you’ll see the token for a contact’s first name. Click on that and it will be translated to {contactfield=firstname}. You can insert the value of any field in Mautic this way.
+* Type the following into the email: **_Thank you for downloading the Open Marketing Ebook! Save this email for future reference. View the Open Marketing Ebook. Here are some additional resources related to Open Marketing(Insert blog posts, other content assets, etc)._**
+Click **Close Builder**.
+Click **Save** and **Close**.
  
 
 
