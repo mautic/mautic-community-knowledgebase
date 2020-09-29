@@ -1,6 +1,6 @@
 ---
 title: 'Getting Started with Mautic'
-media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png,new-segment.jpg,new-segment-close.jpg,new-campaign-form.jpg,contacts-4.jpg,contacts-7.jpg,contacts-8.jpg,Screenshot 2020-07-24 at 9.40.54 PM.png'
+media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png,new-segment.jpg,new-segment-close.jpg,new-campaign-form.jpg,contacts-7.jpg,contacts-8.jpg,Screenshot 2020-07-24 at 9.40.54 PM.png,contacts-4 (1).jpg'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -129,7 +129,7 @@ For this, you can just use the `first name and email` fields that Mautic provide
 * Select **Campaign Form**.
 ![](Screenshot%202020-07-24%20at%209.40.54%20PM.png)
 * Enter **First Contact** for the name. Leave the rest of this screen as is.
-![](contacts-4.jpg)
+![](contacts-4%20%281%29.jpg)
 * Click on **Fields.**
 * To add a new field, **click on Add a field**, and select Text. You’ll notice that certain fields are required ( * ). In the Label field, type **First Name.**
 * Click on **Contact Field** and in the dropdown, select** First Name**.
