@@ -111,12 +111,11 @@ To set up a Campaign based on information coming from a form completed by a visi
 1. Create a form that will be embedded on your landing page.
 2. Set up a simple landing page with compelling copy and imagery related to your offer.
 3. Create a simple thank you or follow-up email that will be sent once the form has been submitted.
-4. Design a Campaign that will perform the following actions when the form is submitted:
-*  Add the contact to Mautic
-*  Add them to the “First Response” Segment
-*  Send them the follow-up email.
-*  Add 10 points to their profile (points are completely at your discretion).
-9. Review the results on your dashboard.
+4. Design a Campaign that will perform actions when the form is submitted.
+5. Test the Form
+6. Track the performance of Mautic Campaign
+7. Create a report
+8. Review the results on your dashboard.
 
 #### 1.  Create a form that will be embedded on your landing page
 We’re going to create a simple form for this exercise with just a first name and an email address. Forms in Mautic can ask for virtually any information, you’ll just need to identify the fields for storing the information. 
@@ -217,7 +216,7 @@ Now that you have your form; landing page and email created, we can configure ou
 ![](publish-campaign.jpg)
 * Make sure the campaign is published. If not, click the slider to change it to published.
 
-#### Form Test
+#### 5. Form Test
 The only thing left to do is test your new campaign!
 
 1. Click on **Components** and then **Landing Pages**.
@@ -232,7 +231,7 @@ Paste the URL into the address bar of your browser. You should see your landing 
 6. Click on **Channels**, then **Emails**. You’ll see that one email has been sent. Check your email. (it may take a few minutes to arrive).
 ![](contact-update.jpg)
 
-## How to track the performance of Mautic campaigns?
+#### 6. Track the performance of Mautic campaigns
 There are specific metrics you’ll want to review to understand both granularly and holistically regarding how your Campaign performed.
 
 A few examples of the granular items you’ll want to review are:
@@ -250,7 +249,7 @@ Reporting is only as valuable as the actionable intelligence derived from it. A 
 * Using data to analyze overall marketing efforts to optimize spend, resource allocation, and inform future planning.
 * Using data in real-time to make changes to individual campaign components and delivery channels to ensure the right content gets to the right people at the exact time they need it. Marketing intelligence will improve organizational efficiency and effectiveness allowing your team to go beyond campaign execution. It allows a marketer to focus on improving the end-user experience at each stage of the buyer’s journey.
 
-#### Create A Report
+#### 7. Create a report
 
 1. In the Reports section, click **New**.
 2. Enter a name – Form Submissions in 2020.
@@ -262,7 +261,7 @@ Reporting is only as valuable as the actionable intelligence derived from it. A 
 6. Click **Save** and **Clos**e, analyze the data, and optimize as necessary.
 ![](new-report-3.jpg)
 
-#### Dashboard Review & Customization
+#### 8. Dashboard review & customization
 In addition to reports, the dashboard is a great place to see how your campaigns are performing in real-time.
 ![](dashboard-overview.jpg)
 **It’s your information center.** The dashboard is flexible and fully customizable so you can view the metrics that are important to you in real-time.
