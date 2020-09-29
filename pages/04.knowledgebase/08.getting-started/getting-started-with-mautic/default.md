@@ -1,6 +1,6 @@
 ---
 title: 'Getting Started with Mautic'
-media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png,new-segment.jpg,new-segment-close.jpg,new-campaign-form.jpg,contacts-7.jpg,contacts-8.jpg,Screenshot 2020-07-24 at 9.40.54 PM.png,contacts-4 (1).jpg,my-first-landing-page-3.jpg,replace-bob1.jpg,my-first-form.jpg,landing-page-with-form.jpg,Screenshot 2020-07-24 at 11.09.09 PM.png,new-template-email.jpg,my-first-email.jpg,remove-text.jpg,add-text.jpg'
+media_order: 'tracking-pixel.png,Screenshot 2020-07-24.png,Screenshot 2020-07-24 at 8.10.11 PM.png,Screenshot 2020-07-24 at 8.12.34 PM.png,Screenshot 2020-07-24 at 8.53.33 PM.png,new-segment.jpg,new-segment-close.jpg,new-campaign-form.jpg,contacts-7.jpg,contacts-8.jpg,Screenshot 2020-07-24 at 9.40.54 PM.png,contacts-4 (1).jpg,my-first-landing-page-3.jpg,replace-bob1.jpg,my-first-form.jpg,landing-page-with-form.jpg,Screenshot 2020-07-24 at 11.09.09 PM.png,new-template-email.jpg,my-first-email.jpg,remove-text.jpg,add-text.jpg,campaign-1.jpg,campaign-2.jpg,campaign-3.jpg,campaign-4.jpg,campaign-5.jpg,campaign-6.jpg,campaign-7.jpg,campaign-8.jpg,campaign-9.jpg,publish-campaign.jpg'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -161,9 +161,9 @@ One of the most common ways to follow up with the people who fill in your forms 
 * In the main menu, click on **Channels** and then **Emails**.
 * Click **New**.
 ![](Screenshot%202020-07-24%20at%2011.09.09%20PM.png)
-* **Select New Template Email**. You’ll notice that we have the same templates available in Emails as we did in Landing Pages. You can use a template, create your own, or simply create an email with no template.
+* Select **New Template Email**. You’ll notice that we have the same templates available in Emails as we did in Landing Pages. You can use a template, create your own, or simply create an email with no template.
 ![](new-template-email.jpg)
-* **Select the Blank template** for this exercise.
+* Select **the Blank template** for this exercise.
 ![](my-first-email.jpg)
 * In the subject field, type “**Thank you for requesting this information!**”
 * For the Internal Name, type “**My First Email**”.
@@ -178,7 +178,44 @@ One of the most common ways to follow up with the people who fill in your forms 
 * Click **Close Builder**.
 * Click **Save** and **Close**.
  
-
+#### 4. Campaign Setup
+Now that you have your form; landing page and email created, we can configure our first campaign. Campaigns are where we bring all of our work together! Campaigns are very flexible. They are made up of conditions, decisions and actions.
+* Click on **Campaigns** and click **New**.
+* In the Name field type: **My First Campaign**.
+* Click on **Launch Campaign Builder**.
+![](campaign-1.jpg)
+* Campaigns begin with a Contact Source. This is either a segment or a form Select **Campaign forms**.
+![](campaign-2.jpg)
+* Click in the field and select the form you created earlier.
+* Click **Add**.
+![](campaign-3.jpg)
+* Click on the grey semi-circle (“connector”)
+* Click the **Action Select button**.
+![](campaign-4.jpg)
+* Click on **Modify Contact’s Segments**.
+* Type “**Move to First Contact Segmen**t” in the Name field.
+* Click in the Add **contact to segment field** and select the “**First Contact**” Segment.
+* Click Add.
+![](campaign-5.jpg)
+* You will notice a line drawn from between the two boxes. This is called “**connector**”. It is drawn between the “**anchors**” on each box.
+* Hover over the anchor on the upper box and click. Select **Action**and then Send **Email**.
+![](campaign-6.jpg)
+* Name the action “**Send 1st Email**”.
+* Select “**My First Email**” from the Email to Send dropdown.
+* Click **Add**.
+![](campaign-7.jpg)
+* The last step is to add 10 points to their profile if they open the email. Click on the anchor on the “**Send First Email**” box.
+* Select** Decision**. Select “**Opens Email**” from the dropdown.
+![](campaign-8.jpg)
+* Enter “**Opens 1st Email**” in the Name field and click **Add**.
+* Click on the left anchor, and select **Action**, then Adjust contact points.
+* Enter “**Add 10 points for email open**” for the name field and enter “10” in the points field. Click **Add**.
+![](campaign-9.jpg)
+* Click **Close Builder**.
+* Click on “**Yes**” to publish the campaign.
+* Click **Save** and **Close**. You’ll see the statistics for this campaign.
+![](publish-campaign.jpg)
+* Make sure the campaign is published. If not, click the slider to change it to published.
 
  [mautic download]: <https://www.mautic.org/download>
  [softaculous]: <https://www.softaculous.com/apps/others/Mautic>
