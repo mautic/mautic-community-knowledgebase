@@ -44,20 +44,20 @@ Mautic is the world’s first open-source marketing automation system.
 ### Do I need to learn all of that at once?
 No, Mautic is easy to learn and get started with. You can start using one part, and gradually expand what you use over time.  That’s the beauty of Mautic, it can evolve with you on this journey.
 
-## How do I install Mautic?
+## How to install Mautic?
 You can manually install Mautic by [downloading the latest version] [mautic download] of the marketing automation software, or through a semi-automated process offered by third party tools such as [Softaculous][softaculous], [Bitnami][bitnami], and [Digital Ocean][digital ocean].  
 
 If you install Mautic manually, you will need to upload the Mautic package (a zip file) to your server; unzip the files, and then navigate to that location in your browser. 
 
 You will find Mautic has a very easy to follow the on-screen installation process [here][installation].
 
-## How do I set up basic configurations in Mautic? 
+## How to set up basic configurations in Mautic? 
 Awesome! You've downloaded your marketing automation tool. That's a great first step, but now you wonder where to go from here. Follow [this][mautic-cloud] guide to configure using your shiny new toy!
 
-## What are cron jobs and how do I set up cron jobs on Mautic?
+## What are cron jobs and how to set up cron jobs on Mautic?
 Mautic requires a few cron jobs to handle some maintenance tasks such as updating contacts or campaigns, executing campaign actions, sending emails, and more.  Without them, nothing will happen in Mautic - so you must set them up! Here is the [documentation][cron-jobs] on how to set up the necessary cron jobs.
 
-## Adding your tracking pixel
+## How to add tracking pixel in Mautic
 If you are using CMS platforms like Wordpress there are lots of [plugins][plugins] which make the implementation of tracking super easy. Mostly you just need to copy and paste your Mautic domain and the plugin will do the rest.
 
 Otherwise, to enable Mautic to track website activity, you need to implement a tracking pixel. To find your tracking pixel, open Mautic and go to **Settings → Configuration → Tracking settings**. 
@@ -68,10 +68,10 @@ You can either use the Javascript shown above and copy that into the HTML of you
 ##### Anonymize IP
 To be compliant with the GDPR you need to anonymize IP addresses. This is turned on by default. 
 
-## How do I use contacts in Mautic?
+## How to use contacts in Mautic?
 Contacts are the central factor of a marketing automation platform. These are all the individuals who have visited your websites or interacted with you in some way.  
 
-Here is a walkthrough on how to quickly add, view and interact with your contacts in Mautic
+Here is a walkthrough on how to quickly add, view and interact with your contacts in Mautic:
 * Click **Contacts** in the Main Menu.
 ![](Screenshot%202020-07-24.png)
 * On the right side of this page, you can manually add contacts one at a time, import contacts via a CSV file (must be encoded in UTF-8), or export all your contacts to a CSV/spreadsheet.
@@ -80,7 +80,7 @@ Here is a walkthrough on how to quickly add, view and interact with your contact
 ![](Screenshot%202020-07-24%20at%208.12.34%20PM.png)
 Here is a [documentation][contacts] on how to interact with, add, manage, import your contacts - both visitors and standard contacts, and also manage segments, custom fields, and message queues in Mautic. 
 
-## How do I use channels in Mautic?
+## How to use channels in Mautic?
 Channels are the delivery pathways (marketing messages, email, web notifications, text messages, and social media) you will use from Mautic to publish your Components. 
 
 The pathways you choose should be selected based on the ideology of _sending the right content, to the right target persona, at the exact time they are searching for it based on their buying Journey_
@@ -89,7 +89,7 @@ Here is the [documentation][channels] on how to use channels (marketing messages
 
 **Note:** All of these must be created or configured before you can use them in a campaign.
 
-## How to make use of segments in Mautic
+## How to use segments in Mautic
 Segments provide ways to easily organize your contacts. Once contacts are known, you can begin to create segments or lists of people based on common interests, location, how they came into Mautic, or even how they’ve interacted with you over time. These can be done manually or completely automated through form and campaign actions.
 
 Here is a walkthrough on how to create a segment that is going to be empty until unknown site visitors are identified by filling out a form and submitting their information.
@@ -99,7 +99,7 @@ Here is a walkthrough on how to create a segment that is going to be empty until
 ![](new-segment-close.jpg)
 * Click **Save** and **Close**.
 
-## How do I create my first Mautic campaign?
+## How to create your first Mautic campaign?
 Campaigns are used to create an automated workflow to assist with your marketing efforts. It consists of various external points of contact which will engage your contacts. These engagements can be created to occur on predefined time intervals or in response to specific contact actions.
 
 Components are the deliverables you will create in Mautic to be used in your marketing campaigns (assets, landing pages, forms, thank you pages, calls-to-action, and dynamic content).
