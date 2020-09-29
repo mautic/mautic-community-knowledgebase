@@ -229,7 +229,7 @@ The only thing left to do is test your new campaign!
 *  ![](first-campaign-response.jpg)
 *  Head back over to Mautic and click on **Campaigns -> My First Campaign**. You’ll see that one person has been processed in the campaign. Click on the **Actions tab** to see what actions have been performed so far.
 *  Click on **Channels**, then **Emails**. You’ll see that one email has been sent. Check your email. (it may take a few minutes to arrive).
-* ![](contact-update.jpg)
+![](contact-update.jpg)
 
 
 #### 6. Track the performance of Mautic campaigns
