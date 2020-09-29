@@ -271,7 +271,7 @@ Mautic allows each account user the flexibility to fully customize their dashboa
 
 ## I still have questions?
 
-We are always happy to help. You can send your questions to our [slack channel][slack]or the [Mautic forum][forum].
+We are always happy to help. You can send your questions to our [slack channel][slack] or the [Mautic forum][forum].
 
 
 
@@ -289,4 +289,4 @@ We are always happy to help. You can send your questions to our [slack channel][
  [channels]: <https://docs.mautic.org/en/channels>
  
  [slack]: <https://mautic.org/slack>
- [forum] :<https://forum.mautic.org>
+ [forum]:<https://forum.mautic.org>
