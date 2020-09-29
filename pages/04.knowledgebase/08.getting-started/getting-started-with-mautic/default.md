@@ -112,9 +112,9 @@ To set up a Campaign based on information coming from a form completed by a visi
 2. Set up a simple landing page with compelling copy and imagery related to your offer.
 3. Create a simple thank you or follow-up email that will be sent once the form has been submitted.
 4. Design a Campaign that will perform actions when the form is submitted.
-5. Test the Form
-6. Track the performance of Mautic Campaign
-7. Create a report
+5. Test the Form.
+6. Track the performance of Mautic Campaign.
+7. Create a report.
 8. Review the results on your dashboard.
 
 #### 1.  Create a form that will be embedded on your landing page
