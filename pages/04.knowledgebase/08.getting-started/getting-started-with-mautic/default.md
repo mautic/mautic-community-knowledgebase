@@ -150,7 +150,7 @@ For this, you can just use the `first name and email` fields that Mautic provide
 ![](my-first-landing-page-3.jpg)
 * Click on the text field. A box will appear and the text will be in the editing window on the right.
 ![](replace-bob1.jpg)
-* Let’s insert the form token on your landing page, type **{ (shift square bracket – top right side of the keyboard)**, in the editor menu. Click on My **First Form**.
+* Let’s insert the form token on your landing page, type **{** (shift square bracket – top right side of the keyboard), in the editor menu. Click on My **First Form**.
 ![](my-first-form.jpg)
 * Click **Save** and **Close**.
 ![](contacts-4%20%281%29.jpg)
