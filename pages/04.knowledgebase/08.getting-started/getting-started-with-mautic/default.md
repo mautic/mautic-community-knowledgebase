@@ -219,17 +219,17 @@ Now that you have your form; landing page and email created, we can configure ou
 #### 5. Form Test
 The only thing left to do is test your new campaign!
 
-1. Click on **Components** and then **Landing Pages**.
-2. Click on **My First Landing Page**.
-3. Copy the URL for the Public Preview (right-click on the URL and click “Copy”).
-![](copy-public-url-1.jpg)
-4. Either log out of Mautic or open an incognito browser.
-
-Paste the URL into the address bar of your browser. You should see your landing page. Go ahead and fill in the form using your real name and email address.
- ![](first-campaign-response.jpg)
-5. Head back over to Mautic and click on **Campaigns -> My First Campaign**. You’ll see that one person has been processed in the campaign. Click on the **Actions tab** to see what actions have been performed so far.
-6. Click on **Channels**, then **Emails**. You’ll see that one email has been sent. Check your email. (it may take a few minutes to arrive).
-![](contact-update.jpg)
+* Click on **Components** and then **Landing Pages**.
+* Click on **My First Landing Page**.
+* Copy the URL for the Public Preview (right-click on the URL and click “Copy”).
+* ![](copy-public-url-1.jpg)
+* Either log out of Mautic or open an incognito browser.
+* 
+* Paste the URL into the address bar of your browser. You should see your landing page. Go ahead and fill in the form using your real name and email address.
+*  ![](first-campaign-response.jpg)
+*  Head back over to Mautic and click on **Campaigns -> My First Campaign**. You’ll see that one person has been processed in the campaign. Click on the **Actions tab** to see what actions have been performed so far.
+*  Click on **Channels**, then **Emails**. You’ll see that one email has been sent. Check your email. (it may take a few minutes to arrive).
+* ![](contact-update.jpg)
 
 #### 6. Track the performance of Mautic campaigns
 There are specific metrics you’ll want to review to understand both granularly and holistically regarding how your Campaign performed.
@@ -251,15 +251,16 @@ Reporting is only as valuable as the actionable intelligence derived from it. A 
 
 #### 7. Create a report
 
-1. In the Reports section, click **New**.
-2. Enter a name – Form Submissions in 2020.
- ![](new-report-1.jpg)
-3. Populate the data source from which you want to create the report. Choose Form Submissions from the data source drop-down.
-4. Click on the Data tab to specify the columns and filters you want in your report.
- ![](new-report-2.jpg)
-5. Click on the **Data tab** to specify the columns and filters you want in your report.
-6. Click **Save** and **Clos**e, analyze the data, and optimize as necessary.
-![](new-report-3.jpg)
+*  In the Reports section, click **New**.
+*  Enter a name – Form Submissions in 2020.
+*  ![](new-report-1.jpg)
+*  Populate the data source from which you want to create the report. Choose Form Submissions from the data source drop-down.
+* Click on the Data tab to specify the columns and filters you want in your report.
+*  ![](new-report-2.jpg)
+*  Click on the **Data tab** to specify the columns and filters you want in your report.
+* ![](new-report-3.jpg)
+*  Click **Save** and **Clos**e, analyze the data, and optimize as necessary.
+
 
 #### 8. Dashboard review & customization
 In addition to reports, the dashboard is a great place to see how your campaigns are performing in real-time.
