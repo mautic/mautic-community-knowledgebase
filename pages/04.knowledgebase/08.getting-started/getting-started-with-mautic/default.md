@@ -164,8 +164,8 @@ One of the most common ways to follow up with the people who fill in your forms 
 ![](new-template-email.jpg)
 * Select **the Blank template** for this exercise.
 ![](my-first-email.jpg)
-* In the subject field, type “**Thank you for requesting this information!**”
-* For the Internal Name, type “**My First Email**”.
+* In the subject field, type **Thank you for requesting this information!**
+* For the Internal Name, type **My First Email**.
 * Click on the **Builder tab**.
 * **Click anywhere** in the text.
 * On the right side in the editor window, highlight the text in the email but not **{unsubscribe_text} | {webview_text}**, and remove it by pressing delete or backspace.
@@ -192,26 +192,26 @@ Now that you have your form; landing page and email created, we can configure ou
 * Click the **Action Select button**.
 ![](campaign-4.jpg)
 * Click on **Modify Contact’s Segments**.
-* Type “**Move to First Contact Segmen**t” in the Name field.
-* Click in the Add **contact to segment field** and select the “**First Contact**” Segment.
+* Type **Move to First Contact Segment** in the Name field.
+* Click in the Add **contact to segment field** and select the **First Contact** Segment.
 * Click Add.
 ![](campaign-5.jpg)
-* You will notice a line drawn from between the two boxes. This is called “**connector**”. It is drawn between the “**anchors**” on each box.
+* You will notice a line drawn from between the two boxes. This is called **connector**. It is drawn between the **anchors** on each box.
 * Hover over the anchor on the upper box and click. Select **Action**and then Send **Email**.
 ![](campaign-6.jpg)
-* Name the action “**Send 1st Email**”.
-* Select “**My First Email**” from the Email to Send dropdown.
+* Name the action **Send 1st Email**.
+* Select **My First Email** from the Email to Send dropdown.
 * Click **Add**.
 ![](campaign-7.jpg)
-* The last step is to add 10 points to their profile if they open the email. Click on the anchor on the “**Send First Email**” box.
-* Select** Decision**. Select “**Opens Email**” from the dropdown.
+* The last step is to add 10 points to their profile if they open the email. Click on the anchor on the **Send First Email** box.
+* Select **Decision**. Select **Opens Email** from the dropdown.
 ![](campaign-8.jpg)
-* Enter “**Opens 1st Email**” in the Name field and click **Add**.
+* Enter **Opens 1st Email** in the Name field and click **Add**.
 * Click on the left anchor, and select **Action**, then Adjust contact points.
-* Enter “**Add 10 points for email open**” for the name field and enter “10” in the points field. Click **Add**.
+* Enter **Add 10 points for email open** for the name field and enter “10” in the points field. Click **Add**.
 ![](campaign-9.jpg)
 * Click **Close Builder**.
-* Click on “**Yes**” to publish the campaign.
+* Click on **Yes** to publish the campaign.
 * Click **Save** and **Close**. You’ll see the statistics for this campaign.
 ![](publish-campaign.jpg)
 * Make sure the campaign is published. If not, click the slider to change it to published.
@@ -221,7 +221,7 @@ The only thing left to do is test your new campaign!
 
 * Click on **Components** and then **Landing Pages**.
 * Click on **My First Landing Page**.
-* Copy the URL for the Public Preview (right-click on the URL and click “Copy”).
+* Copy the URL for the Public Preview (right-click on the URL and click **Copy**).
 * ![](copy-public-url-1.jpg)
 * Either log out of Mautic or open an incognito browser.
 * 
@@ -259,7 +259,7 @@ Reporting is only as valuable as the actionable intelligence derived from it. A 
 *  ![](new-report-2.jpg)
 *  Click on the **Data tab** to specify the columns and filters you want in your report.
 * ![](new-report-3.jpg)
-*  Click **Save** and **Clos**e, analyze the data, and optimize as necessary.
+*  Click **Save** and **Close**, analyze the data, and optimize as necessary.
 
 
 #### 8. Dashboard review & customization
