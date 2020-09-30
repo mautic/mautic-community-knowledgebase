@@ -199,7 +199,7 @@ Now that you have your form; landing page and email created, we can configure ou
 * Click **Add**.
 ![](campaign-5.jpg)
 * You will notice a line drawn from between the two boxes. This is called **connector**. It is drawn between the **anchors** on each box.
-* Hover over the anchor on the upper box and click. Select **Action**and then Send **Email**.
+* Hover over the anchor on the upper box and click. Select **Action** and then Send **Email**.
 ![](campaign-6.jpg)
 * Name the action **Send 1st Email**.
 * Select **My First Email** from the Email to Send dropdown.
@@ -255,12 +255,11 @@ Reporting is only as valuable as the actionable intelligence derived from it. A 
 
 *  In the **Reports** section, click **New**.
 *  Enter a name – **Form Submissions in 2020**.
-*  ![](new-report-1.jpg)
+  ![](new-report-1.jpg)
 *  Populate the data source from which you want to create the report. Choose **Form Submissions** from the data source drop-down.
-* Click on the Data tab to specify the columns and filters you want in your report.
-*  ![](new-report-2.jpg)
-*  Click on the **Data tab** to specify the columns and filters you want in your report.
-* ![](new-report-3.jpg)
+  ![](new-report-2.jpg)
+*  Click on the **Data** tab to specify the columns and filters you want in your report.
+ ![](new-report-3.jpg)
 *  Click **Save** and **Close**, analyze the data, and optimize as necessary.
 
 
@@ -269,7 +268,9 @@ In addition to reports, the dashboard is a great place to see how your campaigns
 ![](dashboard-overview.jpg)
 **It’s your information center.** The dashboard is flexible and fully customizable so you can view the metrics that are important to you in real-time.
 
-Mautic allows each account user the flexibility to fully customize their dashboard view. There are several widgets out-of-the-box in Mautic which will allow users to see performance data that will be relevant to their role.  Dashboards can be exported and imported with ease, so you can create a template and easily apply it across different user accounts or Mautic instances.
+Mautic allows each account user the flexibility to fully customize their dashboard view. There are several widgets out-of-the-box in Mautic which will allow users to see performance data that will be relevant to their role.  
+
+Dashboards can be exported and imported with ease, so you can create a template and easily apply it across different user accounts or Mautic instances.
 
 ## Have any questions?
 
