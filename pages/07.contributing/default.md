@@ -15,7 +15,7 @@ content:
 ---
 
 # Share your tutorial!
-You already got a finished article or tutorial that should be available in the knowledgebase for everyone. Then please share it with the Mautic Community and make it public. To do that, just send the article or tutorial to **[leon.oltmanns@mautic.org](mailto:leon.oltmanns@mautic.org)**. 
+You already got a finished article or tutorial that should be available in the knowledgebase for everyone. Then please share it with the Mautic Community and make it public. To do that, just send the article or tutorial to **[leon.oltmanns@mautic.org](mailto:edu-contribute@mautic.org)**. 
 
 We will handle the formatting and everthing else. If you got that tutorial/article already online on your own website we will give you a canoncial link to prevent duplicant content!
 
