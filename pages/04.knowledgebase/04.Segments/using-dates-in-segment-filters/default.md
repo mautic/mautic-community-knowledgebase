@@ -20,7 +20,7 @@ facebookenable: true
 ---
 
 ## Date Option
-This is for more advanced user, who may need to specify a certain date or time frame. The first option is to use the vanilla “date picker”
+This is for more advanced user, who may need to specify a certain date or time frame. The first option is to use the vanilla “date picker”!
 
 ![](image1.png)
 
