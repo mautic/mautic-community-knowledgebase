@@ -4,8 +4,8 @@ taxonomy:
     category:
         - FAQ
     tag:
-        - FAQ
         - Basics
+        - FAQ
         - Video
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
