@@ -145,7 +145,7 @@ For this, you can just use the `first name and email` fields that Mautic provide
 #### 2. Set up a simple landing page
 * Click on **Landing Pages.**
 * Click **New**.
-* On the right side, enter “**My First Landing Page**” for the title. 
+* On the right side, enter **My First Landing Page** for the title. 
 * Select the **Oxygen template**. 
 * Click on the **Builder button**.
 ![](my-first-landing-page-3.jpg)
