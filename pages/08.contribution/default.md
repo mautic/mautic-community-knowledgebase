@@ -10,6 +10,15 @@ articleenabled: false
 facebookenable: true
 ---
 
+# Share your tutorial!
+You already got a finished article or tutorial that should be available in the knowledgebase for everyone. Then please share it with the Mautic Community and make it public. To do that, just send the article or tutorial to **[edu-contribute@mautic.org](mailto:edu-contribute@mautic.org)**. 
+
+We will handle the formatting and everthing else. If you got that tutorial/article already online on your own website we will give you a canoncial link to prevent duplicant content!
+
+To give you the **recognition you deserve** for writing an article, we will give **full credit** to the **author** aswell as a **backlink** to your website at the end of each article!
+
+-- VIDEO HERE -- 
+
 #How to Contribute
 The articles in this Mautic knowledgebase were written by people from the community. Thanks to their contribution, the knowledgebase grows prosperous. If you want to participate in the knowledgebase, you came to the right place! There are different ways to contribute, we listed them so you can choose which one is best for you!
 
