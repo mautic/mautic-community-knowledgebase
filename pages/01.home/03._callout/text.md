@@ -17,6 +17,6 @@ give their time to make that happen.
 If you are interested in helping out and writing an article, we will give full credit
 to the author and offer you to link your own agency etc. at the bottom of the article!
 
-[How you can contribute][contribution-page]
+[+ Discover how you can contribute][contribution-page]
 
 [contribution-page]: <https://kb.mautic.org/contribution?classes=btn,btn-primary,btn-lg>
