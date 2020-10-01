@@ -20,7 +20,7 @@ To give you the **recognition you deserve** for writing an article, we will give
 ### How to Contribute
 The articles in this Mautic Knowledgebase were written by people from the community. Thanks to their contribution, the knowledgebase grows prosperous. If you want to participate in the knowledgebase, you came to the right place! There are different ways to contribute, we listed them so that you can choose which one is best for you!
 
-[plugin:youtube](https://www.youtube.com/watch?v=R5jmxZBzsjs&feature=youtu.be&ab_channel=MauticTeamEducation)
+[plugin:youtube](https://www.youtube.com/watch?v=R5jmxZBzsjs)
 
 ### Write a suggested article
 
