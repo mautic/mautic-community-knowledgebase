@@ -17,9 +17,6 @@ give their time to make that happen.
 If you are interested in helping out and writing an article, we will give full credit
 to the author and offer you to link your own agency etc. at the bottom of the article!
 
-[Learn more about contributing to the Mautic Community][contribute-to-mautic]
+[How you can contribute[contribution-page]
 
-[+ Discover articles that need writing...][education-team-jira]
-
-[contribute-to-mautic]: <https://contribute.mautic.org/contributing-to-mautic>
-[education-team-jira]: <https://mautic.atlassian.net/browse/TEDU-15?classes=btn,btn-primary,btn-lg>
+[contribution-page]: <https://kb.mautic.org/contribution?classes=btn,btn-primary,btn-lg>
