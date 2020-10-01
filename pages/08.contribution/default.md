@@ -20,6 +20,8 @@ To give you the **recognition you deserve** for writing an article, we will give
 ### How to Contribute
 The articles in this Mautic Knowledgebase were written by people from the community. Thanks to their contribution, the knowledgebase grows prosperous. If you want to participate in the knowledgebase, you came to the right place! There are different ways to contribute, we listed them so that you can choose which one is best for you!
 
+[plugin:youtube](https://www.youtube.com/watch?v=R5jmxZBzsjs&feature=youtu.be&ab_channel=MauticTeamEducation)
+
 ### Write a suggested article
 
 We have collection of articles that would be very useful in this knowledgebase. These are organized in a Jira board. If you fancy writing an article from this list, feel free to assign yourself to it and start writing. There is a Google Doc linked in each and every Jira issue which contains useful links and information. If you need help or guidance, don't hesitate to write me a message and I will help you getting started! Contact information is at the bottom of this article.
