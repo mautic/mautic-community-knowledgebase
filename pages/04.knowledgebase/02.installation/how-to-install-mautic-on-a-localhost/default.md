@@ -35,4 +35,4 @@ feed:
 
 ## Installing Mautic locally
 This article will guide you through setting up Mautic locally for use and for development.
-### Setting up your local environment
+## Setting up your local environment
