@@ -13,17 +13,18 @@ body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
-hero_overlay: true
-hero_showsearch: false
+hero_classes: ''
+hero_image: ''
+hero_overlay: '1'
+hero_showsearch: '0'
 content:
-    items:
-        - '@self.children'
-    limit: 12
+    items: '- ''@self.children'''
+    limit: '12'
     order:
         by: date
         dir: desc
-    pagination: true
-    url_taxonomy_filters: true
+    pagination: '1'
+    url_taxonomy_filters: '1'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
