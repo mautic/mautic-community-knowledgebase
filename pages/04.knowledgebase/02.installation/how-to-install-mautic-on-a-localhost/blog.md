@@ -7,9 +7,9 @@ taxonomy:
     category:
         - Installation
     tag:
+        - Intermediate
         - installation
         - localhost
-        - Intermediate
         - dev
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
@@ -26,13 +26,13 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: true
-feed:
-    limit: 10
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
 facebookenable: true
+feed:
+    limit: 10
 ---
 
-# Installing Mautic locally
-## Find the best way to install Mautic on your own computer for testing and development
+##  Installing Mautic locally
+This article will guide you through setting up Mautic locally for use and for development.
