@@ -13,6 +13,10 @@ body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+facebookenable: true
 hero_classes: ''
 hero_image: ''
 hero_overlay: '1'
@@ -25,13 +29,10 @@ content:
         dir: desc
     pagination: '1'
     url_taxonomy_filters: '1'
-twitterenable: true
-twittercardoptions: summary
-articleenabled: false
-facebookenable: true
 feed:
     limit: 10
 ---
 
-##  Installing Mautic locally
+## Installing Mautic locally
 This article will guide you through setting up Mautic locally for use and for development.
+### Setting up your local environment
