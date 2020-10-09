@@ -54,7 +54,7 @@ AMPPS is an easy to install software stack of Apache, Mysql, PHP, Perl, Python a
 You can easily run AMPPS locally on Windows, Linux and Mac OS X by downloading it from [here][ampps download] and following the instructions relevant to your operating system to [Install Ampps][ampps install]. 
 
 ##### 3. Install Composer
-Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. There are two ways to install Composer. Locally as part of your project, or globally as a system wide executable.
+Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. There are two ways to install Composer `locally` as part of your project, or `globally` as a system wide executable.
 
 You can easily download and install composer on Windows, Linux and Mac OS X by downloading it from [here][composer] 
 
