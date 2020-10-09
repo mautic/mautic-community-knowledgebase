@@ -44,8 +44,12 @@ Mautic uses Git as a version control system. Download and install git for your O
 
 If you already have Git installed, you can get the latest development version via Git itself:
 
-```git clone https://github.com/git/git
 ```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+
 
 
 [git]:<https://git-scm.com/downloads>
