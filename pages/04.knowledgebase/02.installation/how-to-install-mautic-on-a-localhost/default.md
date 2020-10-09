@@ -57,9 +57,17 @@ You can easily run AMPPS locally on Windows, Linux and Mac OS X by downloading i
 Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. There are two ways to install Composer `locally` as part of your project, or `globally` as a system wide executable.
 
 You can easily download and install composer on Windows, Linux and Mac OS X by downloading it from [here][composer] 
+##### 4. Install NPM.
+NPM is the package manager for the Node JavaScript platform. npm is installed with Node.js. You can easily download and install composer on Windows, Linux and Mac OS X by downloading it from [here][npm] 
+##### 5. Install Grunt.
+Grunt is a JavaScript task runner, a tool used to automatically perform frequent tasks such as minification, compilation, unit testing, and linting. It uses a command-line interface to run custom tasks defined in a file. You can install grunt by running the following command via terminal.
 
+```
+npm i grunt
 
+```
 [git]:<https://git-scm.com/downloads>
 [ampps download]: <http://www.ampps.com/downloads>
 [ampps install]: <http://www.ampps.com/wiki/Main_Page>
 [composer]: <https://getcomposer.org/doc/00-intro.md>
+[npm]: <https://www.npmjs.com/get-npm>
