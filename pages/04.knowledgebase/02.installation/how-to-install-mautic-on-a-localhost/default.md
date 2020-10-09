@@ -35,4 +35,14 @@ feed:
 
 ## Installing Mautic locally
 This article will guide you through setting up Mautic locally for use and for development.
+
 ## Setting up your local environment
+A basic knowledge of Terminal is good, although you should be able to follow along, as the commands are all fairly simple. They are mainly to get the prerequisite components installed and running.
+
+##### 1. Install Git
+Mautic uses Git as a version control system. Download and install git for your OS from [Git-download][git].
+If you already have Git installed, you can get the latest development version via Git itself:
+``` git clone https://github.com/git/git  ```
+
+
+[git]:<https://git-scm.com/downloads>
