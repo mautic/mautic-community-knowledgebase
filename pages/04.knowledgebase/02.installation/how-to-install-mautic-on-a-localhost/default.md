@@ -44,10 +44,7 @@ Mautic uses Git as a version control system. Download and install git for your O
 
 If you already have Git installed, you can get the latest development version via Git itself:
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+```git clone https://github.com/git/git
 ```
 
 
