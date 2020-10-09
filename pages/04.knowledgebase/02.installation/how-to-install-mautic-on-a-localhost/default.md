@@ -48,7 +48,11 @@ If you already have Git installed, you can get the latest development version vi
 git clone https://github.com/git/git
 
 ```
+##### 2. Install AMPPS package
+AMPPS is an easy to install software stack of Apache, Mysql, PHP, Perl, Python and Softaculous auto-installer that can be used on Desktops and office servers. You can easily run AMPPS locally on Windows, Linux and Mac OS X by downloading it from [here] [ampps download] and following the instructions relevant to your operating system to [Install Ampps][ampps install]. 
 
 
 
 [git]:<https://git-scm.com/downloads>
+[ampps download]: <http://www.ampps.com/downloads>
+[ampps install]: <http://www.ampps.com/wiki/Main_Page>
