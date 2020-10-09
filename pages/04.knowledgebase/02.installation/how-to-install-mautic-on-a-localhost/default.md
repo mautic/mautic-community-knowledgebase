@@ -49,10 +49,17 @@ git clone https://github.com/git/git
 
 ```
 ##### 2. Install AMPPS package
-AMPPS is an easy to install software stack of Apache, Mysql, PHP, Perl, Python and Softaculous auto-installer that can be used on Desktops and office servers. You can easily run AMPPS locally on Windows, Linux and Mac OS X by downloading it from [here] [ampps download] and following the instructions relevant to your operating system to [Install Ampps][ampps install]. 
+AMPPS is an easy to install software stack of Apache, Mysql, PHP, Perl, Python and Softaculous auto-installer that can be used on Desktops and office servers. 
 
+You can easily run AMPPS locally on Windows, Linux and Mac OS X by downloading it from [here][ampps download] and following the instructions relevant to your operating system to [Install Ampps][ampps install]. 
+
+##### 3. Install Composer
+Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. There are two ways to install Composer. Locally as part of your project, or globally as a system wide executable.
+
+You can easily download and install composer on Windows, Linux and Mac OS X by downloading it from [here][composer] 
 
 
 [git]:<https://git-scm.com/downloads>
 [ampps download]: <http://www.ampps.com/downloads>
 [ampps install]: <http://www.ampps.com/wiki/Main_Page>
+[composer]: <https://getcomposer.org/doc/00-intro.md>
