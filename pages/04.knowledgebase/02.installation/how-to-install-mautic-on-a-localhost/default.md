@@ -78,7 +78,7 @@ npm i grunt
 6. Visit Mautic in a browser at [http://localhost/mautic](http://localhost/mautic) and follow onscreen installation steps.
 
 ## Development environment
-Mautic downloaded from GitHub has the development environment. You can access it by adding `index_dev.php`[]() after the Mautic URL. 
+Mautic downloaded from GitHub has the development environment. You can access it by adding `index_dev.php` after the Mautic URL. 
 
 Eg. [http://localhost/mautic/index_dev.php/s/](http://localhost/mautic/index_dev.php/s). Or in case of CLI commands, add `--env=dev` attribute to it.
 
