@@ -65,6 +65,18 @@ Grunt is a JavaScript task runner, a tool used to automatically perform frequent
 npm i grunt
 
 ```
+
+## Installing Mautic Locally
+ After installing the development / build process required
+   Note: To use Mautic you will need to set up a web server for example; Apache HTTP Server,Nginx Web Server.
+We would install Mautic locally on our system by following these steps: 
+1. Open a Terminal/Console window.
+2. Change directory to the server root (i.e. `cd /var/www` if your local server root is at /var/www).
+3. Clone the repository (git clone https://github.com/mautic/mautic.git)
+4. The mautic directory should appear in the server root. Change directory to mautic directory `cd mautic`.
+5. Install dependencies `composer install`.
+6. Visit Mautic in a browser at http://localhost/mautic and follow installation steps.
+
 [git]:<https://git-scm.com/downloads>
 [ampps download]: <http://www.ampps.com/downloads>
 [ampps install]: <http://www.ampps.com/wiki/Main_Page>
