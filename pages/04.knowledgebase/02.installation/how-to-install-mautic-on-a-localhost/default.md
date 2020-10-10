@@ -87,7 +87,7 @@ In case of assets like JS, CSS, the source files are loaded instead of concatena
 In many cases, the CSS files are built from LESS files. To compile the changes in the LESS files, run grunt compile-less command.
 
 
-#### Keeping Up-To-Date
+## Keeping Up-To-Date
 Source Files
 Each time you update Mautic's source after the initial setup/installation via a new checkout, download, git pull, etc; you will need to clear the cache. To do so, run the following command:
 ```
