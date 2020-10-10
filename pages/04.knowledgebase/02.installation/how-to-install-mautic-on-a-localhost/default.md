@@ -67,9 +67,10 @@ npm i grunt
 ```
 
 ## Installing Mautic Locally
- After installing the development / build process required
+ After installing the development / build process required,we would install Mautic locally on our system by following these steps: 
+   
    Note: To use Mautic you will need to set up a web server for example; Apache HTTP Server,Nginx Web Server.
-We would install Mautic locally on our system by following these steps: 
+   
 1. Open a Terminal/Console window.
 2. Change directory to the server root (i.e. `cd /var/www` if your local server root is at /var/www).
 3. Clone the repository (git clone https://github.com/mautic/mautic.git)
