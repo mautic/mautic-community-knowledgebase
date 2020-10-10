@@ -78,11 +78,13 @@ npm i grunt
 6. Visit Mautic in a browser at [http://localhost/mautic](http://localhost/mautic) and follow onscreen installation steps.
 
 ## Development environment
-Mautic downloaded from GitHub has the development environment. You can access it by adding index_dev.php after the Mautic URL. Eg. http://localhost/mautic/index_dev.php/s/. Or in case of CLI commands, add --env=dev attribute to it.
+Mautic downloaded from GitHub has the development environment. You can access it by adding `index_dev.php`[]() after the Mautic URL. 
 
-This development environment will display the PHP errors, warnings and notices directly as the output so you don't have to open the log to see them. It will also load for example translations without cache, so every change you make will be visible without clearing it. The only changes which require clearing the cache are in the config.php files.
+Eg. [http://localhost/mautic/index_dev.php/s/](http://localhost/mautic/index_dev.php/s). Or in case of CLI commands, add `--env=dev` attribute to it.
 
-In case of assets like JS, CSS, the source files are loaded instead of concatenated, minified files. This way the changes in those files will be directly visible on refresh. If you'd wanted to see the change in the production environment, you'd have to have run the app/console mautic:assets:generate command.
+This development environment will display the PHP errors, warnings and notices directly as the output so you don't have to open the log to see them. It will also load for example translations without cache, so every change you make will be visible without clearing it. The only changes which require clearing the cache are in the `config.php` files.
+
+In case of assets like JS, CSS, the source files are loaded instead of concatenated, minified files. This way the changes in those files will be directly visible on refresh. If you'd wanted to see the change in the production environment, you'd have to have run the `app/console mautic:assets:generate` command.
 
 In many cases, the CSS files are built from LESS files. To compile the changes in the LESS files, run grunt compile-less command.
 
