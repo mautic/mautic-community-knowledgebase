@@ -96,7 +96,7 @@ Each time you update Mautic's source after the initial setup/installation via a 
 $ cd /your/mautic/directory
 $ php bin/console cache:clear
 ```
-(Note that if you are accessing Mautic through the dev environment (via index_dev.php), you would need to add --env=dev to the command).
+**Note**: that if you are accessing Mautic through the dev environment via `index_dev.php`, you would need to add ` --env=dev` to the command).
 
 [git]:<https://git-scm.com/downloads>
 [ampps download]: <http://www.ampps.com/downloads>
