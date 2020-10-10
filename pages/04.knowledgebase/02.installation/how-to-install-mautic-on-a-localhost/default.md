@@ -76,7 +76,7 @@ npm i grunt
 3. Clone the repository (git clone [https://github.com/mautic/mautic.git](https://github.com/mautic/mautic.git))
 4. The mautic directory should appear in the server root. Change directory to mautic directory `cd mautic`.
 5. Install dependencies `composer install`.
-6. Visit Mautic in a browser at [http://localhost/mautic](http://localhost/mautic) and follow installation steps.
+6. Visit Mautic in a browser at [http://localhost/mautic](http://localhost/mautic) and follow onscreen installation steps.
 
 [git]:<https://git-scm.com/downloads>
 [ampps download]: <http://www.ampps.com/downloads>
