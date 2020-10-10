@@ -34,7 +34,6 @@ feed:
 ---
 
 This article will guide you through setting up Mautic locally for use and for development.
-
 ## Setting up your local environment
 A basic knowledge of Terminal is good, although you should be able to follow along, as the commands are all fairly simple. They are mainly to get the prerequisite components installed and running.
 
@@ -57,13 +56,13 @@ Composer is a tool for dependency management in PHP. It allows you to declare th
 
 You can easily download and install composer on Windows, Linux and Mac OS X by downloading it from [here][composer] 
 ##### 4. Install NPM.
-NPM is the package manager for the Node JavaScript platform. npm is installed with Node.js. You can easily download and install composer on Windows, Linux and Mac OS X by downloading it from [here][npm] 
+NPM is the package manager for the Node JavaScript platform. npm is installed with Node.js. You can easily download and install composer on Windows, Linux and Mac OS X by downloading it from [here][npm].
+
 ##### 5. Install Grunt.
 Grunt is a JavaScript task runner, a tool used to automatically perform frequent tasks such as minification, compilation, unit testing, and linting. It uses a command-line interface to run custom tasks defined in a file. You can install grunt by running the following command via terminal.
 
 ```
 npm i grunt
-
 ```
 
 ## Installing Mautic Locally
@@ -77,6 +76,25 @@ npm i grunt
 4. The mautic directory should appear in the server root. Change directory to mautic directory `cd mautic`.
 5. Install dependencies `composer install`.
 6. Visit Mautic in a browser at [http://localhost/mautic](http://localhost/mautic) and follow onscreen installation steps.
+
+## Development environment
+Mautic downloaded from GitHub has the development environment. You can access it by adding index_dev.php after the Mautic URL. Eg. http://localhost/mautic/index_dev.php/s/. Or in case of CLI commands, add --env=dev attribute to it.
+
+This development environment will display the PHP errors, warnings and notices directly as the output so you don't have to open the log to see them. It will also load for example translations without cache, so every change you make will be visible without clearing it. The only changes which require clearing the cache are in the config.php files.
+
+In case of assets like JS, CSS, the source files are loaded instead of concatenated, minified files. This way the changes in those files will be directly visible on refresh. If you'd wanted to see the change in the production environment, you'd have to have run the app/console mautic:assets:generate command.
+
+In many cases, the CSS files are built from LESS files. To compile the changes in the LESS files, run grunt compile-less command.
+
+
+#### Keeping Up-To-Date
+Source Files
+Each time you update Mautic's source after the initial setup/installation via a new checkout, download, git pull, etc; you will need to clear the cache. To do so, run the following command:
+```
+$ cd /your/mautic/directory
+$ php bin/console cache:clear
+```
+(Note that if you are accessing Mautic through the dev environment (via index_dev.php), you would need to add --env=dev to the command).
 
 [git]:<https://git-scm.com/downloads>
 [ampps download]: <http://www.ampps.com/downloads>
