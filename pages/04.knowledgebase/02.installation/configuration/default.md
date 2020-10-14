@@ -1,5 +1,5 @@
 ---
-title: 'Mautic Configuration'
+title: 'Setting up Mautic Configuration'
 media_order: 'Screenshot 2020-10-14 at 12.13.38 PM.png,Root-URL.png,System-Settings-System-Defaults-1.jpg'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
