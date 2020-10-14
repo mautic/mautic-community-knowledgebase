@@ -1,6 +1,6 @@
 ---
 title: 'Setting up Mautic Configuration'
-media_order: 'Screenshot 2020-10-14 at 12.13.38 PM.png,Root-URL.png,System-Settings-System-Defaults-1.jpg'
+media_order: 'Screenshot 2020-10-14 at 12.13.38 PM.png,Root-URL.png,System-Settings-System-Defaults-1.jpg,System-Settings-CORS-Settings.jpg'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -63,3 +63,11 @@ _Example: HQ is in Boston and the default is set to US Eastern Time (“America 
 **Date Range Filter Default**: In reports (including campaign and email snapshots reports on the item page), this sets the default for how far back from the current date Mautic looks for data. If you’ve changed this to something on a report, Mautic will use whatever you’ve entered.
 
 **Default format for full dates, date only, short dates, and time only:** The defaults are set for standard US time format. The letters in the boxes are PHP code. To change these, use the PHP manual.
+
+#### CORS SETTINGS
+![](System-Settings-CORS-Settings.jpg)
+**Definition**: Cross-Origin Resource Sharing (CORS) allows your website and Mautic to pass data back and forth.
+
+**Restrict Domains**: If set to no, any web page will be able to pass information back to Mautic. If set to yes, your Mautic instance will only communicate with sites listed in the “Valid Domains” box.
+
+**Valid Domains:** These are the sites enabled to communicate with your Mautic instance. List sites you want to enable, one per line. What you enter in this box must exactly match the domain in the address bar (e.g. [https://www.mautic.com]() will track any activity on Mautic.com pages, but [http://www.mautic.com]() will not because it is a secure site).
