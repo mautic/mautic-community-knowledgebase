@@ -1,5 +1,6 @@
 ---
 title: 'Mautic Configuration'
+media_order: 'Screenshot 2020-10-14 at 11.41.33 AM.png,Root-URL.png'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -41,4 +42,8 @@ Here’s an overview of each setting in the Configuration section of Mautic.
 * Social Settings
 
 ## System Settings
-**Mautic’s root URL**: Normally, when a user logs into his or her Mautic instance, he or she will go to `customdomain.domain.com (the root URL)`. However, that page is also accessible to the public. If a contact visits that address, he or she will see the Mautic login page for that instance. To brand that page, create a Mautic landing page that you’d want to greet any contacts who visit your root URL. Once you’ve done that, users can log into Mautic by visiting customdomain.domain.com/s/login.
+**Mautic’s root URL**: Normally, when a user logs into his or her Mautic instance, he or she will go to `customdomain.domain.com (the root URL)`. However, that page is also accessible to the public. If a contact visits that address, he or she will see the Mautic login page for that instance. 
+
+To brand that page, create a Mautic landing page that you’d want to greet any contacts who visit your root URL. Once you’ve done that, users can log into Mautic by visiting [customdomain.domain.com/s/login](customdomain.domain.com/s/login).
+
+![](Root-URL.png)
