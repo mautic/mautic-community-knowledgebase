@@ -1,6 +1,6 @@
 ---
 title: 'Mautic Configuration'
-media_order: 'Screenshot 2020-10-14 at 11.41.33 AM.png,Root-URL.png,System-Settings-System-Defaults-1.jpg'
+media_order: 'Screenshot 2020-10-14 at 12.13.38 PM.png'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -24,7 +24,7 @@ content:
 ---
 
 ## Mautic Configuration
-Mautic configuration is important for branding, performance, and the user experience.Once you’ve configured these settings,you probably won’t have to touch them again. 
+Mautic configuration is important for branding, performance, and the user experience. Once you’ve configured these settings,you probably won’t have to touch them again. 
 
 Here’s an overview of each setting in the Configuration section of Mautic.
 
