@@ -88,3 +88,20 @@ Item max lock time: When a user begins editing an item (campaign, email, landing
 
 ## Theme Settings
 ![](Theme-Settings%20%281%29.jpg)
+
+**Default theme:** This applies a theme to any form that does not have a theme applied to it. If you don’t have a landing page specifically set up to be your preference center, but have preference settings turned on in Email Settings (see below), Mautic will create a default preference center page using the form styling from the theme you select here.
+ 
+##  API Settings
+Full API documentation is available here.
+
+**API enabled:** This will need to be enabled to pass data in and out of Mautic via API.
+
+**Enable HTTP basic auth?:** Enables basic authentication for Mautic’s API. We highly recommend only using this with secure sites (HTTPS).
+
+**Access token lifetime:** When authorizing a new application or integration, this limits how long the access token is valid (in minutes). The default is 60 minutes.
+
+_Example: You set up a new integration to your SaaS platform. With “30” in this box, the access token will be valid for 30 minutes. If you have not completed the authentication in that period of time, you will need to revalidate._
+
+**Refresh token lifetime:** When using OAuth 2.0, the lifetime of the refresh token which is used to request a new access token once expired. Once the refresh token expires, you’ll have to reauthorize. The default is 14 days.
+
+
