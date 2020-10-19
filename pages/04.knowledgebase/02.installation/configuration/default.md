@@ -1,6 +1,6 @@
 ---
 title: 'Setting up Mautic Configuration'
-media_order: 'Screenshot 2020-10-14 at 12.13.38 PM.png,Root-URL.png,System-Settings-System-Defaults-1.jpg,System-Settings-CORS-Settings.jpg,System-Settings-Miscellaneous-Settings.jpg,Theme-Settings (1).jpg'
+media_order: 'Screenshot 2020-10-14 at 12.13.38 PM.png,Root-URL.png,System-Settings-System-Defaults-1.jpg,System-Settings-CORS-Settings.jpg,System-Settings-Miscellaneous-Settings.jpg,Theme-Settings (1).jpg,Campaign-Settings.jpg,Email-Settings-Mail-Send-Settings-1.jpg'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -104,4 +104,25 @@ _Example: You set up a new integration to your SaaS platform. With “30” in t
 
 **Refresh token lifetime:** When using OAuth 2.0, the lifetime of the refresh token which is used to request a new access token once expired. Once the refresh token expires, you’ll have to reauthorize. The default is 14 days.
 
+## Campaign Settings
+
+![](Campaign-Settings.jpg)
+
+Wait time before retrying a failed action: If for any reason a campaign action does not execute, this is the length of time Mautic will wait before trying again.
+
+## Email Settings
+
+![](Email-Settings-Mail-Send-Settings-1.jpg)
+
+**Name to send mail as:** The default for who your emails will appear to be coming from. Often this is something like {YourCompany} Marketing Team or just {YourCompany}.
+
+**Email address to send mail from:** The email address that goes with the name you’re sending mail from. It’s what will appear in the “From:” field when your contacts receive your emails.
+
+Note: You’ll want to make sure your sender domain is set up and SPF & DKIM records properly configured. Read more about that in our email domains document.
+
+Mailer is owner: If contacts in Mautic have “owners”, switching this setting to “on” will make it appear as though that owner is sending all emails to the contacts they’re listed as the owner for.
+
+  Note: Mailer is owner reigns supreme, overriding any other name/email to send mail from. That includes the default as well as individual emails. Every contact owner’s domain also needs to have SPF and DKIM records set up.
+
+**Service to send mail through:** For most Mautic customers, this should remain as “Mautic”. With that, your emails will be routed through our Sparkpost account. If you are sending through your own email service, select that service and enter your credentials.
 
