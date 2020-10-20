@@ -65,7 +65,7 @@ Otherwise, to enable Mautic to track website activity, you need to implement a t
 
 You can either use the Javascript shown above and copy that into the HTML of your website or you can just use a simple tracking pixel by replacing the domain and the path to your Mautic If you do not allow Javascript on your website. 
 
-##### Anonymize IP
+### Anonymize IP
 To be compliant with the GDPR you need to anonymize IP addresses. This is turned on by default. 
 
 ## How to use Contacts in Mautic?
@@ -119,7 +119,7 @@ To set up a Campaign based on information coming from a form completed by a visi
 7. Create a report.
 8. Review the results on your dashboard.
 
-#### 1.  Create a form that will be embedded on your landing page
+### 1.  Create a form that will be embedded on your landing page
 We’re going to create a simple form for this exercise with just a first name and an email address. Forms in Mautic can ask for virtually any information, you’ll just need to identify the fields for storing the information. 
 
 For this, you can just use the `first name and email` fields that Mautic provides.
@@ -142,7 +142,7 @@ For this, you can just use the `first name and email` fields that Mautic provide
 ![](contacts-8.jpg)
 * Click **Save** and **Close**
 
-#### 2. Set up a simple landing page
+### 2. Set up a simple landing page
 * Click on **Landing Pages.**
 * Click **New**.
 * On the right side, enter **My First Landing Page** for the title. 
@@ -157,7 +157,7 @@ For this, you can just use the `first name and email` fields that Mautic provide
 ![](contacts-4%20%281%29.jpg)
 * Click on the Public Preview link (on the right side of the page). Confirm that the form is embedded in the page but don’t fill in the form yet.
 
-#### 3. Create a thank you email
+### 3. Create a thank you email
 One of the most common ways to follow up with the people who fill in your forms is to send them an email with a white paper or other downloadable asset attached.
 * In the main menu, click on **Channels** and then **Emails**.
 * Click **New**.
@@ -179,7 +179,7 @@ One of the most common ways to follow up with the people who fill in your forms 
 * Click **Close Builder**.
 * Click **Save** and **Close**.
  
-#### 4. Campaign Setup
+### 4. Campaign Setup
 Now that you have your form; landing page and email created, we can configure our first campaign. Campaigns are where we bring all of our work together! Campaigns are very flexible. They are made up of conditions, decisions and actions.
 * Click on **Campaigns** and click **New**.
 * In the Name field type: **My First Campaign**.
@@ -218,7 +218,7 @@ Now that you have your form; landing page and email created, we can configure ou
 ![](publish-campaign.jpg)
 * Make sure the campaign is published. If not, click the slider to change it to published.
 
-#### 5. Form Test
+### 5. Form Test
 The only thing left to do is test your new campaign!
 
 * Click on **Components** and then **Landing Pages**.
@@ -232,7 +232,7 @@ The only thing left to do is test your new campaign!
 ![](contact-update.jpg)
 *  Click on **Channels**, then **Emails**. You’ll see that one email has been sent. Check your email. (it may take a few minutes to arrive).
 
-#### 6. Track the performance of Mautic campaigns
+### 6. Track the performance of Mautic campaigns
 There are specific metrics you’ll want to review to understand both granularly and holistically regarding how your Campaign performed.
 
 A few examples of the granular items you’ll want to review are:
@@ -251,7 +251,7 @@ Reporting is only as valuable as the actionable intelligence derived from it. A 
 * Using data to analyze overall marketing efforts to optimize spend, resource allocation, and inform future planning.
 * Using data in real-time to make changes to individual campaign components and delivery channels to ensure the right content gets to the right people at the exact time they need it. Marketing intelligence will improve organizational efficiency and effectiveness allowing your team to go beyond campaign execution. It allows a marketer to focus on improving the end-user experience at each stage of the buyer’s journey.
 
-#### 7. Create a report
+### 7. Create a report
 
 *  In the **Reports** section, click **New**.
 *  Enter a name – **Form Submissions in 2020**.
@@ -263,7 +263,7 @@ Reporting is only as valuable as the actionable intelligence derived from it. A 
 *  Click **Save** and **Close**, analyze the data, and optimize as necessary.
 
 
-#### 8. Dashboard review & customization
+### 8. Dashboard review & customization
 In addition to reports, the dashboard is a great place to see how your campaigns are performing in real-time.
 ![](dashboard-overview.jpg)
 **It’s your information center.** The dashboard is flexible and fully customizable so you can view the metrics that are important to you in real-time.
