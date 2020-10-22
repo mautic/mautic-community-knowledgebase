@@ -1,6 +1,6 @@
 ---
 title: 'Setting up Mautic Configuration'
-media_order: 'Screenshot 2020-10-14 at 12.13.38 PM.png,Root-URL.png,System-Settings-System-Defaults-1.jpg,System-Settings-CORS-Settings.jpg,System-Settings-Miscellaneous-Settings.jpg,Theme-Settings (1).jpg,Campaign-Settings.jpg,Email-Settings-Mail-Send-Settings-1.jpg,Email-Settings-Default-Frequency-Rule.jpg,Email-Settings-Monitored-Inbox-Settings.jpg,Email-Settings-Message-Settings.jpg'
+media_order: 'Screenshot 2020-10-14 at 12.13.38 PM.png,Root-URL.png,System-Settings-System-Defaults-1.jpg,System-Settings-CORS-Settings.jpg,System-Settings-Miscellaneous-Settings.jpg,Theme-Settings (1).jpg,Campaign-Settings.jpg,Email-Settings-Mail-Send-Settings-1.jpg,Email-Settings-Default-Frequency-Rule.jpg,Email-Settings-Monitored-Inbox-Settings.jpg,Email-Settings-Message-Settings.jpg,Email-Settings-Unsubscribe-Settings.jpg,1280_oklTR0Quge02.png,1280_sIzwIwbFbB90.png,Landing-Page-Settings.jpg'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -154,20 +154,36 @@ Contact Replies: Similar to the monitored inbox for bounces, this is the inbox M
 **Disable trackable URLs:** This option removes tracking from URLs in your emails. Setting this to yes will prevent you from tracking, reporting on, and using decisions based on link clicks. Some email service providers do not like redirecting URLs. Having trackable URLs in your emails may impact deliverability and inboxing, depending on your list.
 
 #### UNSUBSCRIBE SETTINGS
+![](Email-Settings-Unsubscribe-Settings.jpg)
+
 Text for the {unsubscribe_text} token: Similar to the {webview_text} token, this box is where you can change a basic “Unsubscribe” link to something different (e.g. “Update your contact preferences” or “Don’t want to hear from us anymore? Click here.”) Again, only edit between the <a href=”|URL|”> and </a> tags and don’t change the URL as it will be tokenized. If you add {unsubscribe_url} as a token somewhere in the email, you won’t see this text. 
 
-Unsubscribed and resubscribed confirmation message: If a contact unsubscribes or resubscribes, this is the message that will display on the page after the respective action. Do not edit the |EMAIL| token, or the |URL| token within the <a href> tag.
+* Unsubscribed and resubscribed confirmation message: If a contact unsubscribes or resubscribes, this is the message that will display on the page after the respective action. Do not edit the |EMAIL| token, or the |URL| token within the <a href> tag.
+* 
+* Show contact preference settings: If you have a preference center set up, the unsubscribe link will direct to the preference center if this is set to yes. If you haven’t created a preference center, Mautic will create a default page with the next 5 settings based. The default theme will determine the styling.
+* 
+* Show contact segment preferences: To enable a contact to change which segments he or she is part of on the preference center page, toggle this to Yes. Segments won’t appear on the preference center page if they aren’t published and public.
 
-Show contact preference settings: If you have a preference center set up, the unsubscribe link will direct to the preference center if this is set to yes. If you haven’t created a preference center, Mautic will create a default page with the next 5 settings based. The default theme will determine the styling.
+* Show contact frequency preferences: If set to Yes, this enables an individual to limit the number of marketing messages they receive on each channel from the preference center.
 
-Show contact segment preferences: To enable a contact to change which segments he or she is part of on the preference center page, toggle this to Yes. Segments won’t appear on the preference center page if they aren’t published and public.
+* Show pause contact preferences: If set to yes, a contact can disable messages from your Mautic account to their email address for a specified date range – this is not a full unsubscribe, and at the end of that date range the messages will begin being sent to that address once again.
 
-Show contact frequency preferences: If set to Yes, this enables an individual to limit the number of marketing messages they receive on each channel from the preference center.
+* Show contact’s categories: If you have categories set for contacts, campaigns, emails, etc., and set this option to Yes, the contact will be able to opt out of the categories they choose from the preference center page.
 
-Show pause contact preferences: If set to yes, a contact can disable messages from your Mautic account to their email address for a specified date range – this is not a full unsubscribe, and at the end of that date range the messages will begin being sent to that address once again.
-
-Show contact’s categories: If you have categories set for contacts, campaigns, emails, etc., and set this option to Yes, the contact will be able to opt out of the categories they choose from the preference center page.
-
-Show contact’s preferred channel option: If you have multiple channels available within your Mautic account (email, SMS, mobile push, web notifications, etc.), contacts may choose their preferred channel. This can be useful if you are using or would like to use the Marketing Messages feature of Mautic.
+* Show contact’s preferred channel option: If you have multiple channels available within your Mautic account (email, SMS, mobile push, web notifications, etc.), contacts may choose their preferred channel. This can be useful if you are using or would like to use the Marketing Messages feature of Mautic.
 
 More information about the Preference Center is available here.
+    
+## Form settings
+![](1280_oklTR0Quge02.png)
+ 
+**Do not accept submission from these domain names:** To block contacts with specific email domains from submitting your forms, enter those domains in the dialog box. Select an option on each form you want to apply this block to. You can restrict either specific email aliases that belong to a domain or an entire domain. To block the entire domain, you can use wildcards (*). For more information, see Blocking domains from submitting forms.
+    
+## Segment settings
+![](1280_sIzwIwbFbB90.png)
+
+**Show warning if segment hasn’t been rebuilt for X hours**: For all contacts, dynamic segments get rebuilt nightly. If there is an error that prevents a segment from rebuilding, Campaign Studio displays a warning message. This field allows you to configure the allowable length of time between rebuilds, post which the warning message appears.
+    
+## Landing page settings
+![](Landing-Page-Settings.jpg)
+
