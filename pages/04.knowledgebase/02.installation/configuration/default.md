@@ -187,3 +187,10 @@ More information about the Preference Center is available here.
 ## Landing page settings
 ![](Landing-Page-Settings.jpg)
 
+* **Show category in page URL?**: If you use categories, the landing page’s associated category displays in the URL if you select Yes.
+* **Analytics script:** To track landing page visits and activity in other platforms such as Google Analytics, add those tracking scripts here.
+
+## Tracking settings
+
+Note:Pages including 4-byte UTF-8 characters (emojis, some Chinese or other non-Latin characters) in the page title or URL aren’t tracked on a contact’s activity history in Campaign Studio. All Latin characters (used in English and other western languages) are 1 byte and will track. The Campaign Studio team checks logs and alerts subscribers if they’re attempting to track pages with unsupported characters.
+
