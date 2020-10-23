@@ -1,6 +1,6 @@
 ---
 title: 'Setting up Mautic Configuration'
-media_order: 'Screenshot 2020-10-14 at 12.13.38 PM.png,Root-URL.png,System-Settings-System-Defaults-1.jpg,System-Settings-CORS-Settings.jpg,System-Settings-Miscellaneous-Settings.jpg,Theme-Settings (1).jpg,Campaign-Settings.jpg,Email-Settings-Mail-Send-Settings-1.jpg,Email-Settings-Default-Frequency-Rule.jpg,Email-Settings-Monitored-Inbox-Settings.jpg,Email-Settings-Message-Settings.jpg,Email-Settings-Unsubscribe-Settings.jpg,1280_oklTR0Quge02.png,1280_sIzwIwbFbB90.png,Landing-Page-Settings.jpg,Tracking-Settings.png,Tracking-Settings-Google-Analytics.jpg'
+media_order: 'Screenshot 2020-10-14 at 12.13.38 PM.png,Root-URL.png,System-Settings-System-Defaults-1.jpg,System-Settings-CORS-Settings.jpg,System-Settings-Miscellaneous-Settings.jpg,Theme-Settings (1).jpg,Campaign-Settings.jpg,Email-Settings-Mail-Send-Settings-1.jpg,Email-Settings-Default-Frequency-Rule.jpg,Email-Settings-Monitored-Inbox-Settings.jpg,Email-Settings-Message-Settings.jpg,Email-Settings-Unsubscribe-Settings.jpg,1280_oklTR0Quge02.png,1280_sIzwIwbFbB90.png,Landing-Page-Settings.jpg,Tracking-Settings.png,Tracking-Settings-Google-Analytics.jpg,Tracking-Settings-Facebook-Pixel.jpg,Report-Settings.png,Text-Message-Settings.jpg,UserAuthentication-Settings.jpg,Webhook-Settings.jpg,Social-Settings.jpg'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -204,6 +204,7 @@ Identify visitor by tracking URL: Select Yes to have Campaign Studio begin track
 **Anonymize IP**: Select Yes to not store full IP addresses for your visitors/contacts. This setting aids customers in achieving GDPR compliance.
 
 #### Facebook Pixel
+![](Tracking-Settings-Facebook-Pixel.jpg)
 * **Facebook Pixel ID**: Enter your Facebook Pixel ID and select the options you’d like to use the pixel for.
 * **Enabled on your tracking page**: Select Yes to have Campaign Studio append the Facebook Pixel to the Campaign Studio tracking code to track pages where the tracking code exists.
 * **Enabled on Mautic landing page**: Select Yes to have Campaign Studio add the Facebook Pixel to Campaign Studio landing pages.
@@ -215,17 +216,16 @@ Identify visitor by tracking URL: Select Yes to have Campaign Studio begin track
 * **Enabled on Mautic landing page**: Select Yes to have Campaign Studio add the Google Analytics script to Campaign Studio landing pages.
 * **Enabled IP Anonymization**: For subscribers sensitive to GDPR or other data privacy laws and regulations, select Yes to anonymize the IP address of web visitors before sending it to Google Analytics.
 
-
 ## Report Settings
-
+![](Report-Settings.png)
 Always quote data in CSV export: Select Yes to wrap each Campaign Studio field in double quotation marks when exported to a CSV file. For example: "First Name",``”Last Name”,””, ``"some text".
 
 ## Text Message Settings
-
+![](Text-Message-Settings.jpg)
 Select default transport to use: If you have configured a delivery service for SMS messages, select the service here to send messages. You must configure a delivery service before selecting it here.
 
 ## User/Authentication Settings
-
+![](UserAuthentication-Settings.jpg)
 Identity provider metadata file: Upload the metadata XML file from your IDentity Provider (IDP) here.
 Default role for created users: With user roles created in the Roles section of the settings panel, you may select one of those roles as the default for users created using SSO. If empty, Campaign Studio users won’t be created using SSO. See Onboarding: Users and Roles.
 Enter the names of the attributes the configured IDP uses for the Campaign Studio user fields. Match the field name from your identity provider to the field name Campaign Studio uses for user creation.
@@ -241,9 +241,9 @@ Private key file
 Enter your Private key encryption password
 
 ## Webhook Settings
-
+![](Webhook-Settings.jpg)
 Order of the queued events: If several events are queued in a webhook, process the events in chronological or reverse chronological order.
 
 ## Social Settings
-
+![](Social-Settings.jpg)
 Twitter Handle Field: This field stores the Twitter username for users added to Campaign Studio through Social Monitoring.
