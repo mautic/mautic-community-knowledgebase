@@ -158,10 +158,10 @@ Contact Replies: Similar to the monitored inbox for bounces, this is the inbox M
 
 Text for the {unsubscribe_text} token: Similar to the {webview_text} token, this box is where you can change a basic “Unsubscribe” link to something different (e.g. “Update your contact preferences” or “Don’t want to hear from us anymore? Click here.”) Again, only edit between the <a href=”|URL|”> and </a> tags and don’t change the URL as it will be tokenized. If you add {unsubscribe_url} as a token somewhere in the email, you won’t see this text. 
 
-* Unsubscribed and resubscribed confirmation message: If a contact unsubscribes or resubscribes, this is the message that will display on the page after the respective action. Do not edit the |EMAIL| token, or the |URL| token within the <a href> tag.
-* 
-* Show contact preference settings: If you have a preference center set up, the unsubscribe link will direct to the preference center if this is set to yes. If you haven’t created a preference center, Mautic will create a default page with the next 5 settings based. The default theme will determine the styling.
-* 
+* **Unsubscribed and resubscribed confirmation message**: If a contact unsubscribes or resubscribes, this is the message that will display on the page after the respective action. Do not edit the |EMAIL| token, or the |URL| token within the <a href> tag.
+
+* **Show contact preference settings: If you have a preference center set up, the unsubscribe link will direct to the preference center if this is set to yes. If you haven’t created a preference center, Mautic will create a default page with the next 5 settings based. The default theme will determine the styling.
+
 * Show contact segment preferences: To enable a contact to change which segments he or she is part of on the preference center page, toggle this to Yes. Segments won’t appear on the preference center page if they aren’t published and public.
 
 * Show contact frequency preferences: If set to Yes, this enables an individual to limit the number of marketing messages they receive on each channel from the preference center.
@@ -174,7 +174,7 @@ Text for the {unsubscribe_text} token: Similar to the {webview_text} token, this
 
 More information about the Preference Center is available here.
     
-## Form settings
+Form settings
 ![](1280_oklTR0Quge02.png)
  
 **Do not accept submission from these domain names:** To block contacts with specific email domains from submitting your forms, enter those domains in the dialog box. Select an option on each form you want to apply this block to. You can restrict either specific email aliases that belong to a domain or an entire domain. To block the entire domain, you can use wildcards (*). For more information, see Blocking domains from submitting forms.
@@ -194,7 +194,7 @@ More information about the Preference Center is available here.
 
 Note:Pages including 4-byte UTF-8 characters (emojis, some Chinese or other non-Latin characters) in the page title or URL aren’t tracked on a contact’s activity history in Campaign Studio. All Latin characters (used in English and other western languages) are 1 byte and will track. The Campaign Studio team checks logs and alerts subscribers if they’re attempting to track pages with unsupported characters.
 
-**Tracking code**: Insert this code on any page you would like to have tracked in Campaign Studio before the ending </body> tag.
+**Tracking code**: Insert this code on any page you would like to have tracked in Campaign Studio before the ending tag.
 
 Note: Tracking code changes after you set up or change a custom domain, and must be replaced. If you’re using the plugin for Wordpress, Drupal, or Joomla, re-enter your account information on the plugin.
 
