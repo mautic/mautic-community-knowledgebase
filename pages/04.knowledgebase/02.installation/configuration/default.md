@@ -102,7 +102,7 @@ Full API documentation is available here.
 
 * **Access token lifetime:** When authorizing a new application or integration, this limits how long the access token is valid (in minutes). The default is `60` minutes.
 
-_Example: You set up a new integration to your SaaS platform. With `30` in this box, the access token will be valid for 30 minutes. If you have not completed the authentication in that period of time, you will need to revalidate._
+    _Example: You set up a new integration to your SaaS platform. With `30` in this box, the access token will be valid for 30 minutes. If you have not          completed the authentication in that period of time, you will need to revalidate._
 
 **Refresh token lifetime:** When using OAuth 2.0, the lifetime of the refresh token which is used to request a new access token once expired. Once the refresh token expires, you’ll have to reauthorize. The default is `14` days.
 
@@ -120,9 +120,9 @@ _Example: You set up a new integration to your SaaS platform. With `30` in this 
 
 * **Email address to send mail from:** The email address that goes with the name you’re sending mail from. It’s what will appear in the “From:” field when your contacts receive your emails.
 
-> Note: You’ll want to make sure your sender domain is set up and SPF & DKIM records properly configured. Read more about that in our email domains document.
+> **Note**: You’ll want to make sure your sender domain is set up and SPF & DKIM records properly configured. Read more about that in our email domains document.
 
-**Mailer is owner**: If contacts in Mautic have `owners`, switching this setting to `on` will make it appear as though that owner is sending all emails to the contacts they’re listed as the owner for.
+* **Mailer is owner**: If contacts in Mautic have `owners`, switching this setting to `on` will make it appear as though that owner is sending all emails to the contacts they’re listed as the owner for.
 
 > Note: Mailer is owner reigns supreme, overriding any other name/email to send mail from. That includes the default as well as individual emails. Every contact owner’s domain also needs to have SPF and DKIM records set up.
 
@@ -160,7 +160,7 @@ _More information is available in our Default Frequency Rule document._
 
 * **Text for the {unsubscribe_text} token**: Similar to the `{webview_text}` token, this box is where you can change a basic **Unsubscribe** link to something different e.g.Update your contact preferences or Don’t want to hear from us anymore? Click here.) 
 
-Again, only edit between the ` <a href=”|URL|”>` and `</a>` tags and don’t change the URL as it will be tokenized. If you add `{unsubscribe_url}` as a token somewhere in the email, you won’t see this text. 
+     Again, only edit between the ` <a href=”|URL|”>` and `</a>` tags and don’t change the URL as it will be tokenized. If you add `{unsubscribe_url}` as a   token somewhere in the email, you won’t see this text. 
 
 * **Unsubscribed and resubscribed confirmation message**: If a contact unsubscribes or resubscribes, this is the message that will display on the page after the respective action. Do not edit the `|EMAIL|` token, or the `|URL|` token within the <a href>tag.
 
@@ -197,11 +197,11 @@ More information about the Preference Center is available here.
 ## Tracking settings
 ![](Tracking-Settings.png)
 
-> Note:Pages including 4-byte UTF-8 characters (emojis, some Chinese or other non-Latin characters) in the page title or URL aren’t tracked on a contact’s activity history in Campaign Studio. All Latin characters (used in English and other western languages) are 1 byte and will track. The Campaign Studio team checks logs and alerts subscribers if they’re attempting to track pages with unsupported characters.
+> **Note**:Pages including 4-byte UTF-8 characters (emojis, some Chinese or other non-Latin characters) in the page title or URL aren’t tracked on a contact’s activity history in Campaign Studio. All Latin characters (used in English and other western languages) are 1 byte and will track. The Campaign Studio team checks logs and alerts subscribers if they’re attempting to track pages with unsupported characters.
 
 * **Tracking code**: Insert this code on any page you would like to have tracked in Campaign Studio before the ending tag.
 
-> Note: Tracking code changes after you set up or change a custom domain, and must be replaced. If you’re using the plugin for Wordpress, Drupal, or Joomla, re-enter your account information on the plugin.
+> **Note**: Tracking code changes after you set up or change a custom domain, and must be replaced. If you’re using the plugin for Wordpress, Drupal, or Joomla, re-enter your account information on the plugin.
 
 * **Identify visitor by tracking URL**: Select Yes to have Campaign Studio begin tracking a contact after the contact clicks a link in an email on a device where no cookie exists.
 
