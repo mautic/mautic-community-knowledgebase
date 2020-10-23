@@ -174,12 +174,12 @@ Text for the {unsubscribe_text} token: Similar to the {webview_text} token, this
 
 More information about the Preference Center is available here.
     
-Form settings
+#### Form settings
 ![](1280_oklTR0Quge02.png)
  
 **Do not accept submission from these domain names:** To block contacts with specific email domains from submitting your forms, enter those domains in the dialog box. Select an option on each form you want to apply this block to. You can restrict either specific email aliases that belong to a domain or an entire domain. To block the entire domain, you can use wildcards (*). For more information, see Blocking domains from submitting forms.
     
-## Segment settings
+#### Segment settings
 ![](1280_sIzwIwbFbB90.png)
 
 **Show warning if segment hasn’t been rebuilt for X hours**: For all contacts, dynamic segments get rebuilt nightly. If there is an error that prevents a segment from rebuilding, Campaign Studio displays a warning message. This field allows you to configure the allowable length of time between rebuilds, post which the warning message appears.
