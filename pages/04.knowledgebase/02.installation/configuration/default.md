@@ -124,7 +124,7 @@ Full API documentation is available here.
 
 * **Mailer is owner**: If contacts in Mautic have `owners`, switching this setting to `on` will make it appear as though that owner is sending all emails to the contacts they’re listed as the owner for.
 
-> Note: Mailer is owner reigns supreme, overriding any other name/email to send mail from. That includes the default as well as individual emails. Every contact owner’s domain also needs to have SPF and DKIM records set up.
+> **Note**: Mailer is owner reigns supreme, overriding any other name/email to send mail from. That includes the default as well as individual emails. Every contact owner’s domain also needs to have SPF and DKIM records set up.
 
 * **Service to send mail through:** For most Mautic customers, this should remain as `Mautic`. With that, your emails will be routed through our Sparkpost account. If you are sending through your own email service, select that service and enter your credentials.
 
