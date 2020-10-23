@@ -194,3 +194,15 @@ More information about the Preference Center is available here.
 
 Note:Pages including 4-byte UTF-8 characters (emojis, some Chinese or other non-Latin characters) in the page title or URL aren’t tracked on a contact’s activity history in Campaign Studio. All Latin characters (used in English and other western languages) are 1 byte and will track. The Campaign Studio team checks logs and alerts subscribers if they’re attempting to track pages with unsupported characters.
 
+**Tracking code**: Insert this code on any page you would like to have tracked in Campaign Studio before the ending </body> tag.
+
+Note: Tracking code changes after you set up or change a custom domain, and must be replaced. If you’re using the plugin for Wordpress, Drupal, or Joomla, re-enter your account information on the plugin.
+
+Identify visitor by tracking URL: Select Yes to have Campaign Studio begin tracking a contact after the contact clicks a link in an email on a device where no cookie exists.
+
+**Anonymize IP**: Select Yes to not store full IP addresses for your visitors/contacts. This setting aids customers in achieving GDPR compliance.
+
+#### Facebook Pixel
+* **Facebook Pixel ID**: Enter your Facebook Pixel ID and select the options you’d like to use the pixel for.
+* **Enabled on your tracking page**: Select Yes to have Campaign Studio append the Facebook Pixel to the Campaign Studio tracking code to track pages where the tracking code exists.
+* **Enabled on Mautic landing page**: Select Yes to have Campaign Studio add the Facebook Pixel to Campaign Studio landing pages.
