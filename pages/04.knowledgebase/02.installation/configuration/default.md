@@ -85,7 +85,7 @@ To brand that page, create a Mautic landing page that you’d want to greet any 
 * **URL Shortener**: If you use a URL shortening service (e.g. bit.ly), paste your access token here. For bit.ly, use
 ` [https://api-ss..bitly.com/v3/shorten?access_token=[ACCESS_TOKEN]&format=txt&longUrl]](https://api-ss..bitly.com/v3/shorten?access_token=[ACCESS_TOKEN]&format=txt&longUrl) `
 
-**Item max lock time**: When a user begins editing an item (campaign, email, landing page, etc.), it becomes locked to prevent other users from editing simultaneously. When the initial user saves and closes or cancels out, the item may remain locked for this period of time. The default is 0 seconds.
+* **Item max lock time**: When a user begins editing an item (campaign, email, landing page, etc.), it becomes locked to prevent other users from editing simultaneously. When the initial user saves and closes or cancels out, the item may remain locked for this period of time. The default is 0 seconds.
 
 ## Theme Settings
 ![](Theme-Settings%20%281%29.jpg)
@@ -126,13 +126,13 @@ _Example: You set up a new integration to your SaaS platform. With `30` in this 
 
 > Note: Mailer is owner reigns supreme, overriding any other name/email to send mail from. That includes the default as well as individual emails. Every contact owner’s domain also needs to have SPF and DKIM records set up.
 
-**Service to send mail through:** For most Mautic customers, this should remain as `Mautic`. With that, your emails will be routed through our Sparkpost account. If you are sending through your own email service, select that service and enter your credentials.
+* **Service to send mail through:** For most Mautic customers, this should remain as `Mautic`. With that, your emails will be routed through our Sparkpost account. If you are sending through your own email service, select that service and enter your credentials.
 
 #### DEFAULT FREQUENCY RULE
 
 ![](Email-Settings-Default-Frequency-Rule.jpg)
 
-**Do not contact more than each:** This limits the number of marketing messages that a contact receives in a certain period of time (day, week, month). Transactional messages do not count towards this limit. You can adjust this at the individual contact level, either manually or via preference center setting.
+* **Do not contact more than each:** This limits the number of marketing messages that a contact receives in a certain period of time (day, week, month). Transactional messages do not count towards this limit. You can adjust this at the individual contact level, either manually or via preference center setting.
 
 _More information is available in our Default Frequency Rule document._
 
@@ -158,9 +158,9 @@ _More information is available in our Default Frequency Rule document._
 #### UNSUBSCRIBE SETTINGS
 ![](Email-Settings-Unsubscribe-Settings.jpg)
 
-**Text for the {unsubscribe_text} token**: Similar to the `{webview_text}` token, this box is where you can change a basic **Unsubscribe** link to something different e.g.`Update your contact preferences` or `Don’t want to hear from us anymore? Click here.`) 
+* **Text for the {unsubscribe_text} token**: Similar to the `{webview_text}` token, this box is where you can change a basic **Unsubscribe** link to something different e.g.Update your contact preferences or Don’t want to hear from us anymore? Click here.) 
 
-Again, only edit between the` <a href=”|URL|”>` and `</a>` tags and don’t change the URL as it will be tokenized. If you add `{unsubscribe_url}` as a token somewhere in the email, you won’t see this text. 
+Again, only edit between the ` <a href=”|URL|”>` and `</a>` tags and don’t change the URL as it will be tokenized. If you add `{unsubscribe_url}` as a token somewhere in the email, you won’t see this text. 
 
 * **Unsubscribed and resubscribed confirmation message**: If a contact unsubscribes or resubscribes, this is the message that will display on the page after the respective action. Do not edit the `|EMAIL|` token, or the `|URL|` token within the <a href>tag.
 
@@ -181,12 +181,12 @@ More information about the Preference Center is available here.
 #### Form settings
 ![](1280_oklTR0Quge02.png)
  
-**Do not accept submission from these domain names:** To block contacts with specific email domains from submitting your forms, enter those domains in the dialog box. Select an option on each form you want to apply this block to. You can restrict either specific email aliases that belong to a domain or an entire domain. To block the entire domain, you can use wildcards (*). For more information, see Blocking domains from submitting forms.
+* **Do not accept submission from these domain names**: To block contacts with specific email domains from submitting your forms, enter those domains in the dialog box. Select an option on each form you want to apply this block to. You can restrict either specific email aliases that belong to a domain or an entire domain. To block the entire domain, you can use wildcards (*). For more information, see Blocking domains from submitting forms.
     
 #### Segment settings
 ![](1280_sIzwIwbFbB90.png)
 
-**Show warning if segment hasn’t been rebuilt for X hours**: For all contacts, dynamic segments get rebuilt nightly. If there is an error that prevents a segment from rebuilding, Campaign Studio displays a warning message. This field allows you to configure the allowable length of time between rebuilds, post which the warning message appears.
+* **Show warning if segment hasn’t been rebuilt for X hours**: For all contacts, dynamic segments get rebuilt nightly. If there is an error that prevents a segment from rebuilding, Campaign Studio displays a warning message. This field allows you to configure the allowable length of time between rebuilds, post which the warning message appears.
     
 ## Landing page settings
 ![](Landing-Page-Settings.jpg)
@@ -197,15 +197,15 @@ More information about the Preference Center is available here.
 ## Tracking settings
 ![](Tracking-Settings.png)
 
-Note:Pages including 4-byte UTF-8 characters (emojis, some Chinese or other non-Latin characters) in the page title or URL aren’t tracked on a contact’s activity history in Campaign Studio. All Latin characters (used in English and other western languages) are 1 byte and will track. The Campaign Studio team checks logs and alerts subscribers if they’re attempting to track pages with unsupported characters.
+> Note:Pages including 4-byte UTF-8 characters (emojis, some Chinese or other non-Latin characters) in the page title or URL aren’t tracked on a contact’s activity history in Campaign Studio. All Latin characters (used in English and other western languages) are 1 byte and will track. The Campaign Studio team checks logs and alerts subscribers if they’re attempting to track pages with unsupported characters.
 
-**Tracking code**: Insert this code on any page you would like to have tracked in Campaign Studio before the ending tag.
+* **Tracking code**: Insert this code on any page you would like to have tracked in Campaign Studio before the ending tag.
 
-Note: Tracking code changes after you set up or change a custom domain, and must be replaced. If you’re using the plugin for Wordpress, Drupal, or Joomla, re-enter your account information on the plugin.
+> Note: Tracking code changes after you set up or change a custom domain, and must be replaced. If you’re using the plugin for Wordpress, Drupal, or Joomla, re-enter your account information on the plugin.
 
-Identify visitor by tracking URL: Select Yes to have Campaign Studio begin tracking a contact after the contact clicks a link in an email on a device where no cookie exists.
+* **Identify visitor by tracking URL**: Select Yes to have Campaign Studio begin tracking a contact after the contact clicks a link in an email on a device where no cookie exists.
 
-**Anonymize IP**: Select Yes to not store full IP addresses for your visitors/contacts. This setting aids customers in achieving GDPR compliance.
+* **Anonymize IP**: Select Yes to not store full IP addresses for your visitors/contacts. This setting aids customers in achieving GDPR compliance.
 
 #### Facebook Pixel
 ![](Tracking-Settings-Facebook-Pixel.jpg)
@@ -222,32 +222,33 @@ Identify visitor by tracking URL: Select Yes to have Campaign Studio begin track
 
 ## Report Settings
 ![](Report-Settings.png)
-Always quote data in CSV export: Select Yes to wrap each Campaign Studio field in double quotation marks when exported to a CSV file. For example: "First Name",``”Last Name”,””, ``"some text".
+* **Always quote data in CSV export**: Select Yes to wrap each Campaign Studio field in double quotation marks when exported to a CSV file. For example: "First Name",``”Last Name”,””, ``"some text".
 
 ## Text Message Settings
 ![](Text-Message-Settings.jpg)
-Select default transport to use: If you have configured a delivery service for SMS messages, select the service here to send messages. You must configure a delivery service before selecting it here.
+* **Select default transport to use**: If you have configured a delivery service for SMS messages, select the service here to send messages. You must configure a delivery service before selecting it here.
 
 ## User/Authentication Settings
 ![](UserAuthentication-Settings.jpg)
-Identity provider metadata file: Upload the metadata XML file from your IDentity Provider (IDP) here.
-Default role for created users: With user roles created in the Roles section of the settings panel, you may select one of those roles as the default for users created using SSO. If empty, Campaign Studio users won’t be created using SSO. See Onboarding: Users and Roles.
+* **Identity provider metadata file:** Upload the metadata XML file from your IDentity Provider (IDP) here.
+* **Default role for created users**: With user roles created in the Roles section of the settings panel, you may select one of those roles as the default for users created using SSO. If empty, Campaign Studio users won’t be created using SSO. See Onboarding: Users and Roles.
 Enter the names of the attributes the configured IDP uses for the Campaign Studio user fields. Match the field name from your identity provider to the field name Campaign Studio uses for user creation.
 
-Email
-First name
-Last name
-Username
+* Email
+* First name
+* Last name
+* Username
+
 Use a custom X.509 certificate and private key to secure communication between Campaign Studio and the IDP. Upload your:
 
-X.509 certificate
-Private key file
-Enter your Private key encryption password
+* X.509 certificate
+* Private key file
+* Enter your Private key encryption password
 
 ## Webhook Settings
 ![](Webhook-Settings.jpg)
-Order of the queued events: If several events are queued in a webhook, process the events in chronological or reverse chronological order.
+* **Order of the queued events**: If several events are queued in a webhook, process the events in chronological or reverse chronological order.
 
 ## Social Settings
 ![](Social-Settings.jpg)
-Twitter Handle Field: This field stores the Twitter username for users added to Campaign Studio through Social Monitoring.
+* **Twitter Handle Field**: This field stores the Twitter username for users added to Campaign Studio through Social Monitoring.
