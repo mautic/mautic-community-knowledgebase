@@ -254,7 +254,7 @@ Use a custom X.509 certificate and private key to secure communication between C
 * **Twitter Handle Field**: This field stores the Twitter username for users added to Campaign Studio through Social Monitoring.
 
     
-    
+
 [mautic]: <https://www.mautic.com>
 [api] :<https://developer.mautic.org/#rest-api>
 [frequency-rules]: <https://docs.mautic.org/en/contacts/frequency-rules>
