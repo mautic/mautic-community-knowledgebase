@@ -145,9 +145,7 @@ _More information is available in our Default Frequency Rule document._
 #### MESSAGE SETTINGS
 ![](Email-Settings-Message-Settings.jpg)
 
-* **Text for the {webview_text} token**: The message to view in browser. **The default is Having trouble reading this email? Click here**.
-
-` To change that text, only change the message between the <a href=”|URL|”> and </a> tags. Don’t change the |URL| text, because that is a token for each contact.`
+* **Text for the {webview_text} token**: The message to view in browser. **The default is Having trouble reading this email? Click here**. ` To change that text, only change the message between the <a href=”|URL|”> and </a> tags. Don’t change the |URL| text, because that is a token for each contact.`
 
 * **Default email signature:** The signature for your default emails – goes along with the name & email address to send mail as.
 
