@@ -256,7 +256,7 @@ Use a custom X.509 certificate and private key to secure communication between C
     
 
 [mautic]: <https://www.mautic.com>
-[api] :<https://developer.mautic.org/#rest-api>
+[api]: <https://developer.mautic.org/#rest-api>
 [frequency-rules]: <https://docs.mautic.org/en/contacts/frequency-rules>
 [mailer-is-owner]: <https://docs.mautic.org/en/channels/emails/mailer-is-owner>
 [preference-center]: <https://docs.mautic.org/en/contacts/preference-center>
