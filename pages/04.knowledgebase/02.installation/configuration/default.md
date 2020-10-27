@@ -222,7 +222,7 @@ More information about the Preference Center is available [here][preference-cent
 
 ## Report Settings
 ![](Report-Settings.png)
-* **Always quote data in CSV export**: Select Yes to wrap each Campaign Studio field in double quotation marks when exported to a CSV file. For example: `"First Name"`, ”Last Name”, ””,  "some text"`.
+* **Always quote data in CSV export**: Select Yes to wrap each Campaign Studio field in double quotation marks when exported to a CSV file. For example: ` "First Name", ”Last Name”, ””,  "some text"`.
 
 ## Text Message Settings
 ![](Text-Message-Settings.jpg)
