@@ -70,7 +70,7 @@ To brand that page, create a Mautic landing page that you’d want to greet any 
 
 * **Restrict Domains**: If set to no, any web page will be able to pass information back to Mautic. If set to yes, your Mautic instance will only communicate with sites listed in the “Valid Domains” box.
 
-* **Valid Domains:** These are the sites enabled to communicate with your Mautic instance. List sites you want to enable, one per line. What you enter in this box must exactly match the domain in the address bar (e.g. [Mautic][mautic] will track any activity on Mautic.com pages, but [http://www.mautic.com](https://www.mautic.com) will not because it is a secure site).
+* **Valid Domains:** These are the sites enabled to communicate with your Mautic instance. List sites you want to enable, one per line. What you enter in this box must exactly match the domain in the address bar (e.g. [Mautic][mautic] will track any activity on Mautic.com pages, but [Mautic][mautic] will not because it is a secure site).
 
 #### MISCELLANEOUS SETTINGS
 
@@ -83,7 +83,7 @@ To brand that page, create a Mautic landing page that you’d want to greet any 
 * **List of Bots to not track with:** Mautic has identified and disabled tracking for several known bots. To track activity from those bots, simply remove them from this list. To disable tracking for other bots, add them here (one per line).
 
 * **URL Shortener**: If you use a URL shortening service (e.g. bit.ly), paste your access token here. For bit.ly, use
-` [https://api-ss..bitly.com/v3/shorten?access_token=[ACCESS_TOKEN]&format=txt&longUrl]](https://api-ss..bitly.com/v3/shorten?access_token=[ACCESS_TOKEN]&format=txt&longUrl) `
+` https://api-ss..bitly.com/v3/shorten?access_token=[ACCESS_TOKEN]&format=txt&longUrl `
 
 * **Item max lock time**: When a user begins editing an item (campaign, email, landing page, etc.), it becomes locked to prevent other users from editing simultaneously. When the initial user saves and closes or cancels out, the item may remain locked for this period of time. The default is 0 seconds.
 
@@ -94,7 +94,7 @@ To brand that page, create a Mautic landing page that you’d want to greet any 
  
 ##  API Settings
 ![](API-Settings.jpg)
-Full API documentation is available here.
+Full API documentation is available [here][api].
 
 * **API enabled:** This will need to be enabled to pass data in and out of Mautic via API.
 
@@ -120,11 +120,11 @@ Full API documentation is available here.
 
 * **Email address to send mail from:** The email address that goes with the name you’re sending mail from. It’s what will appear in the “From:” field when your contacts receive your emails.
 
-> **Note**: You’ll want to make sure your sender domain is set up and SPF & DKIM records properly configured. Read more about that in our email domains document.
+> **Note**: You’ll want to make sure your sender domain is set up and SPF & DKIM records properly configured.
 
-* **Mailer is owner**: If contacts in Mautic have `owners`, switching this setting to `on` will make it appear as though that owner is sending all emails to the contacts they’re listed as the owner for.
+* **Mailer is owner**: If contacts in Mautic have `owners`, switching this setting to `on` will make it appear as though that owner is sending all emails to the contacts they’re listed as the owner for. 
 
-> **Note**: Mailer is owner reigns supreme, overriding any other name/email to send mail from. That includes the default as well as individual emails. Every contact owner’s domain also needs to have SPF and DKIM records set up.
+> **Note**: Mailer is owner reigns supreme, overriding any other name/email to send mail from. That includes the default as well as individual emails. Every contact owner’s domain also needs to have SPF and DKIM records set up. For more information see [Mailer is owner][mailer-is-owner]
 
 * **Service to send mail through:** For most Mautic customers, this should remain as `Mautic`. With that, your emails will be routed through our Sparkpost account. If you are sending through your own email service, select that service and enter your credentials.
 
@@ -134,7 +134,7 @@ Full API documentation is available here.
 
 * **Do not contact more than each:** This limits the number of marketing messages that a contact receives in a certain period of time (day, week, month). Transactional messages do not count towards this limit. You can adjust this at the individual contact level, either manually or via preference center setting.
 
-_More information is available in our Default Frequency Rule document._
+_More information is available in our [Default Frequency Rule document][frequency-rules]._
 
 #### MONITORED INBOX SETTINGS
 ![](Email-Settings-Monitored-Inbox-Settings.jpg)
@@ -176,12 +176,12 @@ _More information is available in our Default Frequency Rule document._
 
 * **Show contact’s preferred channel option:** If you have multiple channels available within your Mautic account (email, SMS, mobile push, web notifications, etc.), contacts may choose their preferred channel. This can be useful if you are using or would like to use the Marketing Messages feature of Mautic.
 
-More information about the Preference Center is available here.
+More information about the Preference Center is available [here][preference-center].
     
 #### Form settings
 ![](1280_oklTR0Quge02.png)
  
-* **Do not accept submission from these domain names**: To block contacts with specific email domains from submitting your forms, enter those domains in the dialog box. Select an option on each form you want to apply this block to. You can restrict either specific email aliases that belong to a domain or an entire domain. To block the entire domain, you can use wildcards (*). For more information, see Blocking domains from submitting forms.
+* **Do not accept submission from these domain names**: To block contacts with specific email domains from submitting your forms, enter those domains in the dialog box. Select an option on each form you want to apply this block to. You can restrict either specific email aliases that belong to a domain or an entire domain. To block the entire domain, you can use wildcards (*).
     
 #### Segment settings
 ![](1280_sIzwIwbFbB90.png)
@@ -231,7 +231,7 @@ More information about the Preference Center is available here.
 ## User/Authentication Settings
 ![](UserAuthentication-Settings.jpg)
 * **Identity provider metadata file:** Upload the metadata XML file from your IDentity Provider (IDP) here.
-* **Default role for created users**: With user roles created in the Roles section of the settings panel, you may select one of those roles as the default for users created using SSO. If empty, Campaign Studio users won’t be created using SSO. See Onboarding: Users and Roles.
+* **Default role for created users**: With user roles created in the Roles section of the settings panel, you may select one of those roles as the default for users created using SSO. If empty, Campaign Studio users won’t be created using SSO. 
 Enter the names of the attributes the configured IDP uses for the Campaign Studio user fields. Match the field name from your identity provider to the field name Campaign Studio uses for user creation.
 
 * Email
@@ -255,4 +255,8 @@ Use a custom X.509 certificate and private key to secure communication between C
 
     
     
-[Mautic]: <https://www.mautic.com>
+[mautic]: <https://www.mautic.com>
+[api] :<https://developer.mautic.org/#rest-api>
+[frequency-rules]: <https://docs.mautic.org/en/contacts/frequency-rules>
+[mailer-is-owner]: <https://docs.mautic.org/en/channels/emails/mailer-is-owner>
+[preference-center]: <https://docs.mautic.org/en/contacts/preference-center>
