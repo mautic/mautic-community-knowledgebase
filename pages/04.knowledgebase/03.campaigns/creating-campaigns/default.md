@@ -20,3 +20,4 @@ Creating campaigns involves picking a name, creating a description, and defining
 * There’s a drag and drop function which you use to build your conditions, actions, decisions and you name them yourself, so you’re always able to recognise what is happening or about to. It’s best to label these as literally as you can, to avoid any confusion later.
 * You build a comprehensive flow and deliver relevant content to your potential customer based on their own behaviours.
 
+## How to create your first campaign (including using campaign builder)
