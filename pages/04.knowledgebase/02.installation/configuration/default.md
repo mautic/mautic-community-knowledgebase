@@ -1,6 +1,12 @@
 ---
 title: 'Setting up Mautic Configuration'
 media_order: 'Screenshot 2020-10-14 at 12.13.38 PM.png,Root-URL.png,System-Settings-System-Defaults-1.jpg,System-Settings-CORS-Settings.jpg,System-Settings-Miscellaneous-Settings.jpg,Theme-Settings (1).jpg,Campaign-Settings.jpg,Email-Settings-Mail-Send-Settings-1.jpg,Email-Settings-Default-Frequency-Rule.jpg,Email-Settings-Monitored-Inbox-Settings.jpg,Email-Settings-Message-Settings.jpg,Email-Settings-Unsubscribe-Settings.jpg,1280_oklTR0Quge02.png,1280_sIzwIwbFbB90.png,Landing-Page-Settings.jpg,Tracking-Settings.png,Tracking-Settings-Google-Analytics.jpg,Tracking-Settings-Facebook-Pixel.jpg,Report-Settings.png,Text-Message-Settings.jpg,UserAuthentication-Settings.jpg,Webhook-Settings.jpg,Social-Settings.jpg'
+taxonomy:
+    category:
+        - Installation
+    tag:
+        - installation
+        - Intermediate
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
