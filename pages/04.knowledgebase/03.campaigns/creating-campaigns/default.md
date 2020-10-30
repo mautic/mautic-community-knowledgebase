@@ -1,6 +1,6 @@
 ---
 title: 'Creating Campaigns '
-media_order: 'Screenshot 2020-10-29 at 11.48.44 PM.png,Campaign-Options.png'
+media_order: 'Screenshot 2020-10-29 at 11.48.44 PM.png,Campaign-Options.png,Campaign-Contact-Sources.png,Screenshot 2020-10-30 at 2.37.28 AM.png'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -21,7 +21,7 @@ Creating campaigns involves picking a name, creating a description, and defining
 * There’s a drag and drop function which you use to build your conditions, actions, decisions and you name them yourself, so you’re always able to recognise what is happening or about to. It’s best to label these as literally as you can, to avoid any confusion later.
 * You build a comprehensive flow and deliver relevant content to your potential customer based on their own behaviours.
 
-## How to create your first campaign (including using campaign builder)
+## How to create your first campaign 
 1. Before jumping into the campaign builder, Click on **+ New** you’ll want to give your campaign a name. It’s also helpful to add a description so your colleagues know what the campaign is for at a glance. 
 ![](Screenshot%202020-10-29%20at%2011.48.44%20PM.png)
 
@@ -40,3 +40,9 @@ To schedule a campaign’s publish date and time:
 * This marks the campaign as **Pending**, until the date and time you’ve selected and will publish the campaign then. You can also unpublish a campaign at a pre-determined date and time.
 
 4. **Testing**: It’s often a good idea to start with a test campaign, using a segment of internal contacts or users as the contact source. Once you’ve built and tested the campaign and are happy with how it works, clone it and add the source you want to actually go through the campaign. In testing, you can also use different time periods - so instead of waiting a week for your next email, you can set it to send after 5 minutes.
+
+## Campaign builder
+To get started with the campaign builder. Click on **Launch Campaignn Builder**.
+![](Screenshot%202020-10-30%20at%202.37.28%20AM.png)
+Campaigns are triggered to either segments, or contacts who submit forms. Once you’ve selected either segments or forms, you’ll select the actual segments or forms to use.
+![](Campaign-Contact-Sources.png)
