@@ -69,10 +69,7 @@ Decisions are behaviors from your contacts, or actions your contacts take. The o
 * **Clicks email:** appears after Send email action Did the contact click any link in an email you sent? Did the contact click a specific link, or any one of a set of specific links from your email? To track specific link clicks for the campaign, use the Add a value option and paste in the links you care about for the decision. When empty, this decision tracks any link in your email.
 
 * **Device visit:** Did the contact visit your page from a specific device type, brand, or operating system? Set the options you care about tracking in the event editor.
-
 * **Downloads asset**: Did the contact download an asset, either from a link on your website, your webpage, from an email you sent them, or from a form they submitted? After selecting this event type, you can limit the tracking to specific assets.
-
 * **Opens email:** appears after Send email action Did the contact read the email you sent in the campaign?
-
 * **Replies to email:** appears after Send email action If you’re using the monitored inbox settings in configuration, you can track if a contact replied to an email you sent. In many cases, if a contact replies you’d want to remove them from the campaign.
 * **Request dynamic content:** If you have a webpage or landing page where you want to add dynamic content, you can push campaign-based dynamic content within the campaign builder. The slot name is what you name the slot in the code on your webpage:
