@@ -58,5 +58,4 @@ To add events on the yes path, click the green connector on the left side of the
 If the contact doesn’t meet the criteria for the decision or condition, they follow the no path. To add events on the no path, click the red connector on the right side of the event box. 
 
 The lines connecting the decision or condition and the next event match the connector color to help follow the contact’s journey. 
-
 Campaign Studio’s campaign builder is non-linear and multi-channel. It’s possible to have several actions happening at the same time, or mix decisions, actions, and conditions at one time in a campaign.
