@@ -1,6 +1,6 @@
 ---
 title: 'Creating Campaigns '
-media_order: 'Screenshot 2020-10-29 at 11.48.44 PM.png,Campaign-Options.png,Campaign-Contact-Sources.png,Screenshot 2020-10-30 at 2.37.28 AM.png,adding event.png,Sample.png,Screen.png'
+media_order: 'Screenshot 2020-10-29 at 11.48.44 PM.png,Campaign-Options.png,Campaign-Contact-Sources.png,Screenshot 2020-10-30 at 2.37.28 AM.png,adding event.png,Sample.png,Screen.png,Decisions-Actions-Conditions.png,Decisions.png'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -61,4 +61,19 @@ The lines connecting the decision or condition and the next event match the conn
 Campaign Studio’s campaign builder is non-linear and multi-channel. It’s possible to have several actions happening at the same time, or mix decisions, actions, and conditions at one time in a campaign.
 ![](Screen.png)
 
+## Event Types
+Decisions are behaviors from your contacts, or actions your contacts take. The options for decisions will change based on the campaign actions before the email. If a contact does something, Campaign Studio sends them down the green path on the left side of the bottom of the condition box, which indicates yes. If not, the contact goes down the red path on the right.
+![](Decisions-Actions-Conditions.png)
+![](Decisions.png)
 
+* **Clicks email:** appears after Send email action Did the contact click any link in an email you sent? Did the contact click a specific link, or any one of a set of specific links from your email? To track specific link clicks for the campaign, use the Add a value option and paste in the links you care about for the decision. When empty, this decision tracks any link in your email.
+
+* **Device visit:** Did the contact visit your page from a specific device type, brand, or operating system? Set the options you care about tracking in the event editor.
+
+* **Downloads asset**: Did the contact download an asset, either from a link on your website, your webpage, from an email you sent them, or from a form they submitted? After selecting this event type, you can limit the tracking to specific assets.
+
+* **Opens email:** appears after Send email action Did the contact read the email you sent in the campaign?
+
+* **Replies to email:** appears after Send email action If you’re using the monitored inbox settings in configuration, you can track if a contact replied to an email you sent. In many cases, if a contact replies you’d want to remove them from the campaign.
+* 
+* **Request dynamic content:** If you have a webpage or landing page where you want to add dynamic content, you can push campaign-based dynamic content within the campaign builder. The slot name is what you name the slot in the code on your webpage:
