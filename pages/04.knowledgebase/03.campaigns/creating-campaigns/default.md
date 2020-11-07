@@ -75,5 +75,4 @@ Decisions are behaviors from your contacts, or actions your contacts take. The o
 * **Opens email:** appears after Send email action Did the contact read the email you sent in the campaign?
 
 * **Replies to email:** appears after Send email action If you’re using the monitored inbox settings in configuration, you can track if a contact replied to an email you sent. In many cases, if a contact replies you’d want to remove them from the campaign.
-* 
 * **Request dynamic content:** If you have a webpage or landing page where you want to add dynamic content, you can push campaign-based dynamic content within the campaign builder. The slot name is what you name the slot in the code on your webpage:
