@@ -1,6 +1,6 @@
 ---
 title: 'Creating Campaigns '
-media_order: 'Screenshot 2020-10-29 at 11.48.44 PM.png,Campaign-Options.png,Campaign-Contact-Sources.png,Screenshot 2020-10-30 at 2.37.28 AM.png'
+media_order: 'Screenshot 2020-10-29 at 11.48.44 PM.png,Campaign-Options.png,Campaign-Contact-Sources.png,Screenshot 2020-10-30 at 2.37.28 AM.png,adding event.png,Sample.png'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -22,7 +22,7 @@ Creating campaigns involves picking a name, creating a description, and defining
 * You build a comprehensive flow and deliver relevant content to your potential customer based on their own behaviours.
 
 ## How to create your first campaign 
-1. Before jumping into the campaign builder, Click on **+ New** you’ll want to give your campaign a name. It’s also helpful to add a description so your colleagues know what the campaign is for at a glance. 
+1. Before using the campaign builder, Click on **+ New** you’ll want to give your campaign a name. It’s also helpful to add a description so your colleagues know what the campaign is for at a glance. 
 ![](Screenshot%202020-10-29%20at%2011.48.44%20PM.png)
 
 ![](Campaign-Options.png)
@@ -46,3 +46,14 @@ To get started with the campaign builder. Click on **Launch Campaignn Builder**.
 ![](Screenshot%202020-10-30%20at%202.37.28%20AM.png)
 Campaigns are triggered to either segments, or contacts who submit forms. Once you’ve selected either segments or forms, you’ll select the actual segments or forms to use.
 ![](Campaign-Contact-Sources.png)
+
+## Adding events
+After selecting a contact source, click the gray semi-circle at the bottom of the source box to select an event type.
+![](adding%20event.png)
+Once you’ve chosen an event type and added an event, you’ll either see two connectors (decisions and conditions) or one connector (actions).
+![](Sample.png)
+**Decisions** and **Conditions** have `yes` and `no` paths. When the contact meets the criteria for the decision or condition, they follow the yes path. To add events on the yes path, click the green connector on the left side of the event box. 
+If the contact doesn’t meet the criteria for the decision or condition, they follow the no path. To add events on the no path, click the red connector on the right side of the event box. 
+The lines connecting the decision or condition and the next event match the connector color to help follow the contact’s journey. 
+
+Campaign Studio’s campaign builder is non-linear and multi-channel. It’s possible to have several actions happening at the same time, or mix decisions, actions, and conditions at one time in a campaign.
