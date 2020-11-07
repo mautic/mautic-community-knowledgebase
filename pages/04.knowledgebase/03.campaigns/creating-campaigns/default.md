@@ -52,8 +52,11 @@ After selecting a contact source, click the gray semi-circle at the bottom of th
 ![](adding%20event.png)
 Once you’ve chosen an event type and added an event, you’ll either see two connectors (decisions and conditions) or one connector (actions).
 ![](Sample.png)
-**Decisions** and **Conditions** have `yes` and `no` paths. When the contact meets the criteria for the decision or condition, they follow the yes path. To add events on the yes path, click the green connector on the left side of the event box. 
+**Decisions** and **Conditions** have `yes` and `no` paths. When the contact meets the criteria for the decision or condition, they follow the yes path. 
+To add events on the yes path, click the green connector on the left side of the event box. 
+
 If the contact doesn’t meet the criteria for the decision or condition, they follow the no path. To add events on the no path, click the red connector on the right side of the event box. 
+
 The lines connecting the decision or condition and the next event match the connector color to help follow the contact’s journey. 
 
 Campaign Studio’s campaign builder is non-linear and multi-channel. It’s possible to have several actions happening at the same time, or mix decisions, actions, and conditions at one time in a campaign.
