@@ -42,7 +42,7 @@ To schedule a campaign’s publish date and time:
 4. **Testing**: It’s often a good idea to start with a test campaign, using a segment of internal contacts or users as the contact source. Once you’ve built and tested the campaign and are happy with how it works, clone it and add the source you want to actually go through the campaign. In testing, you can also use different time periods - so instead of waiting a week for your next email, you can set it to send after 5 minutes.
 
 ## Campaign builder
-To get started with the campaign builder. Click on **Launch Campaignn Builder**.
+To get started with the campaign builder. Click on **Launch Campaign Builder**.
 ![](Screenshot%202020-10-30%20at%202.37.28%20AM.png)
 Campaigns are triggered to either segments, or contacts who submit forms. Once you’ve selected either segments or forms, you’ll select the actual segments or forms to use.
 ![](Campaign-Contact-Sources.png)
