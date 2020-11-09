@@ -39,7 +39,7 @@ To brand that page, create a Mautic landing page that you’d want to greet any 
 
 ![](Root-URL.png)
 
-### SYSTEM DEFAULTS
+### System Defaults
 ![](System-Settings-System-Defaults-1.jpg)
 * **Default item limit per page**: The number of contacts, campaigns, emails, etc. you will see on each page when you go to an item section. The default is `10`.
 
