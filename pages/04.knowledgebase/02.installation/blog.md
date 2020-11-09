@@ -1,13 +1,12 @@
 ---
 title: Installation
 media_order: pexels-negative-space-160107.jpg
-published: true
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
 tagtitle: h2
 menu: Installation
-visible: false
+visible: true
 hero_overlay: true
 hero_showsearch: true
 show_breadcrumbs: true
