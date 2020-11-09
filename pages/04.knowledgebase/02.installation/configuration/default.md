@@ -55,7 +55,7 @@ To brand that page, create a Mautic landing page that you’d want to greet any 
 
 * **Default format for full dates, date only, short dates, and time only:** The defaults are set for standard US time format. The letters in the boxes are PHP code. To change these, use the PHP manual.
 
-#### CORS SETTINGS
+### CORS SETTINGS
 ![](System-Settings-CORS-Settings.jpg)
 * **Definition**: Cross-Origin Resource Sharing (CORS) allows your website and Mautic to pass data back and forth.
 
@@ -63,7 +63,7 @@ To brand that page, create a Mautic landing page that you’d want to greet any 
 
 * **Valid Domains:** These are the sites enabled to communicate with your Mautic instance. List sites you want to enable, one per line. What you enter in this box must exactly match the domain in the address bar (e.g. [Mautic][mautic] will track any activity on Mautic.com pages, but [Mautic][mautic] will not because it is a secure site).
 
-#### MISCELLANEOUS SETTINGS
+### MISCELLANEOUS SETTINGS
 
 ![](System-Settings-Miscellaneous-Settings.jpg)
 
@@ -119,7 +119,7 @@ Full API documentation is available [here][api].
 
 * **Service to send mail through:** For most Mautic customers, this should remain as `Mautic`. With that, your emails will be routed through our Sparkpost account. If you are sending through your own email service, select that service and enter your credentials.
 
-#### DEFAULT FREQUENCY RULE
+### DEFAULT FREQUENCY RULE
 
 ![](Email-Settings-Default-Frequency-Rule.jpg)
 
@@ -127,13 +127,13 @@ Full API documentation is available [here][api].
 
 _More information is available in our [Default Frequency Rule document][frequency-rules]._
 
-#### MONITORED INBOX SETTINGS
+### MONITORED INBOX SETTINGS
 ![](Email-Settings-Monitored-Inbox-Settings.jpg)
 * **Default Mailbox**: If email addresses your messages are going to bounce, this inbox is where you will receive those bounce notifications.
 
 * **Contact Replies**: Similar to the monitored inbox for bounces, this is the inbox Mautic will check for contact replies. If you want to use “Replies to email” decisions in any campaigns, this must be configured. With `Use custom connection settings?` set to `no`, Mautic will check the default mailbox. If set to `yes`, you may track a different mailbox for replies.
 
-#### MESSAGE SETTINGS
+### MESSAGE SETTINGS
 ![](Email-Settings-Message-Settings.jpg)
 
 * **Text for the {webview_text} token**: The message to view in browser. **The default is Having trouble reading this email? Click here**. ` To change that text, only change the message between the <a href=”|URL|”> and </a> tags. Don’t change the |URL| text, because that is a token for each contact.`
@@ -146,7 +146,7 @@ _More information is available in our [Default Frequency Rule document][frequenc
 
 * **Disable trackable URLs:** This option removes tracking from URLs in your emails. Setting this to `yes` will prevent you from tracking, reporting on, and using decisions based on link clicks. Some email service providers do not like redirecting URLs. Having trackable URLs in your emails may impact deliverability and inboxing, depending on your list.
 
-#### UNSUBSCRIBE SETTINGS
+### UNSUBSCRIBE SETTINGS
 ![](Email-Settings-Unsubscribe-Settings.jpg)
 
 * **Text for the {unsubscribe_text} token**: Similar to the `{webview_text}` token, this box is where you can change a basic **Unsubscribe** link to something different e.g.Update your contact preferences or Don’t want to hear from us anymore? Click here.) 
@@ -169,12 +169,12 @@ _More information is available in our [Default Frequency Rule document][frequenc
 
 More information about the Preference Center is available [here][preference-center].
     
-#### Form settings
+### Form settings
 ![](1280_oklTR0Quge02.png)
  
 * **Do not accept submission from these domain names**: To block contacts with specific email domains from submitting your forms, enter those domains in the dialog box. Select an option on each form you want to apply this block to. You can restrict either specific email aliases that belong to a domain or an entire domain. To block the entire domain, you can use wildcards (*).
     
-#### Segment settings
+### Segment settings
 ![](1280_sIzwIwbFbB90.png)
 
 * **Show warning if segment hasn’t been rebuilt for X hours**: For all contacts, dynamic segments get rebuilt nightly. If there is an error that prevents a segment from rebuilding, Campaign Studio displays a warning message. This field allows you to configure the allowable length of time between rebuilds, post which the warning message appears.
@@ -198,13 +198,13 @@ More information about the Preference Center is available [here][preference-cent
 
 * **Anonymize IP**: Select Yes to not store full IP addresses for your visitors/contacts. This setting aids customers in achieving GDPR compliance.
 
-#### Facebook Pixel
+### Facebook Pixel
 ![](Tracking-Settings-Facebook-Pixel.jpg)
 * **Facebook Pixel ID**: Enter your Facebook Pixel ID and select the options you’d like to use the pixel for.
 * **Enabled on your tracking page**: Select Yes to have Campaign Studio append the Facebook Pixel to the Campaign Studio tracking code to track pages where the tracking code exists.
 * **Enabled on Mautic landing page**: Select Yes to have Campaign Studio add the Facebook Pixel to Campaign Studio landing pages.
 
-#### Google Analytics
+### Google Analytics
 ![](Tracking-Settings-Google-Analytics.jpg)
 * **Google Analytics ID**: Enter your Google Analytics ID and select the options you’d like to use the pixel for.
 * **Enabled on your tracking page**: Select Yes to have Campaign Studio append the Google Analytics script to the Campaign Studio tracking code to track pages where the tracking code exists.
