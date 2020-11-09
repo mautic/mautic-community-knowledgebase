@@ -30,7 +30,7 @@ content:
 ---
 
 ## Mautic Configuration
-Mautic configuration is important for branding, performance, and the user experience. Once you’ve configured these settings,you probably won’t have to touch them again. 
+Mautic configuration is important for branding, performance, and the user experience. Once you’ve configured these settings, you probably won’t have to touch them again. 
 
 ## System Settings
 **Mautic’s root URL**: Normally, when a user logs into his or her Mautic instance, he or she will go to `customdomain.domain.com (the root URL)`. However, that page is also accessible to the public. If a contact visits that address, he or she will see the Mautic login page for that instance. 
