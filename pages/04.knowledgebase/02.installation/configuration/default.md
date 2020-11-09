@@ -5,8 +5,8 @@ taxonomy:
     category:
         - Installation
     tag:
-        - installation
         - Intermediate
+        - installation
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
@@ -32,21 +32,6 @@ content:
 ## Mautic Configuration
 Mautic configuration is important for branding, performance, and the user experience. Once you’ve configured these settings,you probably won’t have to touch them again. 
 
-Here’s an overview of each setting in the Configuration section of Mautic.
-
-* System Settings
-* Theme Settings
-* API Settings
-* Campaign Settings
-* Email Settings
-* Landing Page Settings
-* Tracking Settings
-* Report Settings
-* Text Message Settings
-* User/Authentication Settings (Single Sign-On)
-* Webhook Settings
-* Social Settings
-
 ## System Settings
 **Mautic’s root URL**: Normally, when a user logs into his or her Mautic instance, he or she will go to `customdomain.domain.com (the root URL)`. However, that page is also accessible to the public. If a contact visits that address, he or she will see the Mautic login page for that instance. 
 
@@ -54,7 +39,7 @@ To brand that page, create a Mautic landing page that you’d want to greet any 
 
 ![](Root-URL.png)
 
-#### SYSTEM DEFAULTS
+### SYSTEM DEFAULTS
 ![](System-Settings-System-Defaults-1.jpg)
 * **Default item limit per page**: The number of contacts, campaigns, emails, etc. you will see on each page when you go to an item section. The default is `10`.
 
