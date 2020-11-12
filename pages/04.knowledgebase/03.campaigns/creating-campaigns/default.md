@@ -82,6 +82,17 @@ and they visit the page that the dynamic content is on. When building the
 campaign, follow this decision with an action type of
 **Push dynamic content**.`
 
+```::
+  <div data-slot="dwc" data-param-slot-name="dwc">
+     <h1>Dynamic web content for myslot</h1>
+  </div>
+
+When a contact *requests* a slot, it means they're a member of that campaign
+and they visit the page that the dynamic content is on. When building the
+campaign, follow this decision with an action type of
+**Push dynamic content**
+```
+
 **Sends a text message**: If your Twilio account is set up to receive inbound text messages, you can track if a contact has sent you a text message with a certain pattern of text. For example, if you had an ad campaign with the instruction to text Campaign Studio to a specific phone number, you can look for text messages which include Campaign Studio. To look in your SMS inbox for any message, leave the Pattern the reply should match field empty.
 
 **Submits form**: Did the contact submit any of your Campaign Studio forms? You can also limit this decision to track specific forms, so the contact submitting a form relevant to this campaign meets the decision criteria, but other forms do not meet the criteria.
