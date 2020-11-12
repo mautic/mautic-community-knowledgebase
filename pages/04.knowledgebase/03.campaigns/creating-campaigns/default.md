@@ -121,8 +121,8 @@ Actions are events which require Campaign Studio to do something to the contact 
 > Note: Transactional emails may be sent to contacts multiple times, either in the same campaign or across campaigns. Marketing emails may only be sent once to each contact across all campaigns. Transactional emails ignore the default frequency rule. For more information, see frequency rule.
 
 * **Send email to user**: Sends a template email to a person or people other than the contact. This may be a specific user or users, the contact’s owner (dynamically sent), or non-users using the To: field. Tokens in the email will display the data from the contact record, not Campaign Studio user data. Emails sent using this action won’t count in statistics for the email.
-* 
-* Send marketing message: Sends content using the contact’s preferred channel, if the selected marketing message uses the same channel. See Marketing Messages for more information.
+
+* **Send marketing message:** Sends content using the contact’s preferred channel, if the selected marketing message uses the same channel. See Marketing Messages for more information.
 
 * **Send mobile notification**: Displays when an integration with a mobile push provider, such as the OneSignal plugin, is enabled. Sends the contact a mobile notification.
 
