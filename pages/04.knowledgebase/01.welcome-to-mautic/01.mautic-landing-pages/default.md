@@ -55,4 +55,4 @@ The Fresh themes are created specifically for landing pages, with specific areas
 
 
 [Theme Directory Structure]: <https://developer.mautic.org/#themes>
-<https://subdomain.yourcompany.com/webinar-mautic>
+[https://subdomain.yourcompany.com/webinar-mautic]: <https://subdomain.yourcompany.com/webinar-mautic>
