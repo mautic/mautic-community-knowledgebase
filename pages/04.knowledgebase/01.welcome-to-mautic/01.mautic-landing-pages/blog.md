@@ -21,3 +21,9 @@ articleenabled: false
 facebookenable: true
 ---
 
+Landing pages are a powerful feature that enable you to do more than just publish content quickly and easily. Using landing pages can give you insight to what kind of content your contacts are interested.
+
+
+## Why do we use Landing pages in Mautic
+* It give you insight to what kind of content interest your contacts
+* It can help you obtain more information about your contacts.
