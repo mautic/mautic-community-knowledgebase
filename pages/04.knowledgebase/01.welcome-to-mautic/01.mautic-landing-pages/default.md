@@ -1,6 +1,6 @@
 ---
 title: 'Mautic Landing Pages'
-media_order: 'LP-Themes.png,LP-Sidebar.png'
+media_order: 'LP-Themes.png,LP-Sidebar.png,LP-Builder-1.png'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: false
@@ -52,6 +52,17 @@ The Fresh themes are created specifically for landing pages, with specific areas
 * **Redirect type**: If the content on your landing page is out of date, you can unpublish your landing page and still have contacts who find it go to a relevant page of your choice. If a contact finds an old post or email with a link to a landing page, instead of seeing an Oops! page, you can send users to a specific page. Typically, you’ll want to use a 301 permanent redirect.
 * **Disable search indexing:** To prevent a landing page displaying in search results toggle the switch to Yes. To keep your page available for search engines to find, leave the setting at No (default).
 * **Meta Description:** Adding a meta description is a best practice for SEO. Search engines display this snippet with the results, as a description the page content.
+
+![](LP-Builder-1.png)
+### Slot Types
+* **Text**: Text slots are the most versatile slot type in the landing page builder. You can do almost anything in a text box. Once you have a text slot in your landing page, select the slot to see WYSIWYG editor on the right side.
+
+
+
+
+
+
+
 
 
 [Theme Directory Structure]: <https://developer.mautic.org/#themes>
