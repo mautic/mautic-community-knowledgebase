@@ -1,6 +1,6 @@
 ---
 title: 'Mautic Landing Pages'
-media_order: 'LP-Themes.png,LP-Sidebar.png,LP-Builder-1.png'
+media_order: 'LP-Themes.png,LP-Sidebar.png,LP-Builder-1.png,LP-Text-Slot.png,Image-options.jpg'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: false
@@ -56,7 +56,18 @@ The Fresh themes are created specifically for landing pages, with specific areas
 ![](LP-Builder-1.png)
 ### Slot Types
 * **Text**: Text slots are the most versatile slot type in the landing page builder. You can do almost anything in a text box. Once you have a text slot in your landing page, select the slot to see WYSIWYG editor on the right side.
+![](LP-Text-Slot.png)
+Inside the dialog box are formatting options. The icons displayed (left to right, top to bottom ) are: undo, redo, bold, italics, underline, paragraph format (based on the theme you’re using), font family, font size, color (text and background options available once you click the droplet icon), alignment, numbered list, bulleted list, quote format (indentation), clear formatting, token menu, insert link, insert image, insert video, insert table, code mode, and view full screen.
 
+To add a focus item or form to the landing page, use the tokens:
+* {focus=id#}
+* {form=id#}
+Replace id# with the ID number for the item you’re trying to insert. Assets and Dynamic web content are a little different in text slots. To add a link to an asset:
+1. Use { and start typing the name of the asset.
+2. For dynamic web content, use {dwc=slot_name}. Find the slot name in the Dynamic Web Content item type under Components.
+3. Complete the token with }.
+Text slots offer more flexibility for images than the Image slot. Users often add images into text slots, with or without text. When you click the Image button, options display:
+![](Image-options.jpg)
 
 
 
