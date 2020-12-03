@@ -68,6 +68,13 @@ Replace id# with the ID number for the item you’re trying to insert. Assets an
 3. Complete the token with }.
 Text slots offer more flexibility for images than the Image slot. Users often add images into text slots, with or without text. When you click the Image button, options display:
 ![](Image-options.jpg)
+From left to right, the icons are:
+* Upload an image.
+* Use a URL of an image.
+* Opens the file manager to use an image previously uploaded.
+Using the video option enables you to include gated video within a text slot on the landing page. If you don’t want to gate the video, paste in the URL of the video you want to use. If you do want it gated, enter the time to wait before a form appears and the form to use. Be sure to test the gate, as limited space causes forms to display differently in a video than they would on landing pages.
+
+To make more advanced changes, you use code mode within a text slot. Adjusting colors to specific HEX codes, paragraph styles and formatting, and creating buttons are the most common uses for code mode in a text slot. When finished making changes in code mode, click the `</>` icon again to return to normal view before saving. Otherwise, your changes won’t apply.
 
 
 
