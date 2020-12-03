@@ -147,11 +147,12 @@ Using gated video on a landing page is a great way to gather more information ab
 * Form: The Campaign Studio form you’d like to use in your gated video.
 * Width and Height: The amount of space you’d like the video to consume on your page.
 * Padding Top and Bottom: The amount of extra space you’d like you leave around the video and any other surrounding content.
+
 Dynamic Content
 
+Dynamic web content is a great way to personalize the experience for your contacts. See Dynamic web content. To add a dynamic content slot to your landing page, create the slot(s) in the Dynamic Content item (under Components) and add the Requested Slot Name here.
 ![](LP-DWC-Slot.png)
 
-Dynamic web content is a great way to personalize the experience for your contacts. See Dynamic web content. To add a dynamic content slot to your landing page, create the slot(s) in the Dynamic Content item (under Components) and add the Requested Slot Name here.
 
 ## Sections
 ![](Sections.jpg)
