@@ -62,12 +62,14 @@ Inside the dialog box are formatting options. The icons displayed (left to right
 To add a focus item or form to the landing page, use the tokens:
 * {focus=id#}
 * {form=id#}
+
 Replace id# with the ID number for the item you’re trying to insert. Assets and Dynamic web content are a little different in text slots. To add a link to an asset:
 1. Use { and start typing the name of the asset.
 2. For dynamic web content, use {dwc=slot_name}. Find the slot name in the Dynamic Web Content item type under Components.
 3. Complete the token with }.
 Text slots offer more flexibility for images than the Image slot. Users often add images into text slots, with or without text. When you click the Image button, options display:
 ![](Image-options.jpg)
+
 From left to right, the icons are:
 * Upload an image.
 * Use a URL of an image.
