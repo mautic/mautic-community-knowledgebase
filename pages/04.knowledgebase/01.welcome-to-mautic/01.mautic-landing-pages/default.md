@@ -152,7 +152,7 @@ Dynamic web content is a great way to personalize the experience for your contac
 ![](LP-DWC-Slot.png)
 
 
-## Sections
+### Sections
 ![](Sections.jpg)
 Sections are the areas containing one or more slots. You can add sections with up to three columns, and have multiple slots within each section or column. In the Customize Section editor, you’ll see a handful of options.
 ![](Section-Editor.jpg)
