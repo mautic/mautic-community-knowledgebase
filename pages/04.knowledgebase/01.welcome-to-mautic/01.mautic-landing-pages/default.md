@@ -77,9 +77,7 @@ From left to right, the icons are:
 Using the video option enables you to include gated video within a text slot on the landing page. If you don’t want to gate the video, paste in the URL of the video you want to use. If you do want it gated, enter the time to wait before a form appears and the form to use. Be sure to test the gate, as limited space causes forms to display differently in a video than they would on landing pages.
 
 To make more advanced changes, you use code mode within a text slot. Adjusting colors to specific HEX codes, paragraph styles and formatting, and creating buttons are the most common uses for code mode in a text slot. When finished making changes in code mode, click the `</>` icon again to return to normal view before saving. Otherwise, your changes won’t apply.
-mage
-
-After dragging in an image slot, click the placeholder box to display options for the image.
+* **Image**: After dragging in an image slot, click the placeholder box to display options for the image.
 
 ![](Images.jpg)
 
@@ -90,7 +88,7 @@ The display option icons are:
 * icon: Use to add alternate text to an image. Typically, using whatever you’d name the image will do.
 * Adjust the size: Set the width and height by number of pixels.
 * Add hyperlink: To have the image act as a hyperlink, use the link icon and add your URL. Like you would when adding a text link, you have the option to open the link in a new tab.
-Image Card
+* **Image Card**
 
 ![](Image-Card.jpg)
 
@@ -98,13 +96,13 @@ Image cards are like the Image slot type. The Customize Slot section in the edit
 
 Click the Blank placeholder box to find the options to add or replace the image, like in the Image slot.
 
-Image+Caption
+* **Image+Caption**
 
 ![](Image-Caption.jpg)
 
 A third image slot type, the only difference between this and the Image Card is background colors. The Image+Caption slot type doesn’t include backgrounds.
 
-Button
+* **Button**
 
 ![](Button.jpg)
 
@@ -114,29 +112,29 @@ change the border radius (curved edges instead of straight).
 add custom text and a link, size, position, and colors for the button and text.
 If you have a form on your page you won’t need a separate button. Style the submit button for the form in Campaign Studio’s form builder.
 
-Social Share
+* **Social Share**
 
 This slot type adds options to share your content on Facebook, LinkedIn, and Twitter. The basic token for {sharebuttons} adds share buttons for those three social media platforms. You may also add the token into a text slot.
 
-Social Follow
+* **Social Follow**
 
 ![](1280_2mgcl82HyOO2.png)
 
 With this slot type, you can add links to follow your organization’s Google+, Facebook, and Twitter pages. Add the links for the social profiles to link to.
 
-Code Mode
+* **Code Mode**
 
 ![](Code-Mode.jpg)
 
 To create a slot entirely in HTML, drag in a Code mode slot and write your code in the editor. Changes display in the main preview panel.
 
-Separator
+* **Separator**
 
 ![](Separator.jpg)
 
 A basic design element, the separator is a line which separates parts of your landing page.
 
-Gated Video
+* **Gated Video**
 
 ![](LP-Gated-Video.png)
 
@@ -148,7 +146,7 @@ Using gated video on a landing page is a great way to gather more information ab
 * Width and Height: The amount of space you’d like the video to consume on your page.
 * Padding Top and Bottom: The amount of extra space you’d like you leave around the video and any other surrounding content.
 
-Dynamic Content
+* **Dynamic Content**
 
 Dynamic web content is a great way to personalize the experience for your contacts. See Dynamic web content. To add a dynamic content slot to your landing page, create the slot(s) in the Dynamic Content item (under Components) and add the Requested Slot Name here.
 ![](LP-DWC-Slot.png)
