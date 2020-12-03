@@ -1,6 +1,6 @@
 ---
 title: 'Mautic Landing Pages'
-media_order: 'LP-Themes.png,LP-Sidebar.png,LP-Builder-1.png,LP-Text-Slot.png,Image-options.jpg'
+media_order: 'LP-Themes.png,LP-Sidebar.png,LP-Builder-1.png,LP-Text-Slot.png,Image-options.jpg,Sections.jpg,Section-Editor.jpg,Images.jpg,Image-Card.jpg,Image-Caption.jpg,1280_2mgcl82HyOO2.png,Button.jpg,Code-Mode.jpg,Separator.jpg,LP-Gated-Video.png,LP-DWC-Slot.png'
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: false
@@ -77,6 +77,92 @@ From left to right, the icons are:
 Using the video option enables you to include gated video within a text slot on the landing page. If you don’t want to gate the video, paste in the URL of the video you want to use. If you do want it gated, enter the time to wait before a form appears and the form to use. Be sure to test the gate, as limited space causes forms to display differently in a video than they would on landing pages.
 
 To make more advanced changes, you use code mode within a text slot. Adjusting colors to specific HEX codes, paragraph styles and formatting, and creating buttons are the most common uses for code mode in a text slot. When finished making changes in code mode, click the `</>` icon again to return to normal view before saving. Otherwise, your changes won’t apply.
+mage
+
+After dragging in an image slot, click the placeholder box to display options for the image.
+
+![](Images.jpg)
+
+The display option icons are:
+
+* Replace: Use to add your image initially, or to change it later on.
+* Alignment: You have alignment options to the right of the preview window, in the Customize Slot section.
+* icon: Use to add alternate text to an image. Typically, using whatever you’d name the image will do.
+* Adjust the size: Set the width and height by number of pixels.
+* Add hyperlink: To have the image act as a hyperlink, use the link icon and add your URL. Like you would when adding a text link, you have the option to open the link in a new tab.
+Image Card
+
+![](Image-Card.jpg)
+
+Image cards are like the Image slot type. The Customize Slot section in the editor panel (on the right) has more options. There, you can change the text for the caption, change alignment for the image and caption, and change colors for the image background, caption background, and caption text.
+
+Click the Blank placeholder box to find the options to add or replace the image, like in the Image slot.
+
+Image+Caption
+
+![](Image-Caption.jpg)
+
+A third image slot type, the only difference between this and the Image Card is background colors. The Image+Caption slot type doesn’t include backgrounds.
+
+Button
+
+![](Button.jpg)
+
+Marketers often want to have a call to action on their landing page and drive recipients to a certain page. The Button slot type is the most straightforward way to do that. The Customize Slot area in the editor on the right gives options to:
+
+change the border radius (curved edges instead of straight).
+add custom text and a link, size, position, and colors for the button and text.
+If you have a form on your page you won’t need a separate button. Style the submit button for the form in Campaign Studio’s form builder.
+
+Social Share
+
+This slot type adds options to share your content on Facebook, LinkedIn, and Twitter. The basic token for {sharebuttons} adds share buttons for those three social media platforms. You may also add the token into a text slot.
+
+Social Follow
+
+![](1280_2mgcl82HyOO2.png)
+
+With this slot type, you can add links to follow your organization’s Google+, Facebook, and Twitter pages. Add the links for the social profiles to link to.
+
+Code Mode
+
+![](Code-Mode.jpg)
+
+To create a slot entirely in HTML, drag in a Code mode slot and write your code in the editor. Changes display in the main preview panel.
+
+Separator
+
+![](Separator.jpg)
+
+A basic design element, the separator is a line which separates parts of your landing page.
+
+Gated Video
+
+![](LP-Gated-Video.png)
+
+Using gated video on a landing page is a great way to gather more information about your contacts. Add a form at a specified time in the video to require a contact to identify themselves or give more information. Once the form displays, the contact can’t continue watching the video until they have submitted the form.
+
+* Video URL: Add a URL from YouTube, Wistia, or other URL of a video file.
+* Gate Time: The amount of time (in seconds) after the video starts you’d like the form to display.
+* Form: The Campaign Studio form you’d like to use in your gated video.
+* Width and Height: The amount of space you’d like the video to consume on your page.
+* Padding Top and Bottom: The amount of extra space you’d like you leave around the video and any other surrounding content.
+Dynamic Content
+
+![](LP-DWC-Slot.png)
+
+Dynamic web content is a great way to personalize the experience for your contacts. See Dynamic web content. To add a dynamic content slot to your landing page, create the slot(s) in the Dynamic Content item (under Components) and add the Requested Slot Name here.
+
+## Sections
+![](Sections.jpg)
+Sections are the areas containing one or more slots. You can add sections with up to three columns, and have multiple slots within each section or column. In the Customize Section editor, you’ll see a handful of options.
+![](Section-Editor.jpg)
+
+* **Content Background Color** is for the background within the area where you have content.
+* **Wrapper Background Color** is for the rest of the background, extending to the edges of the page.
+* **Wrapper Background Image** To add a background wrapper image, enter the URL of the image.
+* **Wrapper Background Repeat** Select a value to declare if or how the wrapper repeats.
+* **Wrapper Background Size** enables you to decide how large the wrapper is. If you want to have some space before, after, or around the edges of the content, set those dimensions here.
 
 
 
