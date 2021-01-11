@@ -11,7 +11,7 @@ facebookenable: true
 ---
 
 # Share your tutorial!
-Have you already got a finished article or tutorial that should be available in the knowledgebase for everyone? If so, please share it with the Mautic Community and make it public. To do that, just send the article or tutorial to **[edu-contribute@mautic.org](mailto:edu-contribute@mautic.org)**. 
+Have you already got a finished article or tutorial that should be available in the knowledgebase for everyone? If so, please share it with the Mautic Community and make it public. To do that, just send the article or tutorial to **[edu-contribution@mautic.org](mailto:edu-contribution@mautic.org)**. 
 
 We will handle the formatting and everthing else. If you have that tutorial/article already online on your own website we will give you a canonical link to prevent duplicated content!
 
