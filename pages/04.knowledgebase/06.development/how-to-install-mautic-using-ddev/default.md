@@ -77,6 +77,8 @@ If this is your first DDEV instance this can take a bit of time to initialise, a
 
 Once started you will find your project at mautic.ddev.site (in case you used a different project name it will be yourprojectname.ddev.site). If you want to enable HTTPS, you can do so by following the steps in [Using DDEV with HTTPS](#using-ddev-with-https) below.
 
+>>>>> Note: if you get an error in the installation process "The CSRF token is invalid", please make sure to use `https://` in front of your Mautic URL.
+
 Navigating to mautic.ddev.site in your browser should bring up the Mautic installation steps. Make sure that during the installation you use the following settings:
 ```
 Database port: 3306
