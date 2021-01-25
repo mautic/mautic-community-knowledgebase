@@ -34,6 +34,7 @@ The second part which is the domain part consists of:
 * Capital letters (A-Z) and small (a-z) letters
 * Numerals (0-9)
 * “.” and “-” dot and hyphens
+
 ##  How to use Regex
 When validating emails on the client-side with javascript the most preferred means is to use Regular Expression also known as Regex. 
 **Note:** There is no universal or general approved regex expression that is used for email validation. Most people use different regex expressions that satisfy different use cases when validating emails. 
