@@ -1,6 +1,6 @@
 ---
 title: 'Javascript Email Validation Tutorial'
-media_order: 'Screenshot 2021-01-16 at 12.21.39 PM.png,Screenshot 2021-01-16 at 12.43.05 PM.png'
+media_order: 'Screenshot 2021-01-16 at 12.21.39 PM.png,Screenshot 2021-01-16 at 12.43.05 PM.png,Screenshot 2021-01-16 at 12.19.00 PM.png'
 published: true
 metadata:
     'Emails validation javscript tutorial': 'Blog Grav'
@@ -160,6 +160,7 @@ Index.css
 Run the code and view the output on your browser
 Here is the expected output of the code.
 
+![](Screenshot%202021-01-16%20at%2012.19.00%20PM.png)
 
 Now to test our code with some emails - testing with this email `jane.doe@gmail.com`  will work and give a pop up of _"Valid email address!”_ as seen below.
 ![](Screenshot%202021-01-16%20at%2012.21.39%20PM.png)
