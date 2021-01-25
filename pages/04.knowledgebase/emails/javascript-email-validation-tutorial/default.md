@@ -1,6 +1,8 @@
 ---
 title: 'Javascript Email Validation Tutorial'
 published: true
+metadata:
+    'Emails validation javscript tutorial': 'Blog Grav'
 taxonomy:
     category:
         - Developer
