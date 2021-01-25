@@ -54,7 +54,7 @@ The knowledgebase uses Git for a couple of reasons:
 
 [Link to the GitHub Mautic Knowledgebase Repository](https://github.com/mautic/mautic-community-knowledgebase)
 
-### Need help? - Write a message:
+### Need help? - Write us a message:
 
 Education Team Slack Channel: [Click here](https://mautic.slack.com/archives/CQGQ0D4KU)
 
