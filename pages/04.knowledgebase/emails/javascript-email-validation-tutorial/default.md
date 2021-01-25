@@ -117,7 +117,7 @@ Next, we create a file called index.css and place the code below in it which is 
 Index.css
 
 ```
-li {
+    li {
         list-style-type: none;
         font-size: 16pt;
     }
