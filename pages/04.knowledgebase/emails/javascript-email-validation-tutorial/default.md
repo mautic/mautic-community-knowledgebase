@@ -86,6 +86,100 @@ We are going to create a form which has the email input and use javascript to va
 
 First, we will create a file and call it index.html and place the code below in it. The index.html will use the javascript code created earlier to validate the emails on the client-side.
 
+Index.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JavaScript form validation with regex</title>
+<link rel='stylesheet' href='index.css' type='text/css' />      
+</head>
+<body onload='document.form1.text1.focus()'>
+<div class="mail">
+<h2>Input an email and Submit to validate</h2>
+<form name="form1" action="#"> 
+<ul>
+<li><input type='text' name='text1'/></li>
+<li>&nbsp;</li>
+<li class="submit"><input type="submit" name="submit" value="Submit" onclick="ValidateEmail(document.form1.text1)"/></li>
+<li>&nbsp;</li>
+</ul>
+</form>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
+```
+
+Next, we create a file called index.css and place the code below in it which is the stylesheet to beautify the form.
+
+Index.css
+
+```
+li {
+        list-style-type: none;
+        font-size: 16pt;
+    }
+    .mail {
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 400px;
+        border: 1px soild  silver;
+    }
+    .mail h2 {
+        margin-left: 38px;
+    }
+    input {
+        font-size: 20pt;
+    }
+    input:focus, textarea:focus{
+        background-color: #2ef8cf;
+    }
+    input submit {
+        font-size: 12pt;
+    }
+    .rq {
+        color:  #FF0000;
+        font-size: 10pt;
+        }
+```
+Run the code and view the output on your browser
+Here is the expected output of the code.
+
+
+Now to test our code with some emails - testing with this email `jane.doe@gmail.com`  will work and give a pop up of _"Valid email address!”_ as seen below.
+
+
+Inputting this email `jane..smith@example.com` won’t work and would give a pop up of _“You have entered an invalid email address!”_. Here is the output below.
+
+
+You can try testing with more emails, to see which is valid or invalid
+* jane@.example.com
+* Jane.example.com
+* john12@gmail.com
+* smith+consult@hotmail.com
+* peter@example.com 
+* jake@example.co.in 
+* peter.wash@example.com 
+* john_smith@example.com 
+* jane@example.company.in 
+* .jake@example.com
+* peter@example.com. 
+* jane@example.c 
+* smith@example.company 
+
+## Other Considerations
+Validating email addresses on the client-side with javascript using regex is fun to set up and try out as illustrated with the examples above although not everyone can grab the concept of regex as it can be a bit difficult to understand sometimes and there is no general or universal regex used for validating emails, people tend to write the regex according to their needs and some regex expressions may get rid of some valid email addresses. 
+
+To avoid the use of some difficult regex expressions when validating emails and also test and debug your emails to fix issues your emails may encounter before you send them out, you can use Mailtrap. 
+
+With Mailtrap, you can check if your emails are properly formatted and are not sent to the spam folder. Also, you won’t get rid of valid email addresses which may be eliminated when using regex.
+
+
+Stay happy sending emails!
+
 
 
 
