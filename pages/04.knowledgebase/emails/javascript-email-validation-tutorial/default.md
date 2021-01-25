@@ -195,5 +195,5 @@ Stay happy sending emails!
 
 
 
-[Mautic]: <https://www.mautic.org/blog/using-mautic-campaign-validation-make-marketing-list-valuable#:~:text=Validate%20an%20email%20address%20inside,a%20bounce%20in%20the%20future.>
+[Mautic]: <https://www.mautic.org/blog/using-mautic-campaign-validation-make-marketing-list-valuable#:~:text=Validate%20an%20email%20address%20inside,a%20bounce%20in%20the%20future?rel=dofollow>
 [java]: <https://blog.mailtrap.io/sending-email-using-java/>
