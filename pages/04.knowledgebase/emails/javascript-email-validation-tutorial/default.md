@@ -11,7 +11,7 @@ articleenabled: false
 facebookenable: true
 ---
 
-Validation is a method to constantly check, verify, authenticate and prove the accuracy of something. Email Validation is a method to check, authenticate and prove the accuracy and validity of emails. Emails is one of the most convenient and popular means of communication used by a lot of people - the need to validate emails is very important as it is: 
+Validation is a method to constantly check, verify, authenticate and prove the accuracy of something._ Email Validation_ is a method to check, authenticate and prove the accuracy and validity of emails. Emails is one of the most convenient and popular means of communication used by a lot of people - the need to validate emails is very important as it is: 
 1. Improve the quality of data; By validating emails, you can ascertain the accuracy of data as only accurate and valid emails are collected, a large amount of invalid email addresses means there is a lot to improve.
 2. Improves email marketing: Validation of emails improves email marketing as only deliverable emails are being targeted when sending emails out.
 3. Leads to increased deliverability: When emails are validated you don’t get to deal with issues that arise with sending out incorrect or invalid emails such as high spam complaint rate.
