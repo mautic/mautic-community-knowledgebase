@@ -29,6 +29,7 @@ The first part which is the local part usually consists of:
 * Numerals (0-9)
 * Some special characters which are:! # $ % & ‘ * + – / = ? ^ _ ` { | ~
 * . ( period, dot or full stop) which cannot be the first or last character and cannot be repeated
+
 The second part which is the domain part consists of:
 * Capital letters (A-Z) and small (a-z) letters
 * Numerals (0-9)
