@@ -1,6 +1,15 @@
 ---
 title: 'Javascript Email Validation Tutorial'
 published: true
+taxonomy:
+    category:
+        - Emails
+        - Developer
+    tag:
+        - validation
+        - javascript
+        - emails
+        - developer
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: false
