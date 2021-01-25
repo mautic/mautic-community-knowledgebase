@@ -4,6 +4,7 @@ published: true
 anchors:
     active: false
 tagtitle: h2
+menu: test
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
