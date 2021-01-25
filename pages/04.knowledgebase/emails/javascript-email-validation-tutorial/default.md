@@ -56,8 +56,8 @@ return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{
 
 Here is the output when testing with these two email addresses. 
 
-testRegex(`jane@.example.com`) //true
-testRegex(`jane..smith@example.com`)  //false
+* testRegex(`jane@.example.com`) //true
+* testRegex(`jane..smith@example.com`)  //false
 
 
 ## Using Javascript with Regex
