@@ -3,8 +3,8 @@ title: 'Javascript Email Validation Tutorial'
 published: true
 taxonomy:
     category:
-        - Emails
         - Developer
+        - Emails
     tag:
         - validation
         - javascript
