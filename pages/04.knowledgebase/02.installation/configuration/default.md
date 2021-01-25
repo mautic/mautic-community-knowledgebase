@@ -7,6 +7,10 @@ taxonomy:
     tag:
         - Intermediate
         - installation
+        - 'Mautic API'
+        - Beginner
+        - Article
+        - Developer
 body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: true
