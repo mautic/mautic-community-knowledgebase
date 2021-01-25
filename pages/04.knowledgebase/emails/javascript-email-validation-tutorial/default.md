@@ -87,7 +87,7 @@ We are going to create a form which has the email input and use javascript to va
 First, we will create a file and call it index.html and place the code below in it. The index.html will use the javascript code created earlier to validate the emails on the client-side.
 
 ```
-<Doctype>
+<!DOCTYPE html>
 ```
 
 
