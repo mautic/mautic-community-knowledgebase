@@ -35,6 +35,10 @@ The second part which is the domain part consists of:
 * Numerals (0-9)
 * “.” and “-” dot and hyphens
 ##  How to use Regex
+When validating emails on the client-side with javascript the most preferred means is to use Regular Expression also known as Regex. 
+**Note:** There is no universal or general approved regex expression that is used for email validation. Most people use different regex expressions that satisfy different use cases when validating emails. 
+Before we jump right into using any regex, we would have to test it with some email address (both correct and incorrect) to be sure it throws an error when a fake or an incorrect address is used. The regex example below has been tested to validate up to 99% email addresses. 
+
 
 
 
