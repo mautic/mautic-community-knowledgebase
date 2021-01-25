@@ -18,3 +18,8 @@ Validation is a method to constantly check, verify, authenticate and prove the a
 4. Prevents email hard bounce: Email bounces occur when the recipient email address is not correct or the email does not exist. Email validation cleans up the list of emails and removes invalid or incorrect emails.
 5. Improves sender's reputation: Validating emails eliminate roadblocks such as incorrect or mistyped emails that may hinder great sender reputations.
 6. Saves money: Sending emails out cost money, email validation eliminates unwanted emails leaving only relevant emails and thereby reducing expenses.
+
+Emails can be validated using different methods such as sending emails using java, using javascript to validate email addresses etc. 
+ 
+For this article, we would look into how we can set up javascript to validate email addresses on the client-side, it is very fast and a preferred choice by most people, we would see how this can be done in the following sections.
+
