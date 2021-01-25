@@ -23,7 +23,18 @@ Emails can be validated using different methods such as [sending emails using ja
  For this article, we would look into how we can set up javascript to validate email addresses on the client-side, it is very fast and a preferred choice by most people, we would see how this can be done in the following sections.
  
 ## What are the guidelines that should be observed by email validation?
-When performing email validation it is very important you take into consideration the email structure. This is an important rule that should be observed. Emails have two parts that are separated by this “_@”_ symbol. The two parts are called local and domain parts respectively. 
+When performing email validation it is very important you take into consideration the email structure. This is an important rule that should be observed. Emails have two parts that are separated by this `_@`_ symbol. The two parts are called local and domain parts respectively. 
+The first part which is the local part usually consists of:
+* Capital letters (A-Z) and small (a-z) letters
+* Numerals (0-9)
+* Some special characters which are:! # $ % & ‘ * + – / = ? ^ _ ` { | ~
+* . ( period, dot or full stop) which cannot be the first or last character and cannot be repeated
+The second part which is the domain part consists of:
+* Capital letters (A-Z) and small (a-z) letters
+* Numerals (0-9)
+* “.” and “-” dot and hyphens
+##  How to use Regex
+
 
 
 [java]: <https://blog.mailtrap.io/sending-email-using-java/>
