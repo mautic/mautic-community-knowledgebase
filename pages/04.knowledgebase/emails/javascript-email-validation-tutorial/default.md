@@ -44,6 +44,22 @@ Before we jump right into using any regex, we would have to test it with some em
 ```	
 /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 ```
+To quickly test our regex expression with some email address we would use this function
+
+```
+
+function testRegex(email) {
+return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email)
+ 
+}
+```
+
+
+
+
+
+
+
 
 
 [java]: <https://blog.mailtrap.io/sending-email-using-java/>
