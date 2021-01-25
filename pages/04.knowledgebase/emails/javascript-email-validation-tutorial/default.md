@@ -81,7 +81,10 @@ return false;
 ```
 Now let’s apply this javascript code to a form.
 
+## Validating emails in a form using javascript
+We are going to create a form which has the email input and use javascript to validate emails inputted in the form when submitted. Let’s see how this works.
 
+First, we will create a file and call it index.html and place the code below in it. The index.html will use the javascript code created earlier to validate the emails on the client-side.
 
 
 
