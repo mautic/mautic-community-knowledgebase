@@ -1,5 +1,6 @@
 ---
 title: 'Javascript Email Validation Tutorial'
+media_order: 'Screenshot 2021-01-16 at 12.21.39 PM.png,Screenshot 2021-01-16 at 12.43.05 PM.png'
 published: true
 metadata:
     'Emails validation javscript tutorial': 'Blog Grav'
@@ -161,10 +162,10 @@ Here is the expected output of the code.
 
 
 Now to test our code with some emails - testing with this email `jane.doe@gmail.com`  will work and give a pop up of _"Valid email address!”_ as seen below.
-
+![](Screenshot%202021-01-16%20at%2012.21.39%20PM.png)
 
 Inputting this email `jane..smith@example.com` won’t work and would give a pop up of _“You have entered an invalid email address!”_. Here is the output below.
-
+![](Screenshot%202021-01-16%20at%2012.43.05%20PM.png)
 
 You can try testing with more emails, to see which is valid or invalid
 * jane@.example.com
