@@ -54,6 +54,32 @@ return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{
 }
 ```
 
+Here is the output when testing with these two email addresses. 
+
+testRegex(`jane@.example.com`) //true
+testRegex(`jane..smith@example.com`)  //false
+
+
+## Using Javascript with Regex
+The code example below shows regex implementation in javascript, the code is not hard to understand, from the code if the email value matches the regex then it returns (This is a valid email address) pop up alert if it does not match, it returns(This is not a valid email address) pop up alert.
+
+index.js
+```
+function ValidateEmail(inputText){
+var mailformat = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+if(inputText.value.match(mailformat)){
+alert("Valid email address!");
+document.form1.text1.focus();
+return true;
+}
+else {
+alert("You have entered an invalid email address!");
+document.form1.text1.focus();
+return false;
+}
+}
+```
+Now let’s apply this javascript code to a form.
 
 
 
