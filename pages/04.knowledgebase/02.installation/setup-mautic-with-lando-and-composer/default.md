@@ -16,16 +16,16 @@ Two setup a Mautic instance using Lando and Composer, you will need:
 * lando https://docs.lando.dev/
 * composer https://getcomposer.org/
 
-### First of all you need to install Mautic via Composer
+### **First of all you need to install Mautic via Composer**
 
 ````
 composer create-project mautic/core YOURPROJECTNAME ^3 --no-dev
 ```
 You need to replace "YOURPROJECTNAME" with the name of the projects folder.
 
-## Step Two - Lando
+### Step Two - Lando****
 
-### Config
+#### Lando-Config
 
 Create **.lando.yml **with the following content:
 
@@ -63,7 +63,7 @@ services:
     type: mailhog
     portforward: true
 ````
-**Build containers**
+### **Build containers**
 ```
 Lando Start
 ```
@@ -71,7 +71,8 @@ This will create the needed docker containers (can take a while).
 Once the containers are up and running we can access
 https://mautic.lndo.site/
 
-**Let’s setup Mautic**
+### **Let’s setup Mautic**
+
 Let’s open https://mautic.lndo.site/
 You should see now the following screen:
 ![](pic-1.png)
