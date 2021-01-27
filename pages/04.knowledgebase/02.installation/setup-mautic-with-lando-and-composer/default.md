@@ -10,8 +10,6 @@ articleenabled: false
 facebookenable: true
 ---
 
-**# Setup Mautic with lando & composer**
-
 ### **The Requirements**
 
 Two setup a Mautic instance using Lando and Composer, you will need:
