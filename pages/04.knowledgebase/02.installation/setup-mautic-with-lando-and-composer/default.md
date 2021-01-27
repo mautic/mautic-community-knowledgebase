@@ -9,6 +9,7 @@ articleenabled: false
 facebookenable: true
 ---
 
-Requirements
-lando
-composer
+**The Requirements**
+
+lando https://docs.lando.dev/
+composer https://getcomposer.org/
