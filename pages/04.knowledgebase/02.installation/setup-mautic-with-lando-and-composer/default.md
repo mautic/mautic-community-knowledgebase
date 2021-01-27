@@ -68,12 +68,14 @@ services:
 Lando Start
 ```
 This will create the needed docker containers (can take a while).
+
 Once the containers are up and running we can access
 https://mautic.lndo.site/
 
 ### **Let’s setup Mautic**
 
 Let’s open https://mautic.lndo.site/
+
 You should see now the following screen:
 ![](pic-1.png)
 
