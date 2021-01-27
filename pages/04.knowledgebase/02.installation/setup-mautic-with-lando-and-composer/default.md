@@ -10,6 +10,15 @@ articleenabled: false
 facebookenable: true
 ---
 
+---
+This article was Contributed by **Sascha Eggenberger**
+
+Visit his Website at: [https://saschaeggi.medium.com/](https://saschaeggi.medium.com/)
+
+Original article: [Setup Mautic with lando & composer](https://saschaeggi.medium.com/setup-mautic-with-lando-13eeff315c23)
+
+---
+
 #### Quick Tipp upfront:
 You can also easily checkout this repo and just ```lando start``` to spin it up: [https://github.com/saschaeggi/mautic-lando-starterkit](https://github.com/saschaeggi/mautic-lando-starterkit)
 
@@ -110,12 +119,3 @@ We set to use the mailserver to be the mailhog docker container:
 #### **Login**
 You can now login to your freshly installed Mautic setup with the credentials from the previous step.
 ![](pic-5.png)
-
----
-
-
-This article was Contributed by **Sascha Eggenberger**
-
-Visit his Website at: [https://saschaeggi.medium.com/](https://saschaeggi.medium.com/)
-
-Original article: [Setup Mautic with lando & composer](https://saschaeggi.medium.com/setup-mautic-with-lando-13eeff315c23)
