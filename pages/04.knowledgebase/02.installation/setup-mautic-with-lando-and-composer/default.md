@@ -23,7 +23,7 @@ composer create-project mautic/core YOURPROJECTNAME ^3 --no-dev
 ```
 You need to replace "YOURPROJECTNAME" with the name of the projects folder.
 
-### Step Two - Lando****
+### **Step Two - Lando**
 
 #### Lando-Config
 
