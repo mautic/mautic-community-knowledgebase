@@ -1,6 +1,7 @@
 ---
 title: 'Setup Mautic with lando & composer'
 media_order: 'pic-1.png,pic-3.png,pic-2.png,pic-5.png,pic-4.png'
+body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: false
 tagtitle: h2
