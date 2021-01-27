@@ -118,4 +118,4 @@ This article was Contributed by **Sascha Eggenberger**
 
 Visit his Website at: [https://saschaeggi.medium.com/](https://saschaeggi.medium.com/)
 
-Original article: https://saschaeggi.medium.com/setup-mautic-with-lando-13eeff315c23
+Original article:[Setup Mautic with lando & composer](https://saschaeggi.medium.com/setup-mautic-with-lando-13eeff315c23)
