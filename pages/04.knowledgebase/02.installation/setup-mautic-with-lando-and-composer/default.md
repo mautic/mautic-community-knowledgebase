@@ -1,5 +1,5 @@
 ---
-title: 'Setup Mautic with lando & composer'
+title: '<Setup Mautic with lando & composer'
 media_order: 'pic-1.png,pic-3.png,pic-2.png,pic-5.png,pic-4.png'
 anchors:
     active: false
@@ -16,7 +16,7 @@ You the following two things to setup your Mautic instance
 * lando https://docs.lando.dev/
 * composer https://getcomposer.org/
 
-&nbsp;
+<&nbsp;/>
 **First of all you need to install Mautic via Composer**
 
 ````
