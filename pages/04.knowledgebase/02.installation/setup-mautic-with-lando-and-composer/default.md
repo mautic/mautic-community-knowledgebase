@@ -102,8 +102,7 @@ Set Database settings to use the following:
 We set to use the mailserver to be the mailhog docker container:
 * Server: mailhog,
 * Port: 1025
-* And we can access Mailhog via
-* http://mail.mautic.lndo.site/
+* And we can access Mailhog via http://mail.mautic.lndo.site/
 ![](pic-4.png)
 
 #### **Login**
