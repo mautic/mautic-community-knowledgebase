@@ -5,6 +5,8 @@ body_classes: 'title-h1h2 header-fixed header-animated'
 anchors:
     active: false
 tagtitle: h2
+routes:
+    canonical: 'https://github.com/saschaeggi/mautic-lando-starterkit'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
