@@ -97,14 +97,15 @@ Set Database settings to use the following:
 * Last name: Your last name
 ![](pic-3.png)
 
-**Step 3**
+#### **Step 3**
+
 We set to use the mailserver to be the mailhog docker container:
-Server: mailhog,
-Port: 1025
-And we can access Mailhog via
-http://mail.mautic.lndo.site/
+* Server: mailhog,
+* Port: 1025
+* And we can access Mailhog via
+* http://mail.mautic.lndo.site/
 ![](pic-4.png)
 
-**Login**
+#### **Login**
 You can now login to your freshly installed Mautic setup with the credentials from the previous step.
 ![](pic-5.png)
