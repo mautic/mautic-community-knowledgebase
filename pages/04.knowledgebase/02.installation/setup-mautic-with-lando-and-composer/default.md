@@ -11,12 +11,12 @@ facebookenable: true
 ---
 
 #### Quick Tipp upfront:
-You can also easily checkout this repo and just ```lando start``` to spin it up: https://github.com/saschaeggi/mautic-lando-starterkit
+You can also easily checkout this repo and just ```lando start``` to spin it up: [https://github.com/saschaeggi/mautic-lando-starterkit](https://github.com/saschaeggi/mautic-lando-starterkit)
 
 ### **The Requirements**
 Two setup a Mautic instance using Lando and Composer, you will need:
-* lando https://docs.lando.dev/
-* composer https://getcomposer.org/
+* [Lando](https://docs.lando.dev/)
+* [Composer](https://getcomposer.org/)
 
 ### **First of all you need to install Mautic via Composer**
 
@@ -72,11 +72,11 @@ Lando Start
 This will create the needed docker containers (can take a while).
 
 Once the containers are up and running we can access
-https://mautic.lndo.site/
+[https://mautic.lndo.site/](https://mautic.lndo.site/)
 
 ### **Let’s setup Mautic**
 
-Let’s open https://mautic.lndo.site/
+Let’s open your Mautic site at: [https://mautic.lndo.site/](https://mautic.lndo.site/)
 
 You should see now the following screen:
 ![](pic-1.png)
@@ -104,7 +104,7 @@ Set Database settings to use the following:
 We set to use the mailserver to be the mailhog docker container:
 * Server: mailhog,
 * Port: 1025
-* And we can access Mailhog via: http://mail.mautic.lndo.site/
+* And we can access Mailhog via: [http://mail.mautic.lndo.site/](http://mail.mautic.lndo.site/)
 ![](pic-4.png)
 
 #### **Login**
@@ -118,4 +118,4 @@ This article was Contributed by **Sascha Eggenberger**
 
 Visit his Website at: [https://saschaeggi.medium.com/](https://saschaeggi.medium.com/)
 
-Original article:[Setup Mautic with lando & composer](https://saschaeggi.medium.com/setup-mautic-with-lando-13eeff315c23)
+Original article: [Setup Mautic with lando & composer](https://saschaeggi.medium.com/setup-mautic-with-lando-13eeff315c23)
