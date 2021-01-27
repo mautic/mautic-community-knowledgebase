@@ -1,5 +1,5 @@
 ---
-title: '<Setup Mautic with lando & composer'
+title: 'Setup Mautic with lando & composer'
 media_order: 'pic-1.png,pic-3.png,pic-2.png,pic-5.png,pic-4.png'
 anchors:
     active: false
@@ -9,6 +9,8 @@ twittercardoptions: summary
 articleenabled: false
 facebookenable: true
 ---
+
+**# Setup Mautic with lando & composer**
 
 ### **The Requirements**
 
