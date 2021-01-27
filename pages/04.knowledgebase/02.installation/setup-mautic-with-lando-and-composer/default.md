@@ -79,22 +79,22 @@ Let’s open https://mautic.lndo.site/
 You should see now the following screen:
 ![](pic-1.png)
 
-**Step 1**
+#### **Step 1**
 Set Database settings to use the following:
 
-Database: mautic,
-Password: mautic,
-Username: mautic
-Host: database,
-Port: 3306
+* Database: mautic,
+* Password: mautic,
+* Username: mautic
+* Host: database,
+* Port: 3306
 ![](pic-2.png)
 
-**Step 2**
-Setup your admin user:
-Username: admin
-Password: SETYOURPASSWORD
-Name: Your name
-Last name: Your last name
+#### **Step 2**
+* Setup your admin user:
+* Username: admin
+* Password: SETYOURPASSWORD
+* Name: Your name
+* Last name: Your last name
 ![](pic-3.png)
 
 **Step 3**
