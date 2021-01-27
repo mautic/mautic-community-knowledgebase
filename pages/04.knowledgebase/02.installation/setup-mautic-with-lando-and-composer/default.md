@@ -16,7 +16,6 @@ You the following two things to setup your Mautic instance
 * lando https://docs.lando.dev/
 * composer https://getcomposer.org/
 
-<&nbsp;/>
 **First of all you need to install Mautic via Composer**
 
 ````
