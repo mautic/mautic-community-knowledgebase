@@ -111,8 +111,10 @@ We set to use the mailserver to be the mailhog docker container:
 You can now login to your freshly installed Mautic setup with the credentials from the previous step.
 ![](pic-5.png)
 
-===
+---
 
 This article was Contributed by **Sascha Eggenberger**
+
 Visit his Website at: https://saschaeggi.medium.com/
+
 Original article: https://saschaeggi.medium.com/setup-mautic-with-lando-13eeff315c23
