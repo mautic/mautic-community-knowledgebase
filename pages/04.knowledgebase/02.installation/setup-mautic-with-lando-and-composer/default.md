@@ -10,11 +10,10 @@ articleenabled: false
 facebookenable: true
 ---
 
-### **The Requirements**
-
 #### Quick Tipp upfront:
 You can also easily checkout this repo and just ```lando start``` to spin it up: https://github.com/saschaeggi/mautic-lando-starterkit
 
+### **The Requirements**
 Two setup a Mautic instance using Lando and Composer, you will need:
 * lando https://docs.lando.dev/
 * composer https://getcomposer.org/
