@@ -22,7 +22,7 @@ Original article: [Setup Mautic with lando & composer](https://saschaeggi.medium
 
 ---
 
-#### Quick Tipp upfront:
+#### Quick Tip upfront:
 You can also easily checkout this repo and just ```lando start``` to spin it up: [https://github.com/saschaeggi/mautic-lando-starterkit](https://github.com/saschaeggi/mautic-lando-starterkit)
 
 ### **The Requirements**
