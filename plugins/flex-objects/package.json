@@ -12,7 +12,7 @@
         "axios": "^0.21.1",
         "eventemitter3": "^4.0.7",
         "gulp-sourcemaps": "^3.0.0",
-        "lodash": "^4.17.20",
+        "lodash": "^4.17.21",
         "npm-check-updates": "^10.2.3",
         "tiny-cookie": "^2.3.2",
         "vue": "^2.6.12",
