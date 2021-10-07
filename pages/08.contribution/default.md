@@ -58,4 +58,4 @@ The knowledgebase uses Git for a couple of reasons:
 
 Education Team Slack Channel: [Click here](https://mautic.slack.com/archives/CQGQ0D4KU)
 
-Email: [leon.oltmanns@mautic.org](mailto:leon.oltmanns@mautic.org)
+Email: [favour.kelvin@mautic.org](mailto:favour.kelvin@mautic.org)
