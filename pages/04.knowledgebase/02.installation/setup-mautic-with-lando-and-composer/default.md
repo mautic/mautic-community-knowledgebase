@@ -22,10 +22,10 @@ Original article: [Setup Mautic with lando & composer](https://saschaeggi.medium
 
 ---
 
-#### Quick Tipp upfront:
+#### Quick tip upfront:
 You can also easily checkout this repo and just ```lando start``` to spin it up: [https://github.com/saschaeggi/mautic-lando-starterkit](https://github.com/saschaeggi/mautic-lando-starterkit)
 
-### **The Requirements**
+### **The requirements**
 Two setup a Mautic instance using Lando and Composer, you will need:
 * [Lando](https://docs.lando.dev/)
 * [Composer](https://getcomposer.org/)
