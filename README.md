@@ -1,7 +1,7 @@
 # mautic-community-knowledgebase
 
 ## Introduction
-This serves as the [Knowledgebase][mautic-knowledgebase] for [Mautic][mautic], the open source marketing automation system.
+This serves as a holding space for tasks relating to the [Knowledgebase][mautic-knowledgebase] for [Mautic][mautic], the open source marketing automation system.
 
 ## Contributing to the Mautic documentation
 
